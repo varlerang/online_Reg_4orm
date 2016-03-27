@@ -15,12 +15,19 @@
  .main_header {
 	   
 	  text-align: center; 
-	  border-bottom: 3px solid black;  
+	  border-bottom: 5px solid black;  
    }
+   
+    .contains_1 {
+		  
+		border-top: 3px solid black; 
+		margin-top: 3px; 
+	  }
 
    .title {
 	  background-color: black;
 	  color: white;   
+	  padding: 30px 0;
    }
    
     .main_header p {
@@ -49,7 +56,15 @@
 	  
    }
 
-
+     input[value^="Sig"] {
+		 background-color: silver;
+		 border: 1px solid silver;
+		 width: 93%;
+		 height: 70px;
+		 border-radius: 5px;
+		 font-size: 1.375rem;
+		 color: #fff;
+	 }
 
 
  @media (min-width: 320px ) {
@@ -68,11 +83,37 @@
 		 bottom: 25px;
 		 
 	  }
+	  
+	  h3[id^="con_"] {
+		  margin-bottom: 50px;
+		  margin-top: 40px;
+		  
+	  }
+	  
+	  input[placeholder^="req"] {
+		  width: 80%;
+	  }
+	  
+	  input[placeholder^="abs"] {
+		width: 80%;  
+	  }
+	  
+	  .data {
+		width: 80%;  
+	  }
+	  
+	  input[id^="zi"] {
+		  width: 30%;
+		  
+	  }
+	  
+	  
 	  .contains_2 p,
 	   .sub_title {
 		   text-align: center;
 	   }
-    
+     
+	  
 	 .contains_1 legend ,
 	     fieldset {
 	 
@@ -83,6 +124,7 @@
 		 text-align: center;
 		 padding: 4px;
 		 margin: 30px 0;
+		 
 	 }
 	  
 	   #buttons  {
