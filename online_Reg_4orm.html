@@ -25,42 +25,87 @@
  <div class="contains_1">
  
   <fieldset>
-  <legend>Contact Information</legend>
- 
- <label for="fullname">Full Name</label>
+  <legend>Full Name</legend>
  <input type="text" id="fullname" name="Full Name" placeholder="required" required="required">
+   </fieldset>
    
-   <label for="email">Email Address</label>
+   <fieldset>
+    <legend>Email Address</legend>
  <input type="text" id="email" name="Email Address" placeholder="required" required="required">
+   </fieldset>
    
-   <label for="phone">Phone Number</label>
+   <fieldset>
+   <legend>Phone</legend>
    <input type="text" id="phone" name="Phone Number" placeholder="absolutely" required="required">
+  </fieldset>
   
-   <label for="address">Street Address</label>
+   <fieldset>
+   <legend>Street Address</legend>
    <input type="text" id="address" name="Street Address" required="required">
+  </fieldset>
   
-   <label for="city">City</label>
+   <fieldset>
+   <legend>City</legend>
    <input type="text" id="city" name="City" required="required">
-   <label for="state">state</label>
+  </fieldset>
   
-   <select name="city">
+   <fieldset>
+   <legend>State</legend>
+   <select name="states">
+   <option value="choose state">Choose State</option>
    <option value="new york">New York</option>
    <option value="new jersey">New Jersey</option>
    </select>  
+    </fieldset>
    
-    <label for="zipcode">Zipcode</label>
-    <input type="text" id="zip" name="Zipcode" required="required" 
+    <fieldset>
+    <legend>Zip Code</legend>
+    <input type="text" id="zip" name="Zipcode" required="required"> 
  </fieldset>
+    </div>
+
+     <div class="contains_2">
+   <h2>Newsletter</h2>
+  
+   <p>Select the newsletters you would like to recieve.</p> 
+   <fieldset>
+   <input type="checkbox" id="html" name="HTML News">
+  <label for="HTML News">HTML News</label>
+   </fieldset>
+   
+   <fieldset>
+  <input type="checkbox" id="css" name="CSS News">
+  <label for="CSS News">CSS News</label>
+  </fieldset>
+  
+   <fieldset>
+  <input type="checkbox" id="js" name="Javascript News">
+  <label for="Javascript News">Javascript News</label>
+  </fieldset>
+  
+  <h5>Newsletter format</h5>
+  
+   <input type="radio" id="html" name="HTML">
+   <label for="HTML">HTML</label>
+   
+   <input type="radio" id="plain" name="Plain Text">
+   <label for="Plain Text">Plain Text</label>
+   </div>
+  
+   <footer>
+   
+   <p>Other topics you'd like to hear about</p>
     
+    <textarea name="user_con" id="user_con" cols="30" rows="6">
+    </textarea>
+  
+  <input type="submit" name="submit" id="submit" value=  "Sign Up">
 
+		<h5>Copyright The Code Review</h5>
 
- </div>
+    </footer>
 
-
-
-
-
-
- </div>
+ 
+</div>
 </body>
 </html>
