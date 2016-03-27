@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ @media (min-width: 320px ) {
+	
+	#wrap {
+		width: 90%;
+		min-width: 320px;
+		 
+	 
+	 
+ }
