@@ -31,7 +31,8 @@
    }
    
     .main_header p {
-	 color: ;	
+	 margin-left: 70px;
+	 width: 70%;	
 	}
 	
 	.sub_title {
@@ -76,7 +77,15 @@
 		width: 90%;
 		min-width: 320px;
 		 }
- 
+		.main_head_info .sub_title{
+		  margin-top: 35px;	
+		}
+		 
+       .main_head_info p {
+		   font-size: 0.875rem;
+		   padding: 4px 0;
+		   margin-bottom: 30px;
+	   }
   
       legend {
 		 position: relative;
