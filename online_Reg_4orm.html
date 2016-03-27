@@ -26,63 +26,51 @@
  
  	<h3 class="sub_title" id="con_info">Contact Information</h3>
  
-  <fieldset>
-  <legend>Full Name</legend>
+  <label class="lab">Full Name</label>
  <input type="text" id="fullname" name="Full Name" placeholder="required" required="required">
-   </fieldset>
    
-   <fieldset>
-    <legend>Email Address</legend>
+    <label class="lab">Email Address</label>
  <input type="text" id="email" name="Email Address" placeholder="required" required="required">
-   </fieldset>
    
-   <fieldset>
-   <legend>Phone</legend>
+   <label class="lab">Phone</label>
    <input type="text" id="phone" name="Phone Number" placeholder="absolutely" required="required">
-  </fieldset>
+   
+    <fieldset id="mailfield">
+   <legend>Mailing Info</legend>
+   <label class="lab">Street Address</label>
+   <input type="text" id="address" name="Street Address" placeholder="optional" required="required" class="data">
   
-   <fieldset>
-   <legend>Street Address</legend>
-   <input type="text" id="address" name="Street Address" required="required" class="data">
-  </fieldset>
+   <label class="lab">City</label>
+   <input type="text" id="city" name="City" placeholder="optional" required="required" class="data">
   
-   <fieldset>
-   <legend>City</legend>
-   <input type="text" id="city" name="City" required="required" class="data">
-  </fieldset>
-  
-   <fieldset>
-   <legend>State</legend>
+   
    <select name="states">
    <option value="choose state">Choose State</option>
    <option value="new york">New York</option>
    <option value="new jersey">New Jersey</option>
    </select>  
-    </fieldset>
    
-    <fieldset>
-    <legend>Zip Code</legend>
-    <input type="text" id="zip" name="Zipcode" required="required"> 
- </fieldset>
+   
+    <label class="zip">Zip Code</label>
+    <input type="text" id="zip" name="Zipcode" placeholder="optional" required="required"> 
+     </fieldset>
     </div>
 
      <div class="contains_2">
    
    
    <h3 class="sub_title">Newsletter</h3>
-  
-   <p>Select the newsletters you would like to recieve.</p> 
+      
    <fieldset>
+         <legend>Select the newsletters you would like to recieve</legend>
+
    <input type="checkbox" id="html" name="HTML News">
-  <label for="HTML News">HTML News</label>
-   </fieldset>
+  <label for="HTML News" id="star">HTML News</label>
    
-   <fieldset>
+   
   <input type="checkbox" id="css" name="CSS News">
   <label for="CSS News">CSS News</label>
-  </fieldset>
   
-   <fieldset>
   <input type="checkbox" id="js" name="Javascript News">
   <label for="Javascript News">Javascript News</label>
   </fieldset>

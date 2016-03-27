@@ -18,8 +18,9 @@
 	  border-bottom: 5px solid black;  
    }
    
+ 	
     .contains_1 {
-		  
+		  text-align: center;
 		border-top: 3px solid black; 
 		margin-top: 3px; 
 	  }
@@ -35,19 +36,56 @@
 	 width: 70%;	
 	}
 	
-	.sub_title {
-		
-	}
+
 
    fieldset {
-	   background-color: silver;
-	   border: 3px solid black;
+	   border: 1px solid black;
 	   border-radius: 5px;
 	   margin: 30px 0;
-	   
+	   padding: 8px;
+	   width: 90%;
+	   margin: 0 auto;
+	   text-align: center;
 	   
    }
-
+   
+    #mailfield {
+	  margin-top: 25px;	
+	}
+   
+    
+     
+	  input {
+		 display: block; 
+		   
+	   }
+	   
+	     input[type^="text"] {
+  		 margin: 0 auto; 
+		 border-radius: 5px;
+		 border: 1px solid silver;
+	   } 
+	   
+	   
+	   select[name^="stat"] {
+		   -webkit-appearance: none;
+		   margin-top: 20px;
+		   margin-bottom: 10px;
+		   background-color: silver;
+		   border: none;
+		   padding: 2.8px 14px;
+		   color: #fff;
+		   letter-spacing: .01em;
+		   font-size: 0.875rem;
+		   
+		   
+	   }
+	    .contains_1 input {
+	 
+		 text-align: center;
+		 background-color: silver;
+	 }
+	   
    legend {
 	  background-color: #fff; 
 	  border-radius: 5px; 
@@ -62,7 +100,7 @@
 		 border: 1px solid silver;
 		 width: 93%;
 		 height: 70px;
-		 border-radius: 5px;
+		 border-radius: 10px;
 		 font-size: 1.375rem;
 		 color: #fff;
 	 }
@@ -87,18 +125,23 @@
 		   margin-bottom: 30px;
 	   }
   
-      legend {
-		 position: relative;
-		 bottom: 25px;
-		 
-	  }
+      
 	  
 	  h3[id^="con_"] {
 		  margin-bottom: 50px;
 		  margin-top: 40px;
 		  
 	  }
-	  
+	   /* labels */
+	   
+	   .lab {
+			display: block;
+		 	
+			margin-bottom: 5px;
+		    margin-top: 10px;
+			padding: 2px;	
+		}
+	
 	  input[placeholder^="req"] {
 		  width: 80%;
 	  }
@@ -111,75 +154,120 @@
 		width: 80%;  
 	  }
 	  
+       label[id^="address"] {
+		   display: block;
+	   }
+ 	    
+		 /* zipcode */
+		 
+		 
+		 
+	   .zip {
+		display: inline-block;
+		padding:4px 0;
+		margin-top: 10px;
+		margin-left: 17px;
+		 
+		   
+	   }
+	   
 	  input[id^="zi"] {
+		  display: inline-block;
 		  width: 30%;
+		  margin-top: 30px;
+		  margin-bottom: 30px;
 		  
 	  }
 	  
-	  
-	  .contains_2 p,
+	
+	 
+	 
+	   /* inside contains_2 */
+	   
+	   
+    .contains_2 p,
 	   .sub_title {
 		   text-align: center;
-	   }
-     
-	  
-	 .contains_1 legend ,
-	     fieldset {
-	 
-		 text-align: center;
-	 }
- 
-     .check_ops {
-		 text-align: center;
+	   }  
+	   
+	          
+     input[type^="checkbox"] {
+		 margin: 0 auto;
+	}
+	
+	 label[id^="star"] {
+		 display: block;
+		 margin-top: 5px;
 		 padding: 4px;
-		 margin: 30px 0;
-		 
 	 }
+	 
+	 	  label[for^="CSS"] {
+			  display: block;
+			  margin-top: 5px;
+			  padding: 4px;
+	  }
+		  
+	   label[for^="Java"] {
+		   display: block;
+		   margin-top: 5px;
+		   padding: 4px;
+		
+	   }
+	   
+	   .check_ops {
+		   text-align: center;
+		   margin-top: 25px;
+	   }
 	  
 	   #buttons  {
 		   text-align: center;
 	   }
 	   
 	   input[type^="radio"] {
-		margin: 20px 0;  
-		 
+		   display: block;
+		margin: 0 auto;		
+		margin-bottom: 10px; 
+		margin-top: 15px;
 		
 		   
 	   }
 	   
 	   
 	   label[id^="htmlbu"] {
-		   position: relative;
-		   bottom: 25px;
-		   right: 35px;
-		   
 		   
 	   }
 	 
 	
 	 
 	 label[id^="plain"] {
-		 position: relative;
-		  bottom: 25px;
-		   left:22px;
+		 display:block;
+		 margin-bottom: 35px;
 	 }
 	 
 	 input[id^="plain"] {
-		 position: relative;
-		 left: 70px;
  
  }
- 
+   /* main footer styles */
+   
+   
     .main_footer {
 	  text-align: center;
   }
+  
 	.main_footer p {
-		margin-bottom: 25px;
+		margin-bottom: 8px;
+		font-size: 0.875rem;
+		letter-spacing: .04em;
 	}
 
 	#user_con {
 		border-radius: 5px;
 		margin-bottom: 35px;
+	}
+	
+	input[value^="Sig"] {
+		margin: 0 auto;
+		
 	}
 	
  }
