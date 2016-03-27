@@ -3,7 +3,12 @@
 
 
 /* general styles */
-
+    
+	
+	 body {
+    font-family: Helvetica, Arial, Geneva, Serif;
+	 }
+  
  .main_header {
 	  text-align: center; 
 	  border-bottom: 3px solid black;  
