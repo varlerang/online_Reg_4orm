@@ -1,12 +1,27 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+/* general styles */
+
+ .main_header {
+	  text-align: center; 
+	  border-bottom: 3px solid black;  
+   }
+
+
+
  @media (min-width: 320px ) {
+	
+	
 	
 	#wrap {
 		width: 90%;
 		min-width: 320px;
-		 
-	 
-	 
+		 }
+ 
+  
+   
+ 
+ 
  }
