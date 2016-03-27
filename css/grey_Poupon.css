@@ -3,16 +3,52 @@
 
 
 /* general styles */
-    
+     #wrap {
+		 margin: 0 auto;
+		width: 90%; 
+	 }
 	
 	 body {
     font-family: Helvetica, Arial, Geneva, Serif;
 	 }
   
  .main_header {
+	   
 	  text-align: center; 
 	  border-bottom: 3px solid black;  
    }
+
+   .title {
+	  background-color: black;
+	  color: white;   
+   }
+   
+    .main_header p {
+	 color: ;	
+	}
+	
+	.sub_title {
+		
+	}
+
+   fieldset {
+	   background-color: silver;
+	   border: 3px solid black;
+	   border-radius: 5px;
+	   margin: 30px 0;
+	   
+	   
+   }
+
+   legend {
+	  background-color: #fff; 
+	  border-radius: 5px; 
+	  padding: 2px 6px; 
+	  letter-spacing: .1em;
+	  font-size: 0.875rem;
+	  
+   }
+
 
 
 
@@ -26,7 +62,36 @@
 		 }
  
   
-   
+      legend {
+		 position: relative;
+		 bottom: 25px;
+		 
+	  }
+	  .contains_2 p,
+	   .sub_title {
+		   text-align: center;
+	   }
+    
+	 .contains_1 legend ,
+	     fieldset {
+	 
+		 text-align: center;
+	 }
  
+     .check_ops {
+		 text-align: center;
+	 }
+	 
+	 label[ id^="html" ] {
+		 position: relative;
+		 display: block;
+		 bottom: 40px;
+		
+		 
+	 }
+	 
+	 label[ id^="plain" ] {
+		 
+	 }
  
  }
