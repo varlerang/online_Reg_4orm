@@ -69,7 +69,10 @@
 	   }
 	   
 	     input[type^="text"] {
-			 
+			 font-size: 0.875rem;
+			 padding:2px 0;
+			 letter-spacing: .1em;
+	     color: rgb(72, 67, 84);
   		 margin: 0 auto; 
 		 border-radius: 6px;
 		 border: 1px solid rgb(87, 142, 140);
@@ -88,9 +91,12 @@
 		   color: #fff;
 		   letter-spacing: .01em;
 		   font-size: 0.875rem;
-		   
-		   
-	   }
+		 }
+	   
+	    select[name^="stat"]:hover {
+			background-color: rgb(87,142, 140);
+			
+		}
 	    .contains_1 input {
 	     color: rgb();
 		 text-align: center;
@@ -163,15 +169,20 @@
 	  }
 	  
      input[value^="Sig"] {
-		 background-color: rgb(87, 142, 140);
-		 border: 1px solid rgb(87, 142, 140);
+		 background-color: rgb(114, 155, 130);
+		 border: 1px solid rgb(114, 155, 130);
 		 width: 93%;
 		 height: 70px;
 		 border-radius: 10px;
 		 font-size: 1.375rem;
 		 color: #fff;
 	 }
-
+        
+		input[value^="Sign"]:hover {
+			 background-color: rgb(87, 142, 140);
+		 border: 1px solid rgb(87, 142, 140);
+			
+		}
       .copyright {
 		color: rgb(72,67,84);  
 	  }
