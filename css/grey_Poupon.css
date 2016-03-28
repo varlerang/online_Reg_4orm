@@ -69,11 +69,13 @@
 	   }
 	   
 	     input[type^="text"] {
+			 
   		 margin: 0 auto; 
 		 border-radius: 6px;
 		 border: 1px solid rgb(87, 142, 140);
 	   } 
 	   
+	  
 	   
 	   select[name^="stat"] {
 		   -webkit-appearance: none;
@@ -93,7 +95,16 @@
 		 text-align: center;
 		 background-color: rgb(255, 247, 255);
 	 }
+	   
+	  .contains_1 input:hover {
+		   background-color: rgb(141, 214 ,205);
+	   }
 	 
+	   .contains_1 input:focus {
+		   background-color: rgb(141, 214 ,205);
+	   }
+		
+		
 	 .lab {
 		color: rgb(72,67,84); 
 	 }
@@ -102,9 +113,18 @@
 		color: rgb(72,67,84); 
 	 }
 	  
+	  
 	  .ch {
+		  display: block;
 		color: rgb(72,67,84); 
+		
+		
 	  }
+	  
+	 #field_2 {
+		 height: 165px;
+	 }
+	   
 	   
    legend {
 	  background-color:none;
@@ -129,7 +149,16 @@
 	  #user_con {
 		 border: none;
 		 border:  1px solid rgb(87, 142, 140);
-		 background: rgb(255, 247, 255);
+		 background-color: rgb(255, 247, 255);
+		 input : red;
+	  }
+	  
+	  #user_con:hover {
+		  background-color: rgb(141, 214 ,205);
+	  }
+	  
+	  #user_con:focus{
+		  background-color: rgb(141, 214 ,205);
 	  }
 	  
      input[value^="Sig"] {
@@ -156,7 +185,7 @@
 		min-width: 320px;
 		 }
 		.main_head_info .sub_title{
-		  margin-top: 35px;	
+		  margin-top: 40px;	
 		}
 		 
        .main_head_info p {
