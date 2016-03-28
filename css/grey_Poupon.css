@@ -15,33 +15,38 @@
   
  .main_header {
 	
-	  text-align: center; 
-	  border-bottom: 5px solid black;  
+	  text-align: center;
+	  border-bottom: 5px solid rgb(37,22,82);  
    }
    
  	
     .contains_1 {
 		  text-align: center;
-		border-top: 3px solid black; 
+		border-top: 3px solid rgb(37,22,82);
 		margin-top: 3px; 
 	  }
 
    .title {
 	   margin: 0;
 	 background-color: rgb(37,22,82);
-     color: white;   
+     color:   rgb(255, 217, 179);
 	  padding: 30px 0;
    }
    
     .main_header p {
 	 margin-left: 70px;
-	 width: 70%;	
+	 width: 70%;
+	 color: rgb(72, 67, 84);	
 	}
 	
-
+   .sub_title {
+	   color: rgb(72, 67, 84);
+	   letter-spacing: .02em;
+	   
+   }
 
    fieldset {
-	   border: 1px solid black;
+	   border: 1px solid rgb(87, 142, 140);
 	   border-radius: 5px;
 	   margin: 30px 0;
 	   padding: 8px;
@@ -53,6 +58,7 @@
    
     #mailfield {
 	  margin-top: 25px;	
+	  border: 1px solid rgb(87, 142, 140);
 	}
    
     
@@ -64,8 +70,8 @@
 	   
 	     input[type^="text"] {
   		 margin: 0 auto; 
-		 border-radius: 5px;
-		 border: 1px solid silver;
+		 border-radius: 6px;
+		 border: 1px solid rgb(87, 142, 140);
 	   } 
 	   
 	   
@@ -73,7 +79,7 @@
 		   -webkit-appearance: none;
 		   margin-top: 20px;
 		   margin-bottom: 10px;
-		   background-color: silver;
+		   background-color: rgb(87, 142, 140);
 		   border: none;
 		   padding: 2.8px 14px;
 		   color: #fff;
@@ -85,21 +91,50 @@
 	    .contains_1 input {
 	 
 		 text-align: center;
-		 background-color: silver;
+		 background-color: rgb(255, 247, 255);
 	 }
+	 
+	 .lab {
+		color: rgb(72,67,84); 
+	 }
+	 
+	 .zip {
+		color: rgb(72,67,84); 
+	 }
+	  
+	  .ch {
+		color: rgb(72,67,84); 
+	  }
 	   
    legend {
-	  background-color: #fff; 
+	  background-color:none;
+	  color: rgb(72,67,84); 
 	  border-radius: 5px; 
 	  padding: 2px 6px; 
 	  letter-spacing: .1em;
 	  font-size: 0.875rem;
 	  
    }
+   
+    .check_ops {
+	color: rgb(72,67,84);
+	letter-spacing: .04em; 	
+	}
 
+
+      .main_footer p {
+		color: rgb(72,67,84);
+	  }
+	  
+	  #user_con {
+		 border: none;
+		 border:  1px solid rgb(87, 142, 140);
+		 background: rgb(255, 247, 255);
+	  }
+	  
      input[value^="Sig"] {
-		 background-color: silver;
-		 border: 1px solid silver;
+		 background-color: rgb(87, 142, 140);
+		 border: 1px solid rgb(87, 142, 140);
 		 width: 93%;
 		 height: 70px;
 		 border-radius: 10px;
@@ -107,6 +142,9 @@
 		 color: #fff;
 	 }
 
+      .copyright {
+		color: rgb(72,67,84);  
+	  }
 
  @media (min-width: 320px ) {
 	
@@ -229,7 +267,7 @@
 		   display: block;
 		margin: 0 auto;		
 		margin-bottom: 10px; 
-		margin-top: 15px;
+		margin-top: 14px;
 		
 		   
 	   }
@@ -243,10 +281,12 @@
 	 
 	 label[id^="plain"] {
 		 display:block;
-		 margin-bottom: 35px;
+		 margin-bottom: 10px;
+		 margin-top: 20px;
 	 }
 	 
 	 input[id^="plain"] {
+		 margin-bottom: 25px;
  
  }
    /* main footer styles */
@@ -265,6 +305,7 @@
 	#user_con {
 		border-radius: 5px;
 		margin-bottom: 35px;
+		margin-top: 8px;
 	}
 	
 	input[value^="Sig"] {
