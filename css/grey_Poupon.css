@@ -138,23 +138,22 @@
 		
 		input[type^="checkbox"]:hover {
 		     -webkit-appearance: none;
-			 border: 1px solid rgb(87, 142, 140);
-			 background-color: rgb(228, 136 , 86);
+			 border: 1px solid rgb(141, 214, 205);
+			 background-color: rgb(141, 214, 205);
 			 border-radius: 5px;
 			 width: 15px;
 			 height: 15px;
 		}
 		
 		input[type^="checkbox"]:checked {
-		 	  -webkit-appearance: none;
-			 border: 1px solid  rgb(141, 214, 205);
-			 background-color:  rgb(141, 214, 205);
+			  background-color: rgb(37,22,82);
+			 border: 1px solid rgb(37,22,82);
 			 border-radius: 5px;
 			 width: 15px;
 			 height: 15px;
 		}
 		
-		
+	
 		/*                   */
 	  
 	 #field_2 {
@@ -176,8 +175,38 @@
 	color: rgb(72,67,84);
 	letter-spacing: .04em; 	
 	}
+     
+	 /*   radio general styles */
+	 
+	 input[type^="radio"] {
+		 -webkit-appearance: none;
+		 border: 1px solid rgb(141, 214, 205);
+		 background-color: rgb(255, 217, 179);
+		 border-radius: 25px;
+		 width: 17px;
+		 height: 17px;
+	 }
+	 
+	  input[type^="radio"]:hover {
+		 -webkit-appearance: none;
+		 border: 1px solid rgb(141, 214, 205);
+		 background-color: rgb(141, 214, 205);
+		 border-radius: 25px;
+		 width: 17px;
+		 height: 17px;
+	 }
+	 
+	 input[type^="radio"]:checked {
+		 -webkit-appearance: none;
+		 border: 1px solid  rgb(37,22,82);
+		 background-color:  rgb(37,22,82);
+		 border-radius: 25px;
+		 width: 17px;
+		 height: 17px;
+	 }
 
 
+		/*						*/
       .main_footer p {
 		color: rgb(72,67,84);
 	  }
