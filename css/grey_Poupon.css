@@ -145,6 +145,16 @@
 			 height: 15px;
 		}
 		
+		input[type^="checkbox"]:checked {
+		 	  -webkit-appearance: none;
+			 border: 1px solid  rgb(141, 214, 205);
+			 background-color:  rgb(141, 214, 205);
+			 border-radius: 5px;
+			 width: 15px;
+			 height: 15px;
+		}
+		
+		
 		/*                   */
 	  
 	 #field_2 {
