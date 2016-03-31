@@ -63,7 +63,7 @@
    
     
      
-	  input {
+	  input[type="text"] {
 		 display: block; 
 		   
 	   }
@@ -127,16 +127,27 @@
 		color: rgb(72,67,84); 
 		}
 		
+		
+		
 		input[type^="checkbox"] {
+			-webkit-appearance: none;
+		}
+		
+		
+		input[type^="checkbox"]:before {
+			 display: inline-block;
 		     -webkit-appearance: none;
 			border: 1px solid   rgb(141, 214, 205);
 			 background-color:  rgb(255, 217, 179);
+			 content: "";
+			 font-size: 12px;
+			 text-align: center;
 			 border-radius: 5px;
 			 width: 15px;
 			 height: 15px;
 		}
 		
-		input[type^="checkbox"]:hover {
+		input[type^="checkbox"]:hover:before {
 		     -webkit-appearance: none;
 			 border: 1px solid rgb(141, 214, 205);
 			 background-color: rgb(141, 214, 205);
@@ -145,13 +156,19 @@
 			 height: 15px;
 		}
 		
-		input[type^="checkbox"]:checked {
+		input[type^="checkbox"]:checked:before {
+			  display: inline-block;
+			
 			  background-color: rgb(37,22,82);
 			 border: 1px solid rgb(37,22,82);
+			 content: "\2713";
+			 text-align: center;
+			 color:  rgb(255, 217, 179);
 			 border-radius: 5px;
 			 width: 15px;
 			 height: 15px;
 		}
+		
 		
 	
 		/*                   */
@@ -173,40 +190,23 @@
    
     .check_ops {
 	color: rgb(72,67,84);
-	letter-spacing: .04em; 	
+	letter-spacing: .04em; 
+	border: 1px solid steelblue;	
 	}
      
-	 /*   radio general styles */
-	 
-	 input[type^="radio"] {
-		 -webkit-appearance: none;
-		 border: 1px solid rgb(141, 214, 205);
-		 background-color: rgb(255, 217, 179);
-		 border-radius: 25px;
-		 width: 17px;
-		 height: 17px;
-	 }
-	 
-	  input[type^="radio"]:hover {
-		 -webkit-appearance: none;
-		 border: 1px solid rgb(141, 214, 205);
-		 background-color: rgb(141, 214, 205);
-		 border-radius: 25px;
-		 width: 17px;
-		 height: 17px;
-	 }
-	 
-	 input[type^="radio"]:checked {
-		 -webkit-appearance: none;
-		 border: 1px solid  rgb(37,22,82);
-		 background-color:  rgb(37,22,82);
-		 border-radius: 25px;
-		 width: 17px;
-		 height: 17px;
-	 }
+	   
 
-
-		/*						*/
+	 
+	
+	
+	  
+	  
+		 
+		 
+		
+		
+		
+		
       .main_footer p {
 		color: rgb(72,67,84);
 	  }
@@ -218,13 +218,20 @@
 		 input : red;
 	  }
 	  
+	  
+	  
+	  
 	  #user_con:hover {
 		  background-color: rgb(141, 214 ,205);
 	  }
 	  
+	  
+	  
 	  #user_con:focus{
 		  background-color: rgb(141, 214 ,205);
 	  }
+	  
+	  
 	  
      input[value^="Sig"] {
 		 background-color: rgb(114, 155, 130);
@@ -235,15 +242,23 @@
 		 font-size: 1.375rem;
 		 color: #fff;
 	 }
+	 
+	 
+	 
         
 		input[value^="Sign"]:hover {
 			 background-color: rgb(87, 142, 140);
 		 border: 1px solid rgb(87, 142, 140);
 			
 		}
+		
+		
+		
       .copyright {
 		color: rgb(72,67,84);  
 	  }
+	  
+	  
 
  @media (min-width: 320px ) {
 	
@@ -360,34 +375,47 @@
 	  
 	   #buttons  {
 		   text-align: center;
-	   }
+		   padding-top: 10px;
+	  }
 	   
-	   input[type^="radio"] {
-		   display: block;
-		margin: 0 auto;		
-		margin-bottom: 10px; 
-		margin-top: 14px;
-		
-		   
-	   }
+	    input[id="htmlbu"] {
+			display: inline-block;
+			margin-right: 40px;
+		}
 	   
-	   
-	   label[id^="htmlbu"] {
-		   
-	   }
+	     input[type="radio"] {
+			 -webkit-appearance: none;
+		 }
+		 
+		 input[type="radio"] {
+			  -webkit-appearance: none;
+			 display:inline-block;
+			 background-color: tomato;
+			 border: 1px solid tomato;
+			 border-radius: 20px;
+			 width: 16px;
+			 height: 16px;
+			 vertical-align: middle;
+			 padding: 4px;
+			 margin-left: 8px;
+			 margin-bottom: 3px;
+		 }
+		 
+		 input[type="radio"]:checked {
+			  -webkit-appearance: none;
+	         display:inline-block;
+			 background-color:silver;
+			 border: 1px solid silver;
 	 
-	
-	 
-	 label[id^="plain"] {
-		 display:block;
-		 margin-bottom: 10px;
-		 margin-top: 20px;
-	 }
-	 
-	 input[id^="plain"] {
-		 margin-bottom: 25px;
+		 }
+
  
- }
+     
+   
+   
+   
+   
+   
    /* main footer styles */
    
    
@@ -413,3 +441,9 @@
 	}
 	
  }
+ 
+    .clearfix::after {
+		content: "";
+	display: table;	
+	clear:both;	
+	}
