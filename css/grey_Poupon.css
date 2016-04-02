@@ -486,6 +486,71 @@
 	
  }
  
+  @media( min-width: 1024px ) {
+	  
+	  #wrap {
+		border: 1px solid steelblue;
+		width: 90%;
+		max-width: 1024px;
+		 }
+	  
+	  .main_header {
+		  margin: 0 auto;
+		  border: 1px solid steelblue;
+		
+		width: 90%; 
+		  
+	  }
+	  
+	  .main_header p {
+		 margin: 0 auto;  
+		 margin-bottom: 15px;
+	  }
+	  
+	  /* container 1 styles */
+	  
+	  
+	  .contains_1 {
+		border: 1px solid tomato;
+		width: 90%;  
+		margin: 0 auto;
+		text-align: left;
+		padding-bottom: 30px;
+	  }
+	  
+	  #con_info {
+		margin-right: 660px; 
+		  
+	  }
+	  
+	 /* input text styles */
+	 
+	  input[id="full"],
+	  input[id="mail"],
+	  input[id="wire"] {
+		 width: 60%;
+		 
+		 margin-left: 50px;
+	 }
+	
+	 label[id="full"] {
+	  	 margin-left: 10px;
+	 }
+	 
+	  
+	
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+  }
+ 
+ 
     .clearfix::after {
 		content: "";
 	display: table;	
