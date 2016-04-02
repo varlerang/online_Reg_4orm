@@ -505,6 +505,7 @@
 	  .main_header p {
 		 margin: 0 auto;  
 		 margin-bottom: 15px;
+		 
 	  }
 	  
 	  /* container 1 styles */
@@ -516,6 +517,8 @@
 		margin: 0 auto;
 		text-align: left;
 		padding-bottom: 30px;
+	    
+		
 	  }
 	  
 	  #con_info {
@@ -525,20 +528,30 @@
 	  
 	 /* input text styles */
 	 
-	  input[id="full"],
-	  input[id="mail"],
-	  input[id="wire"] {
-		 width: 60%;
-		 
-		 margin-left: 50px;
-	 }
-	
-	 label[id="full"] {
-	  	 margin-left: 10px;
-	 }
+	     .lab {
+			float: left;
+		   display: inline-block;
+		   border: 1px solid black;
+		margin-left: 40px;  
+		vertical-align: middle;
+	  }
+	  
+	    input[id="fullname"],
+		input[id="email"],
+		input[id="phone"] {
+			float: right;
+		display: inline-block;	
+		width: 60%;	
+		height: 25px;
+		margin-right: 180px;
+		margin-bottom: 10px;
+		}
 	 
 	  
-	
+	#mailfield {
+		border: 1px solid black;
+		margin-top: 40px;
+	}
 	  
 	  
 	  
