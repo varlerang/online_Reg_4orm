@@ -449,9 +449,6 @@
 			  
 		  }
 		  
-		  
-		     
-			 
        /*===================================*/
     
 	
@@ -547,7 +544,7 @@
 	  
 	  .main_header {
 		  margin: 0 auto;
-		  border: 1px solid steelblue;
+		  
 		  width: 90%;
 		  margin-bottom: 3px;
 	  }
@@ -557,8 +554,8 @@
 	  }
 	  
 	  .main_head_info {
-		  border: 1px solid silver;
-		  width: 90%;
+		 
+		  width: 100%;
 		  margin: 0 auto;
 		text-align: center; 
 		border-bottom: 4px solid rgb(37,22,82);
@@ -583,7 +580,7 @@
 	  
 	  
 	  .contains_1 {
-		border: 1px solid silver;
+		
 		width: 90%; 
 		margin: 0 auto;
 		text-align: left;
@@ -702,7 +699,7 @@
 	
 		 
 	 .contains_2 {
-		 border: 1px solid silver;
+		
 		 margin-top: 10px;
 		 margin-bottom: 10px;
 		 width: 90%;
@@ -710,7 +707,7 @@
 	 }
 	  
 	   #sub_2 {
-		  border: 1px solid silver;
+		
 		float: left; 
 		padding: 8px 8px;
 	 
@@ -746,7 +743,7 @@
 		
 	  }
 	  #buttons {
-		  border: 1px solid silver;
+		 
 		  width: 50%;
 		  text-align: left;
   }
@@ -766,7 +763,7 @@
 	   }
   
      .main_footer {
-		 border: 1px solid tomato;
+		
 		 margin: 0 auto;
 		width: 90%; 
 		margin-top: 8px;
