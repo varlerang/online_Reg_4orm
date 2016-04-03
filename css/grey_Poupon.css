@@ -581,10 +581,21 @@
 		font-size: 1.11rem;
 	  }
 	  
+	    label[for="fullname"],
+		 label[for="email"],
+		 label[for="phone"] {
+			 display: inline-block;
+			 float: left;
+			 margin-right: 20px;
+			 
+		 }
+			
+			
+	  
 	    input[id="fullname"],
 		input[id="email"],
 		input[id="phone"] {
-			float: left;
+			float: right;
 		display: inline-block;
 		
 		
