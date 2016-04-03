@@ -642,6 +642,7 @@
 		display: inline-block;
 		border: 1px solid black;
 		width:  78%;
+		height: 180px;
 		margin-top: 20px;
 		text-align: left;
 		margin-right: 80px;
@@ -673,16 +674,24 @@
 		  text-align: right;
 		  
 	  }
+	  
+	  #mailfield label[for="zip"] {
+		  display: inline-block;
+	      
+		  margin-left: 15px;
+		  
+		  
+	  }
+	  
 	  input[id="zip"] {
 		margin-top: 2px;  
-		width:  25%; 
+		width:  30%; 
 		height: 30px;
 		float: right;
-		margin-right: 240px;
+		margin-right: 200px;
 		text-align: right;
 		padding-right: 20px;
-		
-		
+	
 	  }
 	  
 	
@@ -721,7 +730,7 @@
 		text-align: left; 
 		 margin-right: 202px;
 		 width: 78%;
-		 height: 190px;
+		 height: 195px;
 		 margin-top:80px;
 		 margin-bottom: 10px;
 	  }
@@ -742,6 +751,7 @@
 		width: 18%;
 		padding:8px 0;  
 		margin-right: 16px;
+		margin-bottom: 15px;
 		
 		
 	  }
