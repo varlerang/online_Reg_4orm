@@ -242,7 +242,7 @@
     .check_ops {
 	color: rgb(72,67,84);
 	letter-spacing: .04em; 
-	border: 1px solid steelblue;	
+	
 	}
      
 	   
@@ -708,7 +708,9 @@
 	  
 	   #sub_2 {
 		
-		float: left; 
+		margin-right: 800px; 
+		margin-bottom: -70px;
+		margin-top: -3px;
 		padding: 8px 8px;
 	 
 	  }
@@ -740,6 +742,7 @@
 		width: 18%;
 		padding:8px 0;  
 		margin-right: 16px;
+		
 		
 	  }
 	  #buttons {
