@@ -136,7 +136,10 @@
 		
 		}
 		
-		
+		input,
+		select {
+			cursor : pointer;
+		}
 		
 		input[type^="checkbox"] {
 			-webkit-appearance: none;
@@ -154,6 +157,7 @@
 			 border-radius: 5px;
 			 width: 15px;
 			 height: 15px;
+			 
 		}
 		
 		input[type^="checkbox"]:hover:before {
@@ -307,7 +311,7 @@
 		 font-size: 1.375rem;
 		 color: #fff;
 		 margin-left: 20px;
-		 
+		 letter-spacing: .04em;
 	 }
 	 
 	 
@@ -420,12 +424,26 @@
 	   /* inside contains_2 */
 	   
 	   
+	   
+	   
     .contains_2 p,
 	   .sub_title {
 		   text-align: center;
 	   }  
 	   
-	          
+	   
+	 /*      sub_2 Newsletter    */
+	   
+	   
+	   #sub_2 {
+		font-size: 1em; 
+		letter-spacing:.06em;  
+	   }
+	      
+		  
+		  
+		  
+		      
      input[type^="checkbox"] {
 		 margin: 0 auto;
 	}
@@ -452,6 +470,10 @@
 	   .check_ops {
 		   text-align: center;
 		   margin-top: 25px;
+		   font-size: 1em;
+		   padding-top: 2px;
+		   padding-bottom: 2px;
+		  
 	   }
 	  
 	   #buttons  {
@@ -599,10 +621,10 @@
 		display: inline-block;
 		
 		text-align: right;
-		width: 60%;	
+		width: 45%;	
 		height: 30px;
 		padding-right: 20px;
-		margin-right: 180px;
+		margin-right: 315px;
 		margin-bottom: 10px;
 		}
 	 
