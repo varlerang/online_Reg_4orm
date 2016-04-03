@@ -441,10 +441,21 @@
 	   }
 	      
 		  
+		/*===========fieldset 2===============  */  
 		  
 		  
-		      
-     input[type^="checkbox"] {
+		  #field_2 {
+			height: 190px;  
+			  
+		  }
+		  
+		  
+		     
+			 
+       /*===================================*/
+    
+	
+	 input[type^="checkbox"] {
 		 margin: 0 auto;
 	}
 	
