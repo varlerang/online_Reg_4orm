@@ -377,9 +377,21 @@
 	  h3[id^="con_"] {
 		  margin-bottom: 50px;
 		  margin-top: 40px;
+		  margin-left: 6px;
 		  
 	  }
 	   /* labels */
+	    
+		 label[for="fullname"],
+		 label[for="email"],
+		 label[for="phone"] {
+			 margin-left: 10px;
+			 
+		 }
+	   
+	   
+	   
+	   
 	   
 	   .lab {
 			display: block;
@@ -465,6 +477,11 @@
 		  
        /*===================================*/
     
+	
+	
+	
+	
+	
 	
 	 input[type^="checkbox"] {
 		 margin: 0 auto;
