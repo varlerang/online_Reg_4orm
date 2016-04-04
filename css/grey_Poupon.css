@@ -354,6 +354,12 @@
 		width: 90%;
 		min-width: 320px;
 		 }
+		 
+		 .main_header {
+			 border-bottom: 1px solid  rgb(37,22,82); 
+		 }
+		 
+		 
 		.main_head_info .sub_title{
 		  margin-top: 40px;	
 		}
@@ -364,7 +370,9 @@
 		   margin-bottom: 30px;
 	   }
   
-      
+      .contains_1 {
+		border-top: 2px solid  rgb(37,22,82); 
+	  }
 	  
 	  h3[id^="con_"] {
 		  margin-bottom: 50px;
