@@ -206,7 +206,10 @@
 			 margin-bottom: 3px;
 		 }
 		 
-		   
+		   input[type="radio"]:hover {
+			background-color: rgb(141, 214, 205);    
+			color: rgb(141, 214, 205);  
+		   }
 			
 			
 		 input[type="radio"]:checked {
