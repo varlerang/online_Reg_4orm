@@ -640,7 +640,7 @@
 	  
 	#mailfield {
 		display: inline-block;
-		border: 1px solid black;
+		
 		width:  78%;
 		height: 180px;
 		margin-top: 20px;
@@ -793,15 +793,15 @@
 	  }
 	   
 	  #user_con {
-		margin-left: 10px; 
+		margin-right: 205px; 
 		width: 78%; 
 	  }
 		
 	 
 	  
 	  input[type="submit"] {
-		  margin-left: 10px;
-		  width: 50%;
+		  margin-left: -4px; 
+		  width: 78%;
 	  }
 	  
 	  
