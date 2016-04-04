@@ -407,14 +407,17 @@
  	    
 		 /* zipcode */
 		 
+		 input[id="address"],
+		 input[id="city"] {
+			 width: 93%;
+		 }
 		 
-		 
-	   .zip {
+	   label[for="zip"] {
 		display: inline-block;
 		padding:4px 0;
 		margin-top: 10px;
-		margin-left: 23px;
-		
+		margin-left: 28px;
+	
 		   
 	   }
 	   
@@ -423,10 +426,13 @@
 		  width: 30%;
 		  margin-top: 30px;
 		  margin-bottom: 30px;
-		  
+		  margin-left: 14px;
 	  }
 	  
-	
+	   #mailfield {
+		 height: 220px; 
+		 margin-bottom: 25px;  
+	   }
 	 
 	 
 	   /* inside contains_2 */
