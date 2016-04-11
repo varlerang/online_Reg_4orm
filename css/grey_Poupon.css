@@ -19,13 +19,13 @@
     font-family: Helvetica, Arial, Geneva, Serif;
 	 }
   
- .main_header {
+ .main-header {
 	
 	  text-align: center;
    }
    
  	
-    .contains_1 {
+    .contains-1 {
 		  text-align: center;
 		border-top: 3px solid rgb(37,22,82);
 		margin-top: 3px; 
@@ -38,13 +38,13 @@
 	  padding: 30px 0;
    }
    
-    .main_header p {
+    .main-header p {
 	 margin-left: 70px;
 	 width: 70%;
 	 color: rgb(72, 67, 84);	
 	}
 	
-   .sub_title {
+   .sub-title {
 	   color: rgb(72, 67, 84);
 	   letter-spacing: .02em;
 	   
@@ -102,17 +102,17 @@
 			background-color: rgb(87,142, 140);
 			
 		}
-	    .contains_1 input {
+	    .contains-1 input {
 	     color: rgb();
 		 text-align: center;
 		 background-color: rgb(255, 247, 255);
 	 }
 	   
-	  .contains_1 input:hover {
+	  .contains-1 input:hover {
 		   background-color: rgb(141, 214 ,205);
 	   }
 	 
-	   .contains_1 input:focus {
+	   .contains-1 input:focus {
 		   background-color: rgb(141, 214 ,205);
 	   }
 		
@@ -227,7 +227,7 @@
 
  
 	  
-	 #field_2 {
+	 #field-2 {
 		 height: 165px;
 	 }
 	   
@@ -242,7 +242,7 @@
 	  
    }
    
-    .check_ops {
+    .check-ops {
 	color: rgb(72,67,84);
 	letter-spacing: .04em; 
 	
@@ -261,14 +261,14 @@
 		
 		
 		
-      .main_footer p {
+      .main-footer p {
 		color: rgb(72,67,84);
 	  }
-	   #user_con {
+	   #user-con {
 		 display: none;
 		 width: 60%;   
 	   }
-	  #user_con {
+	  #user-con {
 		  display: block;
 		  margin: 0 auto;
 		 border: none;
@@ -287,7 +287,7 @@
 	  
 	  
 	  
-	  #user_con:hover {
+	  #user-con:hover {
 		  background-color: rgb(255, 233, 235);
 		  border: 1px solid  rgb(37,22,82);
 		  
@@ -295,7 +295,7 @@
 	  
 	  
 	  
-	  #user_con:focus{
+	  #user-con:focus{
 		  background-color: rgb(255, 233, 235);
 		  border: 1px solid  rgb(37,22,82);
 		 
@@ -358,22 +358,22 @@
 		min-width: 320px;
 		 }
 		 
-		 .main_header {
+		 .main-header {
 			 border-bottom: 1px solid  rgb(37,22,82); 
 		 }
 		 
 		 
-		.main_head_info .sub_title{
+		.main-head_info .sub-title{
 		  margin-top: 40px;	
 		}
 		 
-       .main_head_info p {
+       .main-head-info p {
 		   font-size: 0.875rem;
 		   padding: 4px 0;
 		   margin-bottom: 30px;
 	   }
   
-      .contains_1 {
+      .contains-1 {
 		border-top: 2px solid  rgb(37,22,82); 
 	  }
 	  
@@ -455,8 +455,8 @@
 	   
 	   
 	   
-    .contains_2 p,
-	   .sub_title {
+    .contains-2 p,
+	   .sub-title {
 		   text-align: center;
 	   }  
 	   
@@ -464,7 +464,7 @@
 	 /*      sub_2 Newsletter    */
 	   
 	   
-	   #sub_2 {
+	   #sub-2 {
 		font-size: 1em; 
 		letter-spacing:.06em;  
 	   }
@@ -473,7 +473,7 @@
 		/*===========fieldset 2===============  */  
 		  
 		  
-		  #field_2 {
+		  #field-2 {
 			height: 190px;  
 			  
 		  }
@@ -496,20 +496,20 @@
 		 padding: 4px;
 	 }
 	 
-	 	  label[for^="CSS"] {
+	 	  label[for^="css"] {
 			  display: block;
 			  margin-top: 5px;
 			  padding: 4px;
 	  }
 		  
-	   label[for^="Java"] {
+	   label[for^="js"] {
 		   display: block;
 		   margin-top: 5px;
 		   padding: 4px;
 		
 	   }
 	   
-	   .check_ops {
+	   .check-ops {
 		   text-align: center;
 		   margin-top: 25px;
 		   font-size: 1em;
@@ -540,23 +540,24 @@
    /* main footer styles */
    
    
-    .main_footer {
+    .main-footer {
 	  text-align: center;
   }
   
-	.main_footer p {
+	.main-footer p {
 		margin-bottom: 8px;
 		font-size: 0.875rem;
 		letter-spacing: .04em;
 	}
 
-	#user_con {
+	#user-con {
 		border-radius: 5px;
 		margin-bottom: 35px;
 		margin-top: 10px;
 		padding: 4px;
 		width: 80%;
-		font-size: 1.33333rem;
+		font-size: 0.875rem;
+		line-height: 1.5em;
 		
 	}
 	
@@ -576,7 +577,7 @@
 		max-width: 1024px;
 		 }
 	  
-	  .main_header {
+	  .main-header {
 		  margin: 0 auto;
 		  
 		  width: 90%;
@@ -587,7 +588,7 @@
 		font-size: 1.5rem;  
 	  }
 	  
-	  .main_head_info {
+	  .main-head-info {
 		 
 		  width: 100%;
 		  margin: 0 auto;
@@ -596,15 +597,15 @@
 		  
 	  }
 	 
-	 .main_head_info p {
+	 .main-header p {
 		font-size: 1.2rem; 
 		margin: 0 auto;
 		padding-bottom:4px;
-		margin-bottom: 50px;
-		margin-top: -17px;
+		margin-bottom: 35px;
+		margin-top: 17px;
 	 }
 	  
-	  .main_head_info .sub_title {
+	  .main-head-info .sub-title {
 		  font-size: 1.6rem;
 		  
 		  padding: 2px;
@@ -613,7 +614,7 @@
 	  /* container 1 styles */
 	  
 	  
-	  .contains_1 {
+	  .contains-1 {
 		
 		width: 90%; 
 		margin: 0 auto;
@@ -623,7 +624,7 @@
 		margin-top: 4px;
 	  }
 	  
-	  #con_info {
+	  #con-info {
 		  
 		  margin-top: 50px;
 		margin-right: 700px; 
@@ -741,7 +742,7 @@
 	  }
 	
 		 
-	 .contains_2 {
+	 .contains-2 {
 		
 		 margin-top: 10px;
 		 margin-bottom: 10px;
@@ -749,7 +750,7 @@
 		 margin: 0 auto;
 	 }
 	  
-	   #sub_2 {
+	   #sub-2 {
 		
 		margin-right: 800px; 
 		margin-bottom: -70px;
@@ -759,17 +760,17 @@
 	  }
 	  
 	   
-	  #field_2 {
+	  #field-2 {
 		  display: block;
 		text-align: left; 
-		 margin-right: 202px;
-		 width: 78%;
+		 margin-left: 50px;
+		 width: 70%;
 		 height: 195px;
 		 margin-top:80px;
 		 margin-bottom: 10px;
 	  }
 	  
-	  #field_2 legend {
+	  #field-2 legend {
 		 font-size: 1.0rem;
 	  }
 	    
@@ -778,13 +779,14 @@
 	  .ch ~ input[type="checkbox"] {
 		  
 		  margin-left: 5px;
+		  margin-bottom: 15px;
 	  }
 	  
-	  .check_ops {
+	  .check-ops {
 		  font-size: 1.0rem;
 		width: 18%;
 		padding:8px 0;  
-		margin-right: 16px;
+		margin-left: 40px;
 		margin-bottom: 15px;
 		
 		
@@ -798,18 +800,19 @@
        #buttons label {
 		display: inline-block; 
 		 margin: 4px 8px;
+		 margin-left: 60px;
 	  }
         #buttons input[type="radio"] {
 			display:block;
-			margin-bottom: 4px;
-			margin-left: 14px;
+			margin-bottom: 16px;
+			margin-left: 60px;
 		}
       
 	 #buttons input[id="plainrad"] {
 		   margin-bottom: 16px;
 	   }
   
-     .main_footer {
+     .main-footer {
 		
 		 margin: 0 auto;
 		width: 90%; 
@@ -817,7 +820,7 @@
 		text-align: left;
 	 }
       
-	  .main_footer p {
+	  .main-footer p {
 		  display: block;
 		padding: 6px 8px;
 		margin-top: 10px;  
@@ -826,9 +829,11 @@
 		float: left;
 	  }
 	   
-	  #user_con {
+	  #user-con {
 		margin-right: 205px; 
 		width: 78%; 
+		font-size: 1rem;
+		line-height: 2em;
 	  }
 		
 	 
