@@ -83,7 +83,7 @@
 		 border: 1px solid rgb(87, 142, 140);
 	   } 
 	   
-	  
+	  /* ^^^^^^^^^^^^^^^^^ sElEcT bUtToN &&&&&&&&&&&&&&&&&& */
 	   
 	   select[name^="stat"] {
 		   -webkit-appearance: none;
@@ -100,13 +100,17 @@
 	   
 	    select[name^="stat"]:hover {
 			background-color: rgb(87,142, 140);
-			
 		}
-	    .contains-1 input {
-	     color: rgb();
-		 text-align: center;
-		 background-color: rgb(255, 247, 255);
-	 }
+		
+	
+		
+			.contains-1 input {
+			 color: rgb();
+			 text-align: center;
+			 background-color: rgb(255, 247, 255);
+		 }
+	 
+	 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 	   
 	  .contains-1 input:hover {
 		   background-color: rgb(141, 214 ,205);
@@ -250,11 +254,27 @@
      
 	   
 
+	 /* tExT aReA fOr CoDe SnIpPetT */
 	 
+	 
+	  label[ for="code" ] {
+		  color: rgb(72,67,84);
+		  	letter-spacing: .04em; 
+      font-size: ;  
+	  font-weight: bold;
+		  
+	  }
+	 
+	  #code {
+		 border : 1px solid    rgb(87, 142, 140);
+		   background-color: rgb(255, 247, 255);
+		   border-radius: 5px;
+	  }
 	
 	
-	  
-	  
+	
+		
+		  
 		 
 		 
 		
@@ -264,10 +284,13 @@
       .main-footer p {
 		color: rgb(72,67,84);
 	  }
+	  
+	  
 	   #user-con {
 		 display: none;
 		 width: 60%;   
 	   }
+	   
 	  #user-con {
 		  display: block;
 		  margin: 0 auto;
@@ -532,9 +555,10 @@
          input[id="htmlrad"] {
 			 margin-right: 25px;
 		 }
-   
-   
-   
+     
+	  #codeSnip {
+visibility: hidden;	  }
+    
    
    
    /* main footer styles */
@@ -546,6 +570,7 @@
   
 	.main-footer p {
 		margin-bottom: 8px;
+		margin-top: -210px;
 		font-size: 0.875rem;
 		letter-spacing: .04em;
 	}
@@ -566,6 +591,8 @@
 		margin-top: 9px;
 		
 	}
+	
+	
 	
  }
  
@@ -624,14 +651,24 @@
 		margin-top: 4px;
 	  }
 	  
+	  /* cOnTaCt InFo */
+	  
+	
+	
+	  	  
 	  #con-info {
-		  
+		  display: inline-block;
 		  margin-top: 50px;
 		margin-right: 700px; 
 		padding:6px 8px; 
 		
 	  }
 	  
+	 
+	 
+	/* &&&&&&&&&&&&&&&&&&&&&&&& */ 
+	 
+	 
 	 
 	  
 	 /* input text styles */
@@ -710,23 +747,26 @@
 		  
 	  }
 	  
+	  
+	        #mailfield label[for="zip"],
+	        input[id="zip"]  {
+				
+			display: inline-block;
+			
+			}
+			
 	  #mailfield label[for="zip"] {
-		  display: inline-block;
-	      
 		  margin-left: 15px;
-		  
-		  
+		 
 	  }
 	  
 	  input[id="zip"] {
-		margin-top: 2px;  
+		  margin-top: 5px;
 		width:  30%; 
 		height: 30px;
-		float: right;
-		margin-right: 200px;
 		text-align: right;
 		padding-right: 20px;
-	
+	  margin-left: 20px;
 	  }
 	  
 	
@@ -789,7 +829,6 @@
 		margin-left: 40px;
 		margin-bottom: 15px;
 		
-		
 	  }
 	  #buttons {
 		 
@@ -811,6 +850,133 @@
 	 #buttons input[id="plainrad"] {
 		   margin-bottom: 16px;
 	   }
+	    
+		
+		/* $$$$$$$$$$$$$$$$$ cOdE sNiPpEtT $$$$$$$$$$$$$$$$$$$$$$$$ */
+	   
+	   
+	   #codeSnip {
+		   visibility: visible;
+		   border :  1px solid tomato;
+		text-align:  left; 
+		margin-left: 50px;
+		width:   70%;
+		   
+	   }
+	  
+	 label[for="code"],
+	 #codep {
+		 
+		 visibility: visible;
+		 display: inline-block;
+		 
+	 }
+	 
+	  label[for="code"] {
+		  
+		  float: left;
+		  margin-left: 10px;
+		  margin-top: 20px;
+		
+	  }
+	  
+	  	#codep {
+			
+			border:1px solid silver;
+			float:right;
+			font-size: 1.0rem;
+			padding: 6px;
+				  color: rgb(72,67,84);
+				  margin-right: 320px;
+				  padding-left:  10px;
+		}
+	 
+	   
+	    #code  {
+			
+			visibility: visible;
+			display: block;
+	        margin-left: 155px;
+			width: 65%;
+			letter-spacing: .04em;
+			font-size:  0.9rem;
+			padding: 5px;
+			height: 200px;
+			
+        }
+		
+		#code:hover {
+			
+		  background-color: rgb(255, 233, 235);
+		  border: 1px solid  rgb(37,22,82);
+			
+		}
+		
+		#cancel,
+		#enter {
+			
+		   visibility: visible; 	
+		   display: inline-block;
+		   margin-top: 20px;
+		   margin-bottom: 20px;
+		   padding: 5px;
+		   background-color: rgb(114, 155, 130);
+		   border: none;
+		   border: 1px solid rgb(114, 155, 130);
+		   border-radius: 5px;
+		   padding: 2px 15px;
+		   color: #fff;
+		   letter-spacing: .01em;
+		   font-size: 0.875rem;
+		   color: #fff;
+		   
+		}
+		
+		#cancel:hover {
+			
+			background-color: rgb(87,142, 140);
+			
+		}
+			
+		#enter:hover {
+			
+					background-color: rgb(87,142, 140);
+					
+		}
+		
+		#cancel:active {
+			
+			  background-color: rgb(37,22,82);	
+			color: rgb(255, 217, 179);
+			
+		}
+		
+		#enter:active {
+			
+			  background-color: rgb(37,22,82);	
+			color: rgb(255, 217, 179);
+			
+		}
+		
+		
+		#cancel {
+			
+		  margin-left: 290px;
+		  
+		  }
+		
+		#enter {
+			
+			margin-left: 40px;
+			width: 70px;
+			
+		}
+		
+		
+		
+	
+	 
+	 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
   
      .main-footer {
 		

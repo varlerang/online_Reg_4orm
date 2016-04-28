@@ -27,7 +27,6 @@
  <div class="contains-1">
  
  	<h3 class="sub-title" id="con-info">Contact Information</h3>
- 
   <label for="fullname" class="lab">Full Name</label>
  <input type="text" id="fullname" name="fullname" placeholder="absolutely" required="required"/>
    
@@ -56,6 +55,8 @@
     <label for="zip" class="zip">Zip Code</label>
     <input type="text" id="zip" name="zip" placeholder="optional" required="required"/> 
      </fieldset>
+     
+     
     </div>
 
      <div class="contains-2, clearfix">
@@ -87,9 +88,15 @@
           
              </div>
              
+             <div id="codeSnip">
+             
              <label for="code">Code Snippet</label>
+             <p id="codep">Enter a code snippet if you wish for it to be evaluated</p>
              <textarea name="snippet" id="code"  cols="45"  rows="8"></textarea>
-   
+             <input type="button" id="cancel" name="cancel" value="Cancel"/>
+               <input type="button" id="enter" name="enter" value="Enter"/>
+             
+             </div>
  </div>
   
    <footer class="main-footer">
