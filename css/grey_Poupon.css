@@ -140,11 +140,7 @@
 		
 		}
 		
-		input,
-		select {
-			cursor : pointer;
-		}
-		
+	
 		input[type^="checkbox"] {
 			-webkit-appearance: none;
 		}
@@ -228,8 +224,12 @@
 			
 	 
 		 }
-
- 
+       select,
+       input[type="radio"],
+	   input[type="checkbox"] {
+		cursor: pointer;   
+		   
+	   }
 	  
 	 #field-2 {
 		 height: 165px;
@@ -857,7 +857,6 @@ visibility: hidden;	  }
 	   
 	   #codeSnip {
 		   visibility: visible;
-		   border :  1px solid tomato;
 		text-align:  left; 
 		margin-left: 50px;
 		width:   70%;
@@ -882,7 +881,6 @@ visibility: hidden;	  }
 	  
 	  	#codep {
 			
-			border:1px solid silver;
 			float:right;
 			font-size: 1.0rem;
 			padding: 6px;
