@@ -894,7 +894,6 @@ visibility: hidden;	  }
 			
 			visibility: visible;
 			display: block;
-	        margin-left: 155px;
 			width: 65%;
 			letter-spacing: .04em;
 			font-size:  0.9rem;
@@ -959,7 +958,7 @@ visibility: hidden;	  }
 		
 		#cancel {
 			
-		  margin-left: 290px;
+		  margin-left: 135px;
 		  
 		  }
 		
