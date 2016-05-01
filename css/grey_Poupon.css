@@ -1,1131 +1,897 @@
-@charset "UTF-8";
+@charset  "UTF-8";
+
 /* CSS Document */
-
-
 /* general styles */
+* {
+    box-sizing: border-box;
+}
 
-  * {
-	  box-sizing: border-box;
-	  
-  }
+#wrap {
+    margin: 0 auto;
+    width: 90%;
+    background-color: #f7f2ff;
+}
 
-     #wrap {
-		 margin: 0 auto;
-		width: 90%; 
-		background-color: rgb(247, 242, 255);
-	 }
-	
-	 body {
-    font-family: Helvetica, Arial, Geneva, Serif;
-	 }
+body {
+    font-family: Helvetica,Arial,Geneva,Serif;
+}
+
+.main-header {
+    text-align: center;
+}
+
+.contains-1 {
+    text-align: center;
+    border-top: 3px solid #251652;
+    margin-top: 3px;
+}
+
+.title {
+    margin: 0;
+    background-color: #251652;
+    color: #ffd9b3;
+    padding: 30px 0;
+}
+
+.main-header p {
+    margin: 0 auto;
+    width: 70%;
+    color: #484354;
+    margin-bottom: 1px;
+}
+
+.sub-title {
+    color: #484354;
+    letter-spacing: .02em;
+}
+
+fieldset {
+    border: 1px solid #578e8c;
+    border-radius: 5px;
+    margin: 30px 0;
+    padding: 8px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#mailfield {
+    margin-top: 25px;
+    border: 1px solid #578e8c;
+    padding: 4px;
+}
+
+label[for="address"],label[for="city"] {
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+input[type^="text"] {
+    display: block;
+    font-size: .875rem;
+    padding: 2px 0;
+    letter-spacing: .1em;
+    color: #484354;
+    margin: 0 auto;
+    border-radius: 6px;
+    border: 1px solid #578e8c;
+}
+
+/* ^^^^^^^^^^^^^^^^^ sElEcT bUtToN &&&&&&&&&&&&&&&&&& */
+select[name^="stat"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #729b82;
+    border: 1px solid #729b82;
+    padding: 2px 10px;
+    color: #fdf3e7;
+    letter-spacing: .01em;
+    font-size: .875rem;
+}
+
+select[name^="stat"]:hover {
+    background-color: #578e8c;
+}
+
+.contains-1 input {
+    text-align: center;
+    background-color: #fff7ff;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.contains-1 input:hover {
+    background-color: #8dd6cd;
+}
+
+.contains-1 input:focus {
+    background-color: #8dd6cd;
+}
+
+.lab {
+    color: #484354;
+}
+
+.zip {
+    color: #484354;
+}
+
+/* checkbox general styles */
+.ch {
+    display: block;
+    color: #484354;
+}
+
+
+
   
- .main-header {
-	
-	  text-align: center;
-   }
-   
- 	
+
+input[type^="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+	  }
+
+
+
+input[type^="checkbox"]:before {
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #8dd6cd;
+    background-color: #ffd9b3;
+    content: "";
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+input[type^="checkbox"]:hover:before {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #8dd6cd;
+    background-color: #8dd6cd;
+    border-radius: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+input[type^="checkbox"]:checked:before {
+    display: block;
+    background-color: #251652;
+    border: 1px solid #251652;
+    content: "\2713";
+    text-align: center;
+    color: #ffd9b3;
+    border-radius: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+/*                   */
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    background-color: #ffd9b3;
+    border: 1px solid #8dd6cd;
+    border-radius: 20px;
+    content: " ";
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    padding: 4px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+}
+
+input[type="radio"]:hover {
+    background-color: #8dd6cd;
+    color: #8dd6cd;
+}
+
+input[type="radio"]:checked {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    background-color: #ffd9b3;
+    border: 4px solid #251652;
+    border-radius: 20px;
+    width: 17px;
+    height: 17px;
+    content: ". ";
+}
+
+select,input[type="radio"],input[type="checkbox"] {
+    cursor: pointer;
+}
+
+#field-2 {
+    height: 165px;
+}
+
+legend {
+    background-color: inherit;
+    color: #484354;
+    border-radius: 5px;
+    padding: 2px 6px;
+    letter-spacing: .1em;
+    font-size: .875rem;
+}
+
+.check-ops {
+    color: #484354;
+    letter-spacing: .04em;
+}
+
+/* tExT aReA fOr CoDe SnIpPetT */
+label[ for="code" ] {
+    color: #484354;
+    letter-spacing: .04em;
+    font-size: ;
+    font-weight: 700;
+}
+
+#code {
+    border: 1px solid #578e8c;
+    background-color: #fff7ff;
+    border-radius: 5px;
+}
+
+.main-footer p {
+    color: #484354;
+}
+
+#user-con {
+    display: none;
+    width: 60%;
+}
+
+#user-con {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border: 1px solid #578e8c;
+    background-color: #fff7ff;
+    color: #484354;
+    letter-spacing: .04em;
+    font-size: .8rem;
+    padding: 6px;
+}
+
+#user-con:hover {
+    background-color: #ffe9eb;
+    border: 1px solid #251652;
+}
+
+#user-con:focus {
+    background-color: #ffe9eb;
+    border: 1px solid #251652;
+}
+
+input[value^="Sig"] {
+    display: block;
+    background-color: #729b82;
+    border: 1px solid #729b82;
+    width: 60%;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 1.375rem;
+    color: #fff;
+    margin-left: 20px;
+    letter-spacing: .04em;
+}
+
+input[value^="Sign"]:hover {
+    display: block;
+    background-color: #578e8c;
+    border: 1px solid #578e8c;
+}
+
+input[value^="Sign"]:active {
+    background-color: #251652;
+    color: #ffd9b3;
+}
+
+.copyright {
+    color: #484354;
+    padding: 2px;
+    margin-top: 50px;
+}
+
+.copyright:first-letter {
+    font-size: 16px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+@media (min-width: 320px ) {
+    #wrap {
+        border: 1px solid #4682b4;
+        width: 90%;
+        min-width: 320px;
+    }
+
+    .main-header {
+        border-bottom: 1px solid #251652;
+        padding-bottom: 20px;
+    }
+
+    .main-head_info .sub-title {
+        margin-top: 40px;
+    }
+
+    .main-head-info p {
+        display: inline-block;
+        font-size: .875rem;
+        margin: 0 auto;
+    }
+
     .contains-1 {
-		  text-align: center;
-		border-top: 3px solid rgb(37,22,82);
-		margin-top: 3px; 
-	  }
+        border-top: 2px solid #251652;
+    }
 
-   .title {
-	   margin: 0;
-	 background-color: rgb(37,22,82);
-     color:   rgb(255, 217, 179);
-	  padding: 30px 0;
-   }
-   
-    .main-header p {
-     margin: 0 auto;
- 	 width: 70%;
-	 color: rgb(72, 67, 84);	
-	 margin-bottom: 1px;
-	}
-	
-   .sub-title {
-	   color: rgb(72, 67, 84);
-	   letter-spacing: .02em;
-	   
-   }
+    h3[id^="con_"] {
+        margin-bottom: 50px;
+        margin-top: 40px;
+        margin-left: 6px;
+    }
 
-   fieldset {
-	   border: 1px solid rgb(87, 142, 140);
-	   border-radius: 5px;
-	   margin: 30px 0;
-	   padding: 8px;
-	   width: 90%;
-	   margin: 0 auto;
-	   text-align: center;
-	   
-   }
-   
+    /* labels */
+    label[for="fullname"],label[for="email"],label[for="phone"] {
+        margin-left: 10px;
+    }
+
+    .lab {
+        display: block;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        padding: 2px;
+    }
+
+    input[placeholder^="req"] {
+        width: 80%;
+    }
+
+    input[placeholder^="abs"] {
+        width: 80%;
+    }
+
+    .data {
+        width: 80%;
+    }
+
+    /* ***************** aDdReSs ************************* */
+    label[id^="address"] {
+        display: block;
+        margin-top: 5px;
+    }
+
+    label[name="city"] {
+        display: block;
+        margin-top: 5px;
+    }
+
+    input[id="address"],input[id="city"] {
+        display: block;
+        width: 93%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #mailfield input[id="address"]+input[id="city"]:focus {
+        background-color: #8dd6cd;
+    }
+
+    /* ***************************************************** */
+    /* zipcode */
+    label[for="zip"],input[id="zip"] {
+        display: inline-block;
+    }
+
+    label[for="zip"] {
+        float: left;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    input[id^="zi"] {
+        float: right;
+        margin-right: 12px;
+        margin-top: 22px;
+        width: 30%;
+    }
+
+    select[name="states"] {
+        display: inline-block;
+        float: left;
+        margin-top: 23px;
+        margin-left: 12px;
+        padding-left: px;
+        width: 32%;
+        font-size: .75em;
+    }
+
     #mailfield {
-	  margin-top: 25px;	
-	  border: 1px solid rgb(87, 142, 140);
-	  padding: 4px;
-	}
-   
+        height: 220px;
+        margin-bottom: 25px;
+    }
+
+    /* inside contains_2 */
     
-       label[for="address"],
-	   label[for="city"] {
-		   margin-bottom: 10px;
-		   padding: 2px;
-		   
-	   }
-	
-	   
-	     input[type^="text"] {
-			  display: block; 
-			 font-size: 0.875rem;
-			 padding:2px 0;
-			 letter-spacing: .1em;
-	     color: rgb(72, 67, 84);
-  		 margin: 0 auto; 
-		 border-radius: 6px;
-		 border: 1px solid rgb(87, 142, 140);
-	   } 
-	   
-	    
-	   
-	  /* ^^^^^^^^^^^^^^^^^ sElEcT bUtToN &&&&&&&&&&&&&&&&&& */
-	   
-	   select[name^="stat"] {
-		   -webkit-appearance: none;
-		   margin-top: 20px;
-		   margin-bottom: 10px;
-		   background-color: rgb(114, 155, 130);
-		   border: 1px solid rgb(114, 155, 130);
-		   padding: 2px 10px;
-		   color:  rgb( 253, 243, 231);
-		   letter-spacing: .01em;
-		   font-size: 0.875rem;
-		 }
-	   
-	    select[name^="stat"]:hover {
-			background-color: rgb(87,142, 140);
-		}
-		
-	
-		
-			.contains-1 input {
-			 text-align: center;
-			 background-color: rgb(255, 247, 255);
-		 }
-	 
-	 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-	   
-	  .contains-1 input:hover {
-		   background-color: rgb(141, 214 ,205);
+    .contains-2 p, .sub-title {
+        text-align: center;
+    }
 
+    /*      sub_2 Newsletter    */
+    #sub-2 {
+        font-size: 1em;
+        letter-spacing: .06em;
+    }
 
-	   }
-	 
-	   .contains-1 input:focus {
-		   background-color: rgb(141, 214 ,205);
-		   
+    /*===========fieldset 2===============  */
+    #field-2 {
+        height: 215px;
+    }
 
-	   }
-		
+    /*===================================*/
 	
-	 .lab {
-		color: rgb(72,67,84); 
-	 }
-	 
-	 .zip {
-		color: rgb(72,67,84); 
-	 }
-	  
-	  /* checkbox general styles */
-	  
-	  
-	  
-	  
-	  .ch {
-		  display: block;
-		color: rgb(72,67,84); 
-		
-		}
-		
 	
-		input[type^="checkbox"] {
-			-webkit-appearance: none;
-		}
-		
-		
-		input[type^="checkbox"]:before {
-			 display: inline-block;
-		     -webkit-appearance: none;
-			border: 1px solid   rgb(141, 214, 205);
-			 background-color:  rgb(255, 217, 179);
-			 content: "";
-			 font-size: 12px;
-			 text-align: center;
-			 border-radius: 5px;
-			 width: 15px;
-			 height: 15px;
-			 
-		}
-		
-		input[type^="checkbox"]:hover:before {
-		     -webkit-appearance: none;
-			 border: 1px solid rgb(141, 214, 205);
-			 background-color: rgb(141, 214, 205);
-			 border-radius: 5px;
-			 width: 15px;
-			 height: 15px;
-		}
-		
-		input[type^="checkbox"]:checked:before {
-			  display: inline-block;
-			
-			  background-color: rgb(37,22,82);
-			 border: 1px solid rgb(37,22,82);
-			 content: "\2713";
-			 text-align: center;
-			 color:  rgb(255, 217, 179);
-			 border-radius: 5px;
-			 width: 15px;
-			 height: 15px;
-		}
-		
-		
+	/* *************** cHeCkBoX 320 ***************** */
 	
-		/*                   */
-		
-		
-		  input[type="radio"] {
-			 -webkit-appearance: none;
-		 }
-		 
-		 input[type="radio"] {
-			  -webkit-appearance: none;
-			 display:inline-block;
-			 background-color:  rgb(255, 217, 179);
-			 border: 1px solid  rgb(141, 214, 205);
-			 border-radius: 20px;
-			 content: " ";
-			 width: 17px;
-			 height: 17px;
-			 vertical-align: middle;
-			 padding: 4px;
-			 margin-left: 8px;
-			 margin-bottom: 3px;
-		 }
-		 
-		   input[type="radio"]:hover {
-			background-color: rgb(141, 214, 205);    
-			color: rgb(141, 214, 205);  
-		   }
-			
-			
-		 input[type="radio"]:checked {
-			  -webkit-appearance: none;
-	         display:inline-block;
-			 background-color: rgb(255, 217, 179);
-			 border: 4px solid  rgb(37,22,82);
-			 border-radius: 20px;
-			 width: 17px;
-			 height: 17px;
-			 content: ". ";
-			
-	 
-		 }
-       select,
-       input[type="radio"],
-	   input[type="checkbox"] {
-		cursor: pointer;   
-		   
-	   }
-	  
-	 #field-2 {
-		 height: 165px;
-	 }
-	   
-	   
-   legend {
-	  background-color:none;
-	  color: rgb(72,67,84); 
-	  border-radius: 5px; 
-	  padding: 2px 6px; 
-	  letter-spacing: .1em;
-	  font-size: 0.875rem;
-	  
-   }
-   
-    .check-ops {
-	color: rgb(72,67,84);
-	letter-spacing: .04em; 
 	
-	}
-     
-	   
+    input[type^="checkbox"] {
+        margin: 0 auto;
+    }
 
-	 /* tExT aReA fOr CoDe SnIpPetT */
-	 
-	 
-	  label[ for="code" ] {
-		  color: rgb(72,67,84);
-		  	letter-spacing: .04em; 
-      font-size: ;  
-	  font-weight: bold;
-		  
-	  }
-	 
-	  #code {
-		 border : 1px solid    rgb(87, 142, 140);
-		   background-color: rgb(255, 247, 255);
-		   border-radius: 5px;
-	  }
-	
-	
-	
-		
-		  
-		 
-		 
-		
-		
-		
-		
-      .main-footer p {
-		color: rgb(72,67,84);
-	  }
-	  
-	  
-	   #user-con {
-		 display: none;
-		 width: 60%;   
-	   }
-	   
-	  #user-con {
-		  display: block;
-		  margin: 0 auto;
-		 border: none;
-		 border:  1px solid rgb(87, 142, 140);
-		 background-color: rgb(255, 247, 255);
-		 color : rgb( 72, 67, 84);
-		 letter-spacing: .04em;
-		 font-size: 0.8rem;
-		
-		 padding: 6px;
-		 
-		 
-		 
-	  }
-	  
-	  
-	  
-	  
-	  #user-con:hover {
-		  background-color: rgb(255, 233, 235);
-		  border: 1px solid  rgb(37,22,82);
-		  
-	  }
-	  
-	  
-	  
-	  #user-con:focus{
-		  background-color: rgb(255, 233, 235);
-		  border: 1px solid  rgb(37,22,82);
-		 
-	  }
-	  
-	  
-	  
-     input[value^="Sig"] {
-		  
-		  display: block;
-		 background-color: rgb(114, 155, 130);
-		 border: 1px solid rgb(114, 155, 130);
-		 width: 60%;
-		 height: 70px;
-		 border-radius: 10px;
-		 font-size: 1.375rem;
-		 color: #fff;
-		 margin-left: 20px;
-		 letter-spacing: .04em;
-	 }
-	 
-	 
-	 
-        
-		input[value^="Sign"]:hover {
-			display: block;
-			 background-color: rgb(87, 142, 140);
-		 border: 1px solid rgb(87, 142, 140);
-			
-		}
-		
-		input[value^="Sign"]:active {
-			
-		  background-color: rgb(37,22,82);	
-			color: rgb(255, 217, 179);
-		}
-		
-      .copyright {
-		color: rgb(72,67,84);
-		padding: 2px;  
-		margin-top: 50px;
-		
-	  }
-	  
-	  .copyright:first-letter {
-		 font-size: 16px;
-		 margin-right: 2px; 
-		 vertical-align: middle;
-	  }
-	  
-	  
-
- @media (min-width: 320px ) {
-	
-	
-	
-	#wrap {
-		border: 1px solid steelblue;
-		width: 90%;
-		min-width: 320px;
-		 }
-		 
-		 .main-header {
-			 border-bottom: 1px solid  rgb(37,22,82); 
-			 padding-bottom: 20px;
-			
- 		 }
-		 
-		 
-		.main-head_info .sub-title{
-		  margin-top: 40px;	
-		}
-		 
-       .main-head-info p {
-		   display:  inline-block;
-		   font-size: 0.875rem;
-		   margin: 0 auto;
-		   
-	   }
-  
-      .contains-1 {
-		border-top: 2px solid  rgb(37,22,82); 
-	  }
-	  
-	  h3[id^="con_"] {
-		  margin-bottom: 50px;
-		  margin-top: 40px;
-		  margin-left: 6px;
-		  
-	  }
-	   /* labels */
-	    
-		 label[for="fullname"],
-		 label[for="email"],
-		 label[for="phone"] {
-			 margin-left: 10px;
-			 
-		 }
-	   
-	        
-	   
-	   
-	   
-	   .lab {
-			display: block;
-		 	
-			margin-bottom: 5px;
-		    margin-top: 10px;
-			padding: 2px;	
-		}
-	
-	  input[placeholder^="req"] {
-		  width: 80%;
-	  }
-	  
-	  input[placeholder^="abs"] {
-		width: 80%;  
-	  }
-	  
-	  .data {
-		width: 80%;  
-	  }
-	  
-	  
-	
-	  
-	  /* ***************** aDdReSs ************************* */
-	  
-	  
-	  
-       label[id^="address"]  {
-		   display: block;
-		   margin-top: 5px;
-	   }
-	   
-	   label[name="city"] {
-		display: block;
-		 margin-top: 5px;
-		    
-	   }
- 	    
-		
-		 
-		 input[id="address"],
-		 input[id="city"] {
-			 display: block;
-			 width: 93%;
-			 margin-top:  10px;
-			 margin-bottom: 10px;
-		 }
-		 
-		 
-		 	#mailfield input[id="address"]+input[id="city"]:focus  {
-		   background-color: rgb(141, 214 ,205);
-		   width: 93%;
-		}
-		
-		 
-		 
-		 
-		 /* ***************************************************** */
-	
-	     /* zipcode */
-		 
-		label[for="zip"],
-		 input[id="zip"] {
-			display: inline-block;
-			
-			 
-		 }
-		 
-	   label[for="zip"] {
-		float: left;
-	    margin-top: 25px;
-	   margin-left: 20px;
-	
-		   
-	   }
-	   
-	  input[id^="zi"] {
-		  float: right;
-	     margin-right: 12px;	
-		 margin-top: 22px;
-		  width: 30%;
-		
-	
-		
-	  }
-	  
-	  
-	  select[name="states"] {
-		  display: inline-block;
-		  float:  left;
-		  margin-top: 23px;
-		  margin-left: 12px;
-		  padding-left: px;
-		  width: 32%;
-		  font-size: 0.75em;
-	  }
-	  
-	   #mailfield {
-		 height: 220px; 
-		 margin-bottom: 25px;  
-		 
-	   }
-	 
-	 
-	   /* inside contains_2 */
-	   
-	   
-	   
-	   
-    .contains-2 p,
-	   .sub-title {
-		   text-align: center;
-	   }  
-	   
-	   
-	 /*      sub_2 Newsletter    */
-	   
-	   
-	   #sub-2 {
-		font-size: 1em; 
-		letter-spacing:.06em;  
-	   }
-	      
-		  
-		/*===========fieldset 2===============  */  
-		  
-		  
-		  #field-2 {
-			height: 215px;  
-			  
-		  }
-		  
-       /*===================================*/
-    
-	
-	
-	
-	
-	
-	
-	 input[type^="checkbox"] {
-		 margin: 0 auto;
-	}
-	
-	 label[id^="star"] {
-		 display: block;
-		 margin-top: 5px;
-		 padding: 4px;
-	 }
-	 
-	 	  label[for^="css"] {
-			  display: block;
-			  margin-top: 5px;
-			  padding: 4px;
-	  }
-		  
-	   label[for^="js"] {
-		   display: block;
-		   margin-top: 5px;
-		   padding: 4px;
-		
-	   }
-	   
-	   .check-ops {
-		   text-align: center;
-		   margin-top: 25px;
-		   font-size: 1em;
-		   padding-top: 2px;
-		   padding-bottom: 2px;
-		  
-	   }
-	  
-	   #buttons  {
-		   text-align: center;
-		   padding-top: 10px;
-	  }
-	   
-	    input[id="htmlbu"] {
-			display: inline-block;
-			margin-right: 40px;
-		}
-	   
-	   
-         input[id="htmlrad"] {
-			 margin-right: 25px;
-		 }
-     
-	  #codeSnip {
-visibility: hidden;	 
- }
-    
-   
-   
-   /* main footer styles */
-   
-   
-    .main-footer {
-	  text-align: center;
-  }
-  
-	.main-footer p {
+    label[id^="star"] {
+        display: block;
+        margin-top: 2px;
 		margin-bottom: 8px;
-		margin-top: -210px;
-		font-size: 0.875rem;
-		letter-spacing: .04em;
-	}
+        padding: 2px;
+    }
 
-	#user-con {
-		border-radius: 5px;
-		margin-bottom: 35px;
-		margin-top: 10px;
-		padding: 4px;
-		width: 80%;
-		font-size: 0.875rem;
-		line-height: 1.5em;
-		
-	}
-	
-	input[value^="Sig"] {
-		margin: 0 auto;
-		margin-top: 9px;
-		color:  ( 253, 243, 231);
-	}
-	
-	
-	
- }
- 
-  						@media( min-width: 1024px ) {
-	  
-	  #wrap {
-		border: 1px solid steelblue;
-		width: 90%;
-		max-width: 1024px;
-		 }
-	  
-	  .main-header {
-		  margin: 0 auto;
-		  
-		  width: 90%;
-		  margin-bottom: 3px;
-	  }
-	  
-	  .title {
-		font-size: 1.5rem;  
-	  }
-	  
-	  .main-head-info {
-		 
-		  width: 100%;
-		  margin: 0 auto;
-		text-align: center; 
-		border-bottom: 4px solid rgb(37,22,82);
-		  
-	  }
-	 
-	 .main-header p {
-		font-size: 1.2rem; 
-		margin: 0 auto;
-		padding-bottom:4px;
-		margin-bottom: 14px;
-		margin-top: 17px;
-	 }
-	  
-	  .main-head-info .sub-title {
-		  font-size: 1.6rem;
-		  
-		  padding: 2px;
-		  margin-top: 50px;
-	  }
-	  /* container 1 styles */
-	  
-	  
-	  .contains-1 {
-		
-		width: 90%; 
-		margin: 0 auto;
-		text-align: left;
-		padding-bottom: 30px;
-	    border-top: 2px solid rgb(37,22,82);
-		margin-top: 4px;
-	  }
-	  
-	  /* cOnTaCt InFo */
-	  
-	
-	
-	  	  
-	  #con-info {
-		  display: inline-block;
-		  margin-top: 50px;
-		margin-right: 700px; 
-		padding:6px 8px; 
-		
-	  }
-	  
-	 
-	 
-	/* &&&&&&&&&&&&&&&&&&&&&&&& */ 
-	 
-	 
-	 
-	  
-	 /* input text styles */
-	 
-	     .lab {
-			float: left;
-			padding: 6px 8px;
-			margin: 5px 0 5px 0;
-		   display: inline-block;
-			line-height: 1em;
-				
-		font-size: 1.11rem;
-	  }
-	  
-	    label[for="fullname"],
-		 label[for="email"],
-		 label[for="phone"] {
-			 display: inline-block;
-			 float: left;
-			 margin-right: 20px;
-			 
-		 }
-			
-			
-	  
-	    input[id="fullname"],
-		input[id="email"],
-		input[id="phone"] {
-			float: right;
-		display: inline-block;
-		
-		text-align: right;
-		width: 45%;	
-		height: 30px;
-		padding-right: 20px;
-		margin-right: 315px;
-		margin-bottom: 10px;
-		}
-	 
-	  
-	  
-	#mailfield {
-		display: inline-block;
-		padding: 6px;
-		width:  78%;
-		height: 190px;
-		margin-top: 20px;
-		text-align: left;
-		margin-right: 80px;
-	}
-	  
-	 #mailfield legend {
-		 font-size: 1.2em;
-	 }
-	 
-	   
-	  #mailfield label { 
-	   display: inline-block;
-	   padding: 6px 8px; 
-	   margin: 6px 0 10px 0;
-	  
-	   float: left;
-	  }
-	  
-	 #mailfield label[for="address"] {
-		 display: inline-block;
-		  margin-right:  20px;
-		  
-	  }
-	   
-	 #mailfield  label[for="city"] {
-		display: inline-block; 
-		float: left;
-		margin-right: 20px;
-		
-	   }
-	   
-	   
-	  input[id="address"] ,
-	  input[id="city"] {
-	
-		  display: inline-block;
-		  float: right;
-		  width: 58%;
-		  height: 30px;
-		  margin-right: 110px;
-		  padding-right: 20px;
-		  margn-left:10px;
-		  text-align: right;
-		  
-	  }
-	  
-	  
-	  input[id="city"] {
-		  margin-top: 6px;
-		  
-	  }
-	  
-	  input[id="address"] {
-		  margin-top: 5px;
-		  
-		  
-	  }
-	  
-	        #mailfield label[for="zip"],
-	        input[id="zip"]  {
-				
-			display: inline-block;
-			
-			}
-			
-	  #mailfield label[for="zip"] {
-		 margin-left: 35px;
-	  }
-	  
-	  input[id="zip"] {
-		  margin-top: 5px;
-		width:  30%; 
-		height: 30px;
-		text-align: right;
-		padding-right: 20px;
-	  margin-right: 190px;
-	  }
-	  
-	
-	  
-	  select[name="states"] {
-		  float: left;
-		  display: inline-block;
-		  padding: 4px 8px;
-		  margin-top: 10px;
-		  margin-left: 9px;
-		  margin-right: 30px;
-		  color:  rgb( 253, 243, 231);
-		  width: 15%;
-		  font-size: 0.875em;
-	  }
-	
-	 
-		 
-	 .contains-2 {
-		
-		 margin-top: 10px;
-		 margin-bottom: 10px;
-		 width: 90%;
-		 margin: 0 auto;
-	 }
-	  
-	   #sub-2 {
-		
-		margin-right: 800px; 
-		margin-bottom: -70px;
-		margin-top: -3px;
-		padding: 8px 8px;
-	 
-	  }
-	  
-	  
-	    #field-2 legend {
-		 font-size: 1.0rem;
-	  }
-	   
-	  #field-2 {
-		  display: block;
-		text-align: left; 
-		 margin-left: 50px;
-		 width: 70%;
-		 height: 230px;
-		 margin-top:80px;
-		 margin-bottom: 10px;
-		 padding-top: 14px;
-	  }
-	  
-	  #field-2  input[name="html"] {
-		margin-top: 6px;  
-	  }
-	    
-		  #field-2  input[name="css"] {
-			  margin-top: 6px;
-			  margin-bottom: 6px;
-		  }
-		  
-		  #field-2 input[name="js"] {
-			  
-			 margin-top: 6px;  
-			 
-		  }
-		  
-		
-	  .ch ~ input[type="checkbox"] {
-		  
-		  margin-left: 5px;
-		  margin-bottom: 2px;
-		  margin-top: 2px;
-	  }
-	  
-	
-	  
-	  .check-ops {
-		  font-size: 1.0rem;
-		width: 18%;
-		padding:8px 0;  
-		margin-left: 40px;
-		margin-bottom: 15px;
-		
-	  }
-	  #buttons {
-		 
-		  width: 50%;
-		  text-align: left;
-  }
-  
-       #buttons label {
-		display: inline-block; 
-		 margin: 4px 8px;
-		 margin-left: 60px;
-	  }
-        #buttons input[type="radio"] {
-			display:block;
-			margin-bottom: 16px;
-			margin-left: 60px;
-		}
-      
-	 #buttons input[id="plainrad"] {
-		   margin-bottom: 16px;
-	   }
-	    
-		
-		/* $$$$$$$$$$$$$$$$$ cOdE sNiPpEtT $$$$$$$$$$$$$$$$$$$$$$$$ */
-	   
-	   
-	   #codeSnip {
-		   visibility: visible;
-		text-align:  left; 
-		margin-left: 50px;
-		width:   70%;
-		   
-	   }
-	  
-	 label[for="code"],
-	 #codep {
-		 
-		 visibility: visible;
-		 display: inline-block;
-		 
-	 }
-	 
-	  label[for="code"] {
-		  
-		  float: left;
-		  margin-left: 10px;
-		  margin-top: 20px;
-		
-	  }
-	  
-	  	#codep {
-			
-			float:right;
-			font-size: 1.0rem;
-			padding: 6px;
-				  color: rgb(72,67,84);
-				  margin-right: 320px;
-				  padding-left:  10px;
-		}
-	 
-	   
-	    #code  {
-			
-			visibility: visible;
-			display: block;
-			width: 65%;
-			letter-spacing: .04em;
-			font-size:  0.9rem;
-			padding: 5px;
-			height: 200px;
-			
-        }
-		
-		#code:hover {
-			
-		  background-color: rgb(255, 233, 235);
-		  border: 1px solid  rgb(37,22,82);
-			
-		}
-		
-		#cancel,
-		#enter {
-			
-		   visibility: visible; 	
-		   display: inline-block;
-		   margin-top: 20px;
-		   margin-bottom: 20px;
-		   padding: 5px;
-		   background-color: rgb(114, 155, 130);
-		   border: none;
-		   border: 1px solid rgb(114, 155, 130);
-		   border-radius: 5px;
-		   padding: 2px 15px;
-		   color: #fff;
-		   letter-spacing: .01em;
-		   font-size: 0.875rem;
-		   color: rgb( 253, 243, 231);
-		   
-		}
-		
-		#cancel:hover {
-			
-			background-color: rgb(87,142, 140);
-			
-		}
-			
-		#enter:hover {
-			
-					background-color: rgb(87,142, 140);
-					
-		}
-		
-		#cancel:active {
-			
-			  background-color: rgb(37,22,82);	
-			color: rgb(255, 217, 179);
-			
-		}
-		
-		#enter:active {
-			
-			  background-color: rgb(37,22,82);	
-			color: rgb(255, 217, 179);
-			
-		}
-		
-		
-		#cancel {
-			
-		  margin-left: 135px;
-		  
-		  }
-		
-		#enter {
-			
-			margin-left: 40px;
-			width: 70px;
-			
-		}
-		
-		
-		
-	
-	 
-	 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-  
-     .main-footer {
-		
-		 margin: 0 auto;
-		width: 90%; 
-		margin-top: 8px;
-		text-align: left;
-	 }
-      
-	  .main-footer p {
-		  display: block;
-		padding: 6px 8px;
-		margin-top: 10px;  
-		 margin-left: 4px;
-		font-size: 1.0rem;
-		float: left;
-	  }
-	   
-	  #user-con {
-		margin-right: 205px; 
-		width: 78%; 
-		font-size: 1rem;
-		line-height: 2em;
-	  }
-		
-	 
-	  
-	  input[type="submit"] {
-		  margin-left: -4px; 
-		  width: 78%;
-		  color:  rgb( 253, 243, 231);
-	  }
-	  
-	  
-	  
-	  .copyright {
-		text-align: center;
-	  }
-	  
-  }
- 
- 
-    .clearfix::after {
-		content: "";
-	display: table;	
-	clear:both;	
-	}
+    label[for^="css"] {
+        display: block;
+        margin-top: 2px;
+		margin-bottom: 8px;
+        padding: 2px;
+    }
+
+    label[for^="js"] {
+        display: block;
+        margin-top: 2px;
+		margin-bottom: 8px;
+        padding: 2px;
+    }
+
+    .check-ops {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 1em;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    #buttons {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    input[id="htmlbu"] {
+        display: inline-block;
+        margin-right: 40px;
+    }
+
+    input[id="htmlrad"] {
+        margin-right: 25px;
+    }
+
+    #codeSnip {
+        visibility: hidden;
+    }
+
+    /* main footer styles */
+    .main-footer {
+        text-align: center;
+    }
+
+    .main-footer p {
+        margin-bottom: 8px;
+        margin-top: -210px;
+        font-size: .875rem;
+        letter-spacing: .04em;
+    }
+
+    #user-con {
+        border-radius: 5px;
+        margin-bottom: 35px;
+        margin-top: 10px;
+        padding: 4px;
+        width: 80%;
+        font-size: .875rem;
+        line-height: 1.5em;
+    }
+
+    input[value^="Sig"] {
+        margin: 0 auto;
+        margin-top: 9px;
+        color: (253,243,231);
+    }
+}
+
+@media( min-width: 1024px ) {
+    #wrap {
+        border: 1px solid #4682b4;
+        width: 90%;
+        max-width: 1024px;
+    }
+
+    .main-header {
+        margin: 0 auto;
+        width: 90%;
+        margin-bottom: 3px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .main-head-info {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        border-bottom: 4px solid #251652;
+    }
+
+    .main-header p {
+        font-size: 1.2rem;
+        margin: 0 auto;
+        padding-bottom: 4px;
+        margin-bottom: 14px;
+        margin-top: 17px;
+    }
+
+    .main-head-info .sub-title {
+        font-size: 1.6rem;
+        padding: 2px;
+        margin-top: 50px;
+    }
+
+    /* container 1 styles */
+    .contains-1 {
+        width: 90%;
+        margin: 0 auto;
+        text-align: left;
+        padding-bottom: 30px;
+        border-top: 2px solid #251652;
+        margin-top: 4px;
+    }
+
+    /* cOnTaCt InFo */
+    #con-info {
+        display: inline-block;
+        margin-top: 50px;
+        margin-right: 700px;
+        padding: 6px 8px;
+    }
+
+    /* &&&&&&&&&&&&&&&&&&&&&&&& */
+    /* input text styles */
+    .lab {
+        float: left;
+        padding: 6px 8px;
+        margin: 5px 0;
+        display: inline-block;
+        line-height: 1em;
+        font-size: 1.11rem;
+    }
+
+    label[for="fullname"],label[for="email"],label[for="phone"] {
+        display: inline-block;
+        float: left;
+        margin-right: 20px;
+    }
+
+    input[id="fullname"],input[id="email"],input[id="phone"] {
+        float: right;
+        display: inline-block;
+        text-align: right;
+        width: 45%;
+        height: 30px;
+        padding-right: 20px;
+        margin-right: 315px;
+        margin-bottom: 10px;
+    }
+
+    #mailfield {
+        display: inline-block;
+        padding: 6px;
+        width: 78%;
+        height: 190px;
+        margin-top: 20px;
+        text-align: left;
+        margin-right: 80px;
+    }
+
+    #mailfield legend {
+        font-size: 1.2em;
+    }
+
+    #mailfield label {
+        display: inline-block;
+        padding: 6px 8px;
+        margin: 6px 0 10px;
+        float: left;
+    }
+
+    #mailfield label[for="address"] {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    #mailfield label[for="city"] {
+        display: inline-block;
+        float: left;
+        margin-right: 20px;
+    }
+
+    input[id="address"],input[id="city"] {
+        display: inline-block;
+        float: right;
+        width: 58%;
+        height: 30px;
+        margin-right: 110px;
+        padding-right: 20px;
+        margin-left: 10px;
+        text-align: right;
+    }
+
+    input[id="city"] {
+        margin-top: 6px;
+    }
+
+    input[id="address"] {
+        margin-top: 5px;
+    }
+
+    #mailfield label[for="zip"],input[id="zip"] {
+        display: inline-block;
+    }
+
+    #mailfield label[for="zip"] {
+        margin-left: 35px;
+    }
+
+    input[id="zip"] {
+        margin-top: 5px;
+        width: 30%;
+        height: 30px;
+        text-align: right;
+        padding-right: 20px;
+        margin-right: 190px;
+    }
+
+    select[name="states"] {
+        float: left;
+        display: inline-block;
+        padding: 4px 8px;
+        margin-top: 10px;
+        margin-left: 9px;
+        margin-right: 30px;
+        color: #fdf3e7;
+        width: 15%;
+        font-size: .875em;
+    }
+
+    .contains-2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #sub-2 {
+        margin-right: 800px;
+        margin-bottom: -70px;
+        margin-top: -3px;
+        padding: 8px;
+    }
+
+    #field-2 legend {
+        font-size: 1rem;
+    }
+
+    #field-2 {
+        display: block;
+        text-align: left;
+        margin-left: 50px;
+        width: 70%;
+        height: 230px;
+        margin-top: 80px;
+        margin-bottom: 10px;
+        padding-top: 14px;
+    }
+
+    #field-2 input[name="html"] {
+        margin-top: 6px;
+    }
+
+    #field-2 input[name="css"] {
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    #field-2 input[name="js"] {
+        margin-top: 6px;
+    }
+
+    .ch ~ input[type="checkbox"] {
+        margin-left: 5px;
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+
+    .check-ops {
+        font-size: 1rem;
+        width: 18%;
+        padding: 8px 0;
+        margin-left: 40px;
+        margin-bottom: 15px;
+    }
+
+    #buttons {
+        width: 50%;
+        text-align: left;
+    }
+
+    #buttons label {
+        display: inline-block;
+        margin: 4px 8px;
+        margin-left: 60px;
+    }
+
+    #buttons input[type="radio"] {
+        display: block;
+        margin-bottom: 16px;
+        margin-left: 60px;
+    }
+
+    #buttons input[id="plainrad"] {
+        margin-bottom: 16px;
+    }
+
+    /* $$$$$$$$$$$$$$$$$ cOdE sNiPpEtT $$$$$$$$$$$$$$$$$$$$$$$$ */
+    #codeSnip {
+        visibility: visible;
+        text-align: left;
+        margin-left: 50px;
+        width: 70%;
+    }
+
+    label[for="code"],#codep {
+        visibility: visible;
+        display: inline-block;
+    }
+
+    label[for="code"] {
+        float: left;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    #codep {
+        float: right;
+        font-size: 1rem;
+        padding: 6px;
+        color: #484354;
+        margin-right: 320px;
+        padding-left: 10px;
+    }
+
+    #code {
+        visibility: visible;
+        display: block;
+        width: 65%;
+        letter-spacing: .04em;
+        font-size: .9rem;
+        padding: 5px;
+        height: 200px;
+    }
+
+    #code:hover {
+        background-color: #ffe9eb;
+        border: 1px solid #251652;
+    }
+
+    #cancel,#enter {
+        visibility: visible;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 5px;
+        background-color: #729b82;
+        border: none;
+        border: 1px solid #729b82;
+        border-radius: 5px;
+        padding: 2px 15px;
+        color: #fff;
+        letter-spacing: .01em;
+        font-size: .875rem;
+        color: #fdf3e7;
+    }
+
+    #cancel:hover {
+        background-color: #578e8c;
+    }
+
+    #enter:hover {
+        background-color: #578e8c;
+    }
+
+    #cancel:active {
+        background-color: #251652;
+        color: #ffd9b3;
+    }
+
+    #enter:active {
+        background-color: #251652;
+        color: #ffd9b3;
+    }
+
+    #cancel {
+        margin-left: 135px;
+    }
+
+    #enter {
+        margin-left: 40px;
+        width: 70px;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .main-footer {
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 8px;
+        text-align: left;
+    }
+
+    .main-footer p {
+        display: block;
+        padding: 6px 8px;
+        margin-top: 10px;
+        margin-left: 4px;
+        font-size: 1rem;
+        float: left;
+    }
+
+    #user-con {
+        margin-right: 205px;
+        width: 78%;
+        font-size: 1rem;
+        line-height: 2em;
+    }
+
+    input[type="submit"] {
+        margin-left: -4px;
+        width: 78%;
+        color: #fdf3e7;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
