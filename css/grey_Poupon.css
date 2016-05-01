@@ -719,9 +719,13 @@ input[value^="Sign"]:active {
         margin-bottom: 10px;
         padding-top: 14px;
     }
+	
+	
+	/* &&&&&&&&&&&&&&&&&&&& cHeCkBoX sTyLeS 1028 $$$$$$$$$$$$$$$$$$$$ */
 
     #field-2 input[name="html"] {
         margin-top: 6px;
+		margin-bottom: 6px;
     }
 
     #field-2 input[name="css"] {
@@ -731,13 +735,24 @@ input[value^="Sign"]:active {
 
     #field-2 input[name="js"] {
         margin-top: 6px;
+		margin-bottom: 6px;
     }
 
     .ch ~ input[type="checkbox"] {
         margin-left: 5px;
         margin-bottom: 2px;
         margin-top: 2px;
+		width: 18px;
+		height: 18px;
     }
+	
+	
+	
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+
 
     .check-ops {
         font-size: 1rem;
