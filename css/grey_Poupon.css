@@ -937,7 +937,7 @@ input[value^="Sign"]:active {
 													  
 													  
 						input[type="submit"] {
-							margin-left: -4px;
+							margin-left:  -1px;
 							width: 78%;
 							color: #fdf3e7;
 						}
