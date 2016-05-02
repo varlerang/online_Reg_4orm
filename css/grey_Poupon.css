@@ -1,4 +1,3 @@
-@charset  "UTF-8";
 
 /* CSS Document */
 /* general styles */
@@ -7,23 +6,23 @@
 }
 
 #wrap {
-    margin: 0 auto;
-    width: 90%;
-    background-color: #f7f2ff;
+margin: 0 auto;
+width: 90%;
+background-color: #f7f2ff;
 }
 
 body {
-    font-family: Helvetica,Arial,Geneva,Serif;
+font-family: Helvetica,Arial,Geneva,Serif;
 }
 
 .main-header {
-    text-align: center;
+text-align: center;
 }
 
 .contains-1 {
-    text-align: center;
-    border-top: 3px solid #251652;
-    margin-top: 3px;
+text-align: center;
+border-top: 3px solid #251652;
+margin-top: 3px;
 }
 
 .title {
@@ -231,20 +230,6 @@ legend {
     letter-spacing: .04em;
 }
 
-/* tExT aReA fOr CoDe SnIpPetT */
-label[ for="code" ] {
-    color: #484354;
-    letter-spacing: .04em;
-    font-size: ;
-    font-weight: 700;
-}
-
-#code {
-    border: 1px solid #578e8c;
-    background-color: #fff7ff;
-    border-radius: 5px;
-}
-
 .main-footer p {
     color: #484354;
 }
@@ -313,141 +298,151 @@ input[value^="Sign"]:active {
 }
 
 @media (min-width: 320px ) {
-    #wrap {
-        border: 1px solid #4682b4;
-        width: 90%;
-        min-width: 320px;
-    }
+				  #wrap {
+					  border: 1px solid #4682b4;
+					  width: 90%;
+					  min-width: 320px;
+				  }
 
-    .main-header {
-        border-bottom: 1px solid #251652;
-        padding-bottom: 20px;
-    }
+									.main-header {
+										border-bottom: 1px solid #251652;
+										padding-bottom: 20px;
+									}
+								
+									.main-head_info .sub-title {
+										margin-top: 40px;
+									}
+								
+									.main-head-info p {
+										display: inline-block;
+										font-size: .875rem;
+										margin: 0 auto;
+									}
 
-    .main-head_info .sub-title {
-        margin-top: 40px;
-    }
+														.contains-1 {
+															border-top: 2px solid #251652;
+														}
+																		
+																			h3[id^="con_"] {
+																				margin-bottom: 50px;
+																				margin-top: 40px;
+																				margin-left: 6px;
+																			}
+																		
+																			/* labels */
+																			label[for="fullname"],label[for="email"],label[for="phone"] {
+																				margin-left: 10px;
+																			}
+																		
+																			.lab {
+																				display: block;
+																				margin-bottom: 5px;
+																				margin-top: 10px;
+																				padding: 2px;
+																			}
+																		
+																			input[placeholder^="req"] {
+																				width: 80%;
+																			}
+																		
+																			input[placeholder^="abs"] {
+																				width: 80%;
+																			}
+																		
+																			.data {
+																				width: 80%;
+																			}
+																		
+																			/* ***************** aDdReSs ************************* */
+																			label[id^="address"] {
+																				display: block;
+																				margin-top: 5px;
+																			}
+																		
+																			label[name="city"] {
+																				display: block;
+																				margin-top: 5px;
+																			}
+																		
+																			input[id="address"],input[id="city"] {
+																				display: block;
+																				width: 93%;
+																				margin-top: 10px;
+																				margin-bottom: 10px;
+																				margin-left: 10px;
+																				margin-right: 10px;
+																			}
+																		
+																		  
+																		
+																			/* ***************************************************** */
+																			/* zipcode */
+																			label[for="zip"],input[id="zip"] {
+																				display: inline-block;
+																			}
+																		
+																			label[for="zip"] {
+																				float: left;
+																				margin-top: 25px;
+																				margin-left: 20px;
+																			}
+																		
+																			input[id^="zi"] {
+																				float: right;
+																				margin-right: 12px;
+																				margin-top: 22px;
+																				width: 30%;
+																			}
+																		
+																			select[name="states"] {
+																				display: inline-block;
+																				float: left;
+																				margin-top: 23px;
+																				margin-left: 12px;
+																				width: 32%;
+																				font-size: .75em;
+																			}
+																			
+														
+															#mailfield {
+																height: 220px;
+																margin-bottom: 25px;
+															}
 
-    .main-head-info p {
-        display: inline-block;
-        font-size: .875rem;
-        margin: 0 auto;
-    }
 
-    .contains-1 {
-        border-top: 2px solid #251652;
-    }
-
-    h3[id^="con_"] {
-        margin-bottom: 50px;
-        margin-top: 40px;
-        margin-left: 6px;
-    }
-
-    /* labels */
-    label[for="fullname"],label[for="email"],label[for="phone"] {
-        margin-left: 10px;
-    }
-
-    .lab {
-        display: block;
-        margin-bottom: 5px;
-        margin-top: 10px;
-        padding: 2px;
-    }
-
-    input[placeholder^="req"] {
-        width: 80%;
-    }
-
-    input[placeholder^="abs"] {
-        width: 80%;
-    }
-
-    .data {
-        width: 80%;
-    }
-
-    /* ***************** aDdReSs ************************* */
-    label[id^="address"] {
-        display: block;
-        margin-top: 5px;
-    }
-
-    label[name="city"] {
-        display: block;
-        margin-top: 5px;
-    }
-
-    input[id="address"],input[id="city"] {
-        display: block;
-        width: 93%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-		margin-left: 10px;
-		margin-right: 10px;
-    }
-
-  
-
-    /* ***************************************************** */
-    /* zipcode */
-    label[for="zip"],input[id="zip"] {
-        display: inline-block;
-    }
-
-    label[for="zip"] {
-        float: left;
-        margin-top: 25px;
-        margin-left: 20px;
-    }
-
-    input[id^="zi"] {
-        float: right;
-        margin-right: 12px;
-        margin-top: 22px;
-        width: 30%;
-    }
-
-    select[name="states"] {
-        display: inline-block;
-        float: left;
-        margin-top: 23px;
-        margin-left: 12px;
-        padding-left: px;
-        width: 32%;
-        font-size: .75em;
-    }
-
-    #mailfield {
-        height: 220px;
-        margin-bottom: 25px;
-    }
-
-    /* inside contains_2 */
-    
-    .contains-2 p, .sub-title {
-        text-align: center;
-    }
-
-    /*      sub_2 Newsletter    */
-    #sub-2 {
-        font-size: 1em;
-        letter-spacing: .06em;
-    }
-
-    /*===========fieldset 2===============  */
-    #field-2 {
-        height: 215px;
-    }
-
-    /*===================================*/
+							/* inside contains_2 */
+							
+							.contains-2 p, .sub-title {
+								text-align: center;
+							}
+						
+						
+						
+							/*      sub_2 Newsletter    */
+							#sub-2 {
+								font-size: 1em;
+								letter-spacing: .06em;
+							}
+							
+							
+						
+							/*===========fieldset 2===============  */
+							
+							
+							#field-2 {
+								height: 215px;
+							}
+						
+							/*===================================*/
+							
+							
+							
 	
 	
 	/* *************** cHeCkBoX 320 ***************** */
 	
 	
-    input[type^="checkbox"] {
+	  input[type^="checkbox"] {
         margin: 0 auto;
     }
 
@@ -479,431 +474,483 @@ input[value^="Sign"]:active {
         padding-top: 2px;
         padding-bottom: 2px;
     }
+	
+	/* ************************* rAdIo BuTtOnS &&&&&&&&&&&&&&&&&&&&&&&&&& */
+	
 
-    #buttons {
-        text-align: center;
-        padding-top: 10px;
-    }
+												#buttons {
+													text-align: center;
+													padding-top: 10px;
+												}
+												
+												input[id="htmlbu"] {
+													display: inline-block;
+													margin-right: 40px;
+												}
+												
+												input[id="htmlrad"] {
+													margin-right: 25px;
+												}
 
-    input[id="htmlbu"] {
-        display: inline-block;
-        margin-right: 40px;
-    }
+   /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+   
+   
+																							   /* Code Snippet is hidden */
+																							   
+																							   
+																								#codeSnip {
+																									visibility: hidden;
+																								}
+																								
+																								/* &&&&&&&&&&&&&&&& */
+																								
+	
 
-    input[id="htmlrad"] {
-        margin-right: 25px;
-    }
-
-    #codeSnip {
-        visibility: hidden;
-    }
-
-    /* main footer styles */
-    .main-footer {
-        text-align: center;
-    }
-
-    .main-footer p {
-        margin-bottom: 8px;
-        margin-top: -230px;
-        font-size: .875rem;
-        letter-spacing: .04em;
-    }
-
-    #user-con {
-        border-radius: 5px;
-        margin-bottom: 35px;
-        margin-top: 10px;
-        padding: 4px;
-        width: 80%;
-        font-size: .875rem;
-        line-height: 1.5em;
-    }
-
-    input[value^="Sig"] {
-        margin: 0 auto;
-        margin-top: 9px;
-        color: (253,243,231);
-    }
+												/* main footer styles */
+												.main-footer {
+													text-align: center;
+												}
+											
+												.main-footer p {
+													margin-bottom: 8px;
+													margin-top: -230px;
+													font-size: .875rem;
+													letter-spacing: .04em;
+												}
+			  
+				  #user-con {
+					  border-radius: 5px;
+					  margin-bottom: 35px;
+					  margin-top: 10px;
+					  padding: 4px;
+					  width: 80%;
+					  font-size: .875rem;
+					  line-height: 1.5em;
+				  }
+			  
+			  
+				  input[value^="Sig"] {
+					  margin: 0 auto;
+					  margin-top: 9px;
+					  color: rgb(253,243,231);
+				  }
+				  
+				  
 }
 
+
+
 @media( min-width: 1024px ) {
-    #wrap {
-        border: 1px solid #4682b4;
-        width: 90%;
-        max-width: 1024px;
-    }
+	
+	
+							  #wrap {
+								  border: 1px solid #4682b4;
+								  width: 90%;
+								  max-width: 1024px;
+							  }
 
-    .main-header {
-        margin: 0 auto;
-        width: 90%;
-        margin-bottom: 3px;
-    }
+																  .main-header {
+																	  margin: 0 auto;
+																	  width: 90%;
+																	  margin-bottom: 3px;
+																  }
+															  
+																  .title {
+																	  font-size: 1.5rem;
+																  }
+															  
+																  .main-head-info {
+																	  width: 100%;
+																	  margin: 0 auto;
+																	  text-align: center;
+																	  border-bottom: 4px solid #251652;
+																  }
+															  
+																  .main-header p {
+																	  font-size: 1.2rem;
+																	  margin: 0 auto;
+																	  padding-bottom: 4px;
+																	  margin-bottom: 14px;
+																	  margin-top: 17px;
+																  }
+															  
+																  .main-head-info .sub-title {
+																	  font-size: 1.6rem;
+																	  padding: 2px;
+																	  margin-top: 50px;
+																  }
 
-    .title {
-        font-size: 1.5rem;
-    }
+																								/* container 1 styles */
+																								.contains-1 {
+																									width: 90%;
+																									margin: 0 auto;
+																									text-align: left;
+																									padding-bottom: 30px;
+																									border-top: 2px solid #251652;
+																									margin-top: 4px;
+																								}
+																							
+																								/* cOnTaCt InFo */
+																								#con-info {
+																									display: inline-block;
+																									margin-top: 50px;
+																									margin-right: 700px;
+																									padding: 6px 8px;
+																								}
+																							
+																								/* &&&&&&&&&&&&&&&&&&&&&&&& */
+																								/* input text styles */
+																								.lab {
+																									float: left;
+																									padding: 6px 8px;
+																									margin: 5px 0;
+																									display: inline-block;
+																									line-height: 1em;
+																									font-size: 1.11rem;
+																								}
+																							
+																								label[for="fullname"],label[for="email"],label[for="phone"] {
+																									display: inline-block;
+																									float: left;
+																									margin-right: 20px;
+																								}
+																							
+																								input[id="fullname"],input[id="email"],input[id="phone"] {
+																									float: right;
+																									display: inline-block;
+																									text-align: right;
+																									width: 45%;
+																									height: 30px;
+																									padding-right: 20px;
+																									margin-right: 315px;
+																									margin-bottom: 10px;
+																								}
+																							
+																								#mailfield {
+																									display: inline-block;
+																									padding: 6px;
+																									width: 78%;
+																									height: 190px;
+																									margin-top: 20px;
+																									text-align: left;
+																									margin-right: 80px;
+																								}
+																							
+																								#mailfield legend {
+																									font-size: 1.2em;
+																								}
+																							
+																								#mailfield label {
+																									display: inline-block;
+																									padding: 6px 8px;
+																									margin: 6px 0 10px;
+																									float: left;
+																								}
+																							
+																								#mailfield label[for="address"] {
+																									display: inline-block;
+																									margin-right: 20px;
+																								}
+																							
+																								#mailfield label[for="city"] {
+																									display: inline-block;
+																									float: left;
+																									margin-right: 20px;
+																								}
+																							
+																								input[id="address"],input[id="city"] {
+																									display: inline-block;
+																									float: right;
+																									width: 58%;
+																									height: 30px;
+																									margin-right: 110px;
+																									padding-right: 20px;
+																									margin-left: 10px;
+																									text-align: right;
+																								}
+																							
+																								input[id="city"] {
+																									margin-top: 6px;
+																								}
+																							
+																								input[id="address"] {
+																									margin-top: 5px;
+																								}
+																							
+																								#mailfield label[for="zip"],input[id="zip"] {
+																									display: inline-block;
+																								}
+																							
+																								#mailfield label[for="zip"] {
+																									margin-left: 35px;
+																								}
+																							
+																								input[id="zip"] {
+																									margin-top: 5px;
+																									width: 30%;
+																									height: 30px;
+																									text-align: right;
+																									padding-right: 20px;
+																									margin-right: 190px;
+																								}
+																							
+																								select[name="states"] {
+																									float: left;
+																									display: inline-block;
+																									padding: 4px 8px;
+																									margin-top: 10px;
+																									margin-left: 9px;
+																									margin-right: 30px;
+																									color: #fdf3e7;
+																									width: 15%;
+																									font-size: .875em;
+																								}
 
-    .main-head-info {
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
-        border-bottom: 4px solid #251652;
-    }
+      /* ****************************** cOnTaInEr TwO %%%%%%%%%%%%%%%%%%%%%%% */
 
-    .main-header p {
-        font-size: 1.2rem;
-        margin: 0 auto;
-        padding-bottom: 4px;
-        margin-bottom: 14px;
-        margin-top: 17px;
-    }
-
-    .main-head-info .sub-title {
-        font-size: 1.6rem;
-        padding: 2px;
-        margin-top: 50px;
-    }
-
-    /* container 1 styles */
-    .contains-1 {
-        width: 90%;
-        margin: 0 auto;
-        text-align: left;
-        padding-bottom: 30px;
-        border-top: 2px solid #251652;
-        margin-top: 4px;
-    }
-
-    /* cOnTaCt InFo */
-    #con-info {
-        display: inline-block;
-        margin-top: 50px;
-        margin-right: 700px;
-        padding: 6px 8px;
-    }
-
-    /* &&&&&&&&&&&&&&&&&&&&&&&& */
-    /* input text styles */
-    .lab {
-        float: left;
-        padding: 6px 8px;
-        margin: 5px 0;
-        display: inline-block;
-        line-height: 1em;
-        font-size: 1.11rem;
-    }
-
-    label[for="fullname"],label[for="email"],label[for="phone"] {
-        display: inline-block;
-        float: left;
-        margin-right: 20px;
-    }
-
-    input[id="fullname"],input[id="email"],input[id="phone"] {
-        float: right;
-        display: inline-block;
-        text-align: right;
-        width: 45%;
-        height: 30px;
-        padding-right: 20px;
-        margin-right: 315px;
-        margin-bottom: 10px;
-    }
-
-    #mailfield {
-        display: inline-block;
-        padding: 6px;
-        width: 78%;
-        height: 190px;
-        margin-top: 20px;
-        text-align: left;
-        margin-right: 80px;
-    }
-
-    #mailfield legend {
-        font-size: 1.2em;
-    }
-
-    #mailfield label {
-        display: inline-block;
-        padding: 6px 8px;
-        margin: 6px 0 10px;
-        float: left;
-    }
-
-    #mailfield label[for="address"] {
-        display: inline-block;
-        margin-right: 20px;
-    }
-
-    #mailfield label[for="city"] {
-        display: inline-block;
-        float: left;
-        margin-right: 20px;
-    }
-
-    input[id="address"],input[id="city"] {
-        display: inline-block;
-        float: right;
-        width: 58%;
-        height: 30px;
-        margin-right: 110px;
-        padding-right: 20px;
-        margin-left: 10px;
-        text-align: right;
-    }
-
-    input[id="city"] {
-        margin-top: 6px;
-    }
-
-    input[id="address"] {
-        margin-top: 5px;
-    }
-
-    #mailfield label[for="zip"],input[id="zip"] {
-        display: inline-block;
-    }
-
-    #mailfield label[for="zip"] {
-        margin-left: 35px;
-    }
-
-    input[id="zip"] {
-        margin-top: 5px;
-        width: 30%;
-        height: 30px;
-        text-align: right;
-        padding-right: 20px;
-        margin-right: 190px;
-    }
-
-    select[name="states"] {
-        float: left;
-        display: inline-block;
-        padding: 4px 8px;
-        margin-top: 10px;
-        margin-left: 9px;
-        margin-right: 30px;
-        color: #fdf3e7;
-        width: 15%;
-        font-size: .875em;
-    }
-
-    .contains-2 {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    #sub-2 {
-        margin-right: 800px;
-        margin-bottom: -70px;
-        margin-top: -3px;
-        padding: 8px;
-    }
-
-    #field-2 legend {
-        font-size: 1rem;
-    }
-
-    #field-2 {
-        display: block;
-        text-align: left;
-        margin-left: 50px;
-        width: 70%;
-        height: 230px;
-        margin-top: 80px;
-        margin-bottom: 10px;
-        padding-top: 14px;
-    }
+																  .contains-2 {
+																	  margin-top: 10px;
+																	  margin-bottom: 10px;
+																	  width: 90%;
+																	  margin: 0 auto;
+																  }
+															  
+																  #sub-2 {
+																	  margin-right: 800px;
+																	  margin-bottom: -70px;
+																	  margin-top: -3px;
+																	  padding: 8px;
+																  }
+															  
+																  #field-2 legend {
+																	  font-size: 1rem;
+																  }
+															  
+																  #field-2 {
+																	  display: block;
+																	  text-align: left;
+																	  margin-left: 50px;
+																	  width: 70%;
+																	  height: 230px;
+																	  margin-top: 80px;
+																	  margin-bottom: 10px;
+																	  padding-top: 14px;
+																  }
+	
+	/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+	
+	
 	
 	
 	/* &&&&&&&&&&&&&&&&&&&& cHeCkBoX sTyLeS 1028 $$$$$$$$$$$$$$$$$$$$ */
 
-    #field-2 input[name="html"] {
-        margin-top: 6px;
-		margin-bottom: 6px;
-    }
-
-    #field-2 input[name="css"] {
-        margin-top: 6px;
-        margin-bottom: 6px;
-    }
-
-    #field-2 input[name="js"] {
-        margin-top: 6px;
-		margin-bottom: 6px;
-    }
-
-    .ch ~ input[type="checkbox"] {
-        margin-left: 5px;
-        margin-bottom: 2px;
-        margin-top: 2px;
-		width: 18px;
-		height: 18px;
-    }
-	
-	
+									#field-2 input[name="html"] {
+										margin-top: 6px;
+										margin-bottom: 6px;
+									}
+								
+									#field-2 input[name="css"] {
+										margin-top: 6px;
+										margin-bottom: 6px;
+									}
+								
+									#field-2 input[name="js"] {
+										margin-top: 6px;
+										margin-bottom: 6px;
+									}
+								
+									.ch ~ input[type="checkbox"] {
+										margin-left: 5px;
+										margin-bottom: 2px;
+										margin-top: 2px;
+										width: 18px;
+										height: 18px;
+									}
+									
+									
 	
 	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
 
 
-
-    .check-ops {
-        font-size: 1rem;
-        width: 18%;
-        padding: 8px 0;
-        margin-left: 40px;
-        margin-bottom: 15px;
-    }
-
-    #buttons {
-        width: 50%;
-        text-align: left;
-    }
-
-    #buttons label {
-        display: inline-block;
-        margin: 4px 8px;
-        margin-left: 60px;
-    }
-
-    #buttons input[type="radio"] {
-        display: block;
-        margin-bottom: 16px;
-        margin-left: 60px;
-    }
-
-    #buttons input[id="plainrad"] {
-        margin-bottom: 16px;
-    }
+																			
+																				.check-ops {
+																					font-size: 1rem;
+																					width: 18%;
+																					padding: 8px 0;
+																					margin-left: 40px;
+																					margin-bottom: 15px;
+																				}
+																			
+																				#buttons {
+																					width: 50%;
+																					text-align: left;
+																				}
+																			
+																				#buttons label {
+																					display: inline-block;
+																					margin: 4px 8px;
+																					margin-left: 60px;
+																				}
+																			
+																				#buttons input[type="radio"] {
+																					display: block;
+																					margin-bottom: 16px;
+																					margin-left: 60px;
+																				}
+																			
+																				#buttons input[id="plainrad"] {
+																					margin-bottom: 16px;
+																				}
 
     /* $$$$$$$$$$$$$$$$$ cOdE sNiPpEtT $$$$$$$$$$$$$$$$$$$$$$$$ */
-    #codeSnip {
-        visibility: visible;
-        text-align: left;
-        margin-left: 50px;
-        width: 70%;
-    }
+	
+	
 
-    label[for="code"],#codep {
-        visibility: visible;
-        display: inline-block;
-    }
-
-    label[for="code"] {
-        float: left;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-
-    #codep {
-        float: right;
-        font-size: 1rem;
-        padding: 6px;
-        color: #484354;
-        margin-right: 320px;
-        padding-left: 10px;
-    }
-
-    #code {
-        visibility: visible;
-        display: block;
-        width: 65%;
-        letter-spacing: .04em;
-        font-size: .9rem;
-        padding: 5px;
-        height: 200px;
-    }
-
-    #code:hover {
-        background-color: #ffe9eb;
-        border: 1px solid #251652;
-    }
-
-    #cancel,#enter {
-        visibility: visible;
-        display: inline-block;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 5px;
-        background-color: #729b82;
-        border: none;
-        border: 1px solid #729b82;
-        border-radius: 5px;
-        padding: 2px 15px;
-        color: #fff;
-        letter-spacing: .01em;
-        font-size: .875rem;
-        color: #fdf3e7;
-    }
-
-    #cancel:hover {
-        background-color: #578e8c;
-    }
-
-    #enter:hover {
-        background-color: #578e8c;
-    }
-
-    #cancel:active {
-        background-color: #251652;
-        color: #ffd9b3;
-    }
-
-    #enter:active {
-        background-color: #251652;
-        color: #ffd9b3;
-    }
-
-    #cancel {
-        margin-left: 135px;
-    }
-
-    #enter {
-        margin-left: 40px;
-        width: 70px;
-    }
+													
+														
+														#codeSnip {
+															visibility: visible;
+															text-align: left;
+															margin-left: 50px;
+															width: 70%;
+														}
+													
+														label[for="code"],#codep {
+															visibility: visible;
+															display: inline-block;
+														}
+													
+														label[for="code"] {
+															float: left;
+															margin-left: 10px;
+															margin-top: 20px;
+															color: #484354;
+                                                             letter-spacing: .04em;
+                                                             font-weight: bold;
+														}
+													
+														#codep {
+															float: right;
+															font-size: 1rem;
+															padding: 6px;
+															color: #484354;
+															margin-right: 324px;
+															padding-left: 10px;
+														}
+													
+														#code {
+															visibility: visible;
+															display: block;
+															width: 65%;
+															letter-spacing: .04em;
+															font-size: .9rem;
+															padding: 5px;
+															height: 200px;
+															  border: 1px solid #578e8c;
+                                                           background-color: #fff7ff;
+                                                             border-radius: 5px;
+														}
+													
+														#code:hover {
+															background-color: #ffe9eb;
+															border: 1px solid #251652;
+														}
+													
+														#cancel,#enter {
+															visibility: visible;
+															display: inline-block;
+															margin-top: 20px;
+															margin-bottom: 20px;
+															padding: 5px;
+															background-color: #729b82;
+															border: none;
+															border: 1px solid #729b82;
+															border-radius: 5px;
+															padding: 2px 15px;
+															color: #fff;
+															letter-spacing: .01em;
+															font-size: .875rem;
+															color: #fdf3e7;
+														}
+													
+														#cancel:hover {
+															background-color: #578e8c;
+														}
+													
+														#enter:hover {
+															background-color: #578e8c;
+														}
+													
+														#cancel:active {
+															background-color: #251652;
+															color: #ffd9b3;
+														}
+													
+														#enter:active {
+															background-color: #251652;
+															color: #ffd9b3;
+														}
+													
+														#cancel {
+															margin-left: 135px;
+														}
+													
+														#enter {
+															margin-left: 40px;
+															width: 70px;
+														}
 
     /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .main-footer {
-        margin: 0 auto;
-        width: 90%;
-        margin-top: 8px;
-        text-align: left;
-    }
+	
+	
+	
+	/* &&&&&&&&&&&&&&&&&&&&&&& mAiN fOtTeR sTyLeS %%%%%%%%%%%%%%%%%%%%  */
+	
+														  
+														  
+																																	  
+																																	  .main-footer {
+																																		  margin: 0 auto;
+																																		  width: 90%;
+																																		  margin-top: 8px;
+																																		  text-align: left;
+																																	  }
+																										
+																									  
+																										.main-footer p {
+																											display: block;
+																											padding: 6px 8px;
+																											margin-top: 10px;
+																											margin-left: 4px;
+																											font-size: 1rem;
+																											float: left;
+																										}
+													  
+														  #user-con {
+															  margin-right: 205px;
+															  width: 78%;
+															  font-size: 1rem;
+															  line-height: 2em;
+														  }
+													  
+													  
+						input[type="submit"] {
+							margin-left: -4px;
+							width: 78%;
+							color: #fdf3e7;
+						}
 
-    .main-footer p {
-        display: block;
-        padding: 6px 8px;
-        margin-top: 10px;
-        margin-left: 4px;
-        font-size: 1rem;
-        float: left;
-    }
-
-    #user-con {
-        margin-right: 205px;
-        width: 78%;
-        font-size: 1rem;
-        line-height: 2em;
-    }
-
-    input[type="submit"] {
-        margin-left: -4px;
-        width: 78%;
-        color: #fdf3e7;
-    }
 
     .copyright {
         text-align: center;
     }
+	
+	 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+	
 }
+
 
 .clearfix::after {
     content: "";
