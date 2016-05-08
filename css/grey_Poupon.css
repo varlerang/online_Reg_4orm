@@ -1,1016 +1,836 @@
-
-/* CSS Document */
-/* general styles */
-* {
-    box-sizing: border-box;
-}
-
-#wrap {
-margin: 0 auto;
-width: 90%;
-background-color: #f7f2ff;
-}
-
-body {
-font-family: Helvetica,Arial,Geneva,Serif;
-}
-
-.main-header {
-text-align: center;
-}
-
-.contains-1 {
-border-top: 3px solid #251652;
-margin-top: 3px;
-}
-
-.title {
-    margin: 0;
-    background-color: #251652;
-    color: #ffd9b3;
-    padding: 30px 0;
-}
-
-.main-header p {
-	
-    color: #484354;
-}
-
-.sub-title {
-    color: #484354;
-    letter-spacing: .02em;
-}
-
-
-
-.lab {
-    color: #484354;
-}
-
-
-/* fieldset ********************************** */
-
-fieldset {
-    border: 1px solid #578e8c;
-    border-radius: 5px;
-    margin: 30px 0;
-    padding: 8px;
-    width: 90%;
-  
-}
-
-#mailfield {
-    margin-top: 25px;
-    border: 1px solid #578e8c;
-    padding: 4px;
-}
-
-
-/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
-
-
-
-
-
-
-input[type="text"] {
-    display: block;
-    font-size: .875rem;
-    letter-spacing: .1em;
-    color: #484354;
-    border-radius: 6px;
-    border: 1px solid #578e8c;
-	height: 40px;
-	width: 90%;
-}
-
-/* ^^^^^^^^^^^^^^^^^ sElEcT bUtToN &&&&&&&&&&&&&&&&&& */
-select[name="states"] {
-	
-    	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-    display: inline-block;
-    border: 1px solid #729b82;
-    color: #484354;
-	letter-spacing: .01em;
-    font-size: .875rem;
-	height: 40px;
-	width: 100%;
-	background-color: #fff7ff;
-	 background-image:  url( "../img/dwn-arrow.svg");
-	background-repeat: no-repeat;
-	 display: inline-block;
-	 background-position: center, right;
-	
-}
-
-   
-
-	
-	  #selButton {
-		overflow: hidden;
-		width:286px;
-		margin-left: 16px;
-	
-		
-	  }
-	  
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-
-
-.contains-1 input {
-    text-align: right;
-    background-color: #fff7ff;
-}
-
-
-.contains-1 input:hover {
-    background-color: #8dd6cd;
-}
-
-.contains-1 input:focus {
-    background-color: #8dd6cd;
-}
-
-
-
-
-/* checkbox general styles */
-
-.ch {
-    display: block;
-    color: #484354;
-}
-
-
-
-  
-
-input[type^="checkbox"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-	  }
-
-
-
-input[type^="checkbox"]:before {
-    display: inline-block;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    border: 1px solid #8dd6cd;
-	border-radius: 5px;
-    background-color: #ffd9b3;
-    content: "";
-    font-size: 12px;
-    text-align: center;
-    border-radius: 5px;
-    width: 15px;
-    height: 15px;
-}
-
-input[type^="checkbox"]:hover:before {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    border: 1px solid #8dd6cd;
-    background-color: #8dd6cd;
-    border-radius: 5px;
-    width: 15px;
-    height: 15px;
-}
-
-input[type^="checkbox"]:checked:before {
-    display: block;
-    background-color: #251652;
-    border: 1px solid #251652;
-    content: "\2713";
-    text-align: center;
-    color: #ffd9b3;
-    border-radius: 5px;
-    width: 18px;
-    height: 18px;
-}
-
-/*                   */
-
-
-
-
-input[type="radio"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-}
-
-input[type="radio"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: #ffd9b3;
-    border: 1px solid #8dd6cd;
-    border-radius: 20px;
-    content: " ";
-    width: 17px;
-    height: 17px;
-    padding: 4px;
-}
-
-input[type="radio"]:hover {
-    background-color: #8dd6cd;
-    color: #8dd6cd;
-}
-
-input[type="radio"]:checked {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: #ffd9b3;
-    border: 4px solid #251652;
-    border-radius: 20px;
-    width: 17px;
-    height: 17px;
-    content: ". ";
-}
-
-select,input[type="radio"],input[type="checkbox"] {
-    cursor: pointer;
-}
-
-#field-2 {
-    height: 165px;
-}
-
-legend {
-    background-color: inherit;
-    color: #484354;
-    border-radius: 5px;
-    padding: 2px 6px;
-    letter-spacing: .1em;
-    font-size: .875rem;
-}
-
-.check-ops {
-    color: #484354;
-    letter-spacing: .04em;
-}
-
-.main-footer p {
-    color: #484354;
-}
-
-#user-con {
-    display: none;
-    width: 60%;
-}
-
-#user-con {
-    display: block;
-    margin: 0 auto;
-    border: none;
-    border: 1px solid #578e8c;
-    background-color: #fff7ff;
-    color: #484354;
-    letter-spacing: .04em;
-    font-size: .8rem;
-    padding: 6px;
-}
-
-#user-con:hover {
-    background-color: #ffe9eb;
-    border: 1px solid #251652;
-}
-
-#user-con:focus {
-    background-color: #ffe9eb;
-    border: 1px solid #251652;
-}
-
-input[value^="Sig"] {
-    display: block;
-    background-color: #729b82;
-    border: 1px solid #729b82;
-    width: 60%;
-    height: 70px;
-    border-radius: 10px;
-    font-size: 1.375rem;
-    color: #fff;
-    letter-spacing: .04em;
-}
-
-input[value^="Sign"]:hover {
-    display: block;
-    background-color: #578e8c;
-    border: 1px solid #578e8c;
-}
-
-input[value^="Sign"]:active {
-    background-color: #251652;
-    color: #ffd9b3;
-}
-
-.copyright {
-    color: #484354;
-    padding: 2px;
-    margin-top: 50px;
-}
-
-.copyright:first-letter {
-    font-size: 16px;
-    margin-right: 2px;
-    vertical-align: middle;
-}
-
-@media (min-width: 320px ) {
-				  #wrap {
-					  border: 1px solid #4682b4;
-					  width: 90%;
-					  min-width: 320px;
-				  }
-
-									.main-header {
-										border-bottom: 1px solid #251652;
-										padding-bottom: 20px;
-									}
-								
-									.main-head_info .sub-title {
-										margin-top: 40px;
-									}
-								
-									.main-header p {
-										display: block;
-										font-size: 1rem;
-										width: 80%;
-										margin: 0 auto;
-									}
-
-
-     
-																					
-													/* inside contains-1 */
-																										
+				/* CSS Document */
+				/* general styles */
+				* {
+					box-sizing: border-box;
+				}
+				#wrap {
+					margin: 0 auto;
+					width: 90%;
+					background-color: #f7f2ff;
+				}
+				body {
+					font-family: Helvetica, Arial, Geneva, Serif;
+				}
+				.main-header {
+					text-align: center;
+				}
+				.contains-1 {
+					border-top: 3px solid #251652;
+					margin-top: 3px;
+				}
+				.title {
+					margin: 0;
+					background-color: #251652;
+					color: #ffd9b3;
+					padding: 30px 0;
+				}
+				.main-header p {
+					color: #484354;
+				}
+				.sub-title {
+					color: #484354;
+					letter-spacing: .02em;
+				}
+				.lab {
+					color: #484354;
+				}
+				/* fieldset ********************************** */
+				
+				fieldset {
+					border: 1px solid #578e8c;
+					border-radius: 5px;
+					margin: 30px 0;
+					padding: 8px;
+					width: 90%;
+				}
+				#mailfield {
+					margin-top: 25px;
+					border: 1px solid #578e8c;
+					padding: 4px;
+				}
+				/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+				
+				
+				
+				
+				
+				
+				input[type="text"] {
+					display: block;
+				 font-size: .875rem;
+					letter-spacing: .1em;
+					color: #484354;
+					border-radius: 6px;
+					border: 1px solid #578e8c;
+					height: 40px;
+					width: 90%;
+				}
+				/* ^^^^^^^^^^^^^^^^^ sElEcT bUtToN &&&&&&&&&&&&&&&&&& */
+				select[name="states"] {
+					-webkit-appearance: none;
+					-moz-appearance: none;
+					appearance: none;
+					display: inline-block;
+					border: 1px solid #729b82;
+					color: #484354;
+					letter-spacing: .01em;
+				 font-size: .875rem;
+					height: 40px;
+					width: 100%;
+					background-color: #fff7ff;
+					background-image:  url( "../img/dwn-arrow.svg");
+					background-repeat: no-repeat;
+					background-position: center, right;
+				}
+				#selButton {
+					display: inline-block;
+					overflow: hidden;
+					width:286px;
+					margin-left: 16px;
+				}
+				/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+				
+				
+				.contains-1 input {
+					text-align: right;
+					background-color: #fff7ff;
+				}
+				.contains-1 input:hover {
+					background-color: #8dd6cd;
+				}
+				.contains-1 input:focus {
+					background-color: #8dd6cd;
+				}
+				/* checkbox general styles */
+				
+				.ch {
+					display: block;
+					color: #484354;
+				}
+				 input[type^="checkbox"] {
+				 -webkit-appearance: none;
+				 -moz-appearance: none;
+				}
+				 input[type^="checkbox"]:before {
+				 display: inline-block;
+				 -webkit-appearance: none;
+				 -moz-appearance: none;
+				 border: 1px solid #8dd6cd;
+				 border-radius: 5px;
+				 background-color: #ffd9b3;
+				 content: "";
+				 font-size: 12px;
+				 text-align: center;
+				 border-radius: 5px;
+				 width: 15px;
+				 height: 15px;
+				}
+				 input[type^="checkbox"]:hover:before {
+				 -webkit-appearance: none;
+				 -moz-appearance: none;
+				 border: 1px solid #8dd6cd;
+				 background-color: #8dd6cd;
+				 border-radius: 5px;
+				 width: 15px;
+				 height: 15px;
+				}
+				 input[type^="checkbox"]:checked:before {
+				 display: block;
+				 background-color: #251652;
+				 border: 1px solid #251652;
+				 content: "\2713";
+				 text-align: center;
+				 color: #ffd9b3;
+				 border-radius: 5px;
+				 width: 18px;
+				 height: 18px;
+				}
+				/*                   */
+				
+				
+				
+				
+				input[type="radio"] {
+					-webkit-appearance: none;
+					-moz-appearance: none;
+				}
+				input[type="radio"] {
+					-webkit-appearance: none;
+					-moz-appearance: none;
+					background-color: #ffd9b3;
+					border: 1px solid #8dd6cd;
+					border-radius: 20px;
+					content: " ";
+					width: 17px;
+					height: 17px;
+					padding: 4px;
+				}
+				input[type="radio"]:hover {
+					background-color: #8dd6cd;
+					color: #8dd6cd;
+				}
+				input[type="radio"]:checked {
+					-webkit-appearance: none;
+					-moz-appearance: none;
+					background-color: #ffd9b3;
+					border: 4px solid #251652;
+					border-radius: 20px;
+					width: 17px;
+					height: 17px;
+					content: ". ";
+				}
+				select, input[type="radio"], input[type="checkbox"] {
+					cursor: pointer;
+				}
+				#field-2 {
+					height: 165px;
+				}
+				legend {
+					background-color: inherit;
+					color: #484354;
+					border-radius: 5px;
+					padding: 2px 6px;
+					letter-spacing: .1em;
+				 font-size: .875rem;
+				}
+				.check-ops {
+					color: #484354;
+					letter-spacing: .04em;
+				}
+				.main-footer p {
+					color: #484354;
+				}
+				#user-con {
+					display: none;
+					width: 60%;
+				}
+				#user-con {
+					display: block;
+					margin: 0 auto;
+					border: none;
+					border: 1px solid #578e8c;
+					background-color: #fff7ff;
+					color: #484354;
+					letter-spacing: .04em;
+				 font-size: .8rem;
+					padding: 6px;
+				}
+				#user-con:hover {
+					background-color: #ffe9eb;
+					border: 1px solid #251652;
+				}
+				#user-con:focus {
+					background-color: #ffe9eb;
+					border: 1px solid #251652;
+				}
+				 input[value^="Sig"] {
+				 display: block;
+				 background-color: #729b82;
+				 border: 1px solid #729b82;
+				 width: 60%;
+				 height: 70px;
+				 border-radius: 10px;
+				 font-size: 1.375rem;
+				 color: #fff;
+				 letter-spacing: .04em;
+				}
+				 input[value^="Sign"]:hover {
+				 display: block;
+				 background-color: #578e8c;
+				 border: 1px solid #578e8c;
+				}
+				 input[value^="Sign"]:active {
+				 background-color: #251652;
+				 color: #ffd9b3;
+				}
+				.copyright {
+					color: #484354;
+					padding: 2px;
+					margin-top: 50px;
+				}
+				.copyright:first-letter {
+					font-size: 16px;
+					margin-right: 2px;
+					vertical-align: middle;
+				}
+				 @media (min-width: 320px ) {
+				 #wrap {
+				 border: 1px solid #4682b4;
+				 width: 90%;
+				 min-width: 320px;
+				}
+				 .main-header {
+				 border-bottom: 1px solid #251652;
+				 padding-bottom: 20px;
+				}
+				 .main-head_info .sub-title {
+				 margin-top: 40px;
+				}
+				 .main-header p {
+				 display: block;
+				 font-size: 1rem;
+				 width: 80%;
+				 margin: 0 auto;
+				}
+				
+				
+					 
 																									
-													   .contains-1 {
-															border-top: 2px solid #251652;
-															border-bottom:  2px solid #251652;
-														    padding-bottom: 30px;
-														}
-														
-																
-															/* ^^^^^^^^^^^^^^^^^ */
+																	/* inside contains-1 */
+																														
+																													
+																	   .contains-1 {
+				 border-top: 2px solid #251652;
+				 border-bottom:  2px solid #251652;
+				 padding-bottom: 30px;
+				}
+																		
+																				
+																			/* ^^^^^^^^^^^^^^^^^ */
+																					
+																					
+				#con-info {
+				 margin-bottom: 25px;
+				 margin-top: 35px;
+				 margin-left: 12px;
+				}
+				 .lab {
+				 display: block;
+				 margin-top: 10px;
+				 margin-bottom: 10px;
+				 margin-left: 18px;
+				 padding: 2px;
+				}
+				 input[type="text"] {
+				 margin: 0 auto;
+				 padding-right: 22px;
+				}
+				 label[for="state"] {
+				 margin-top: 10px;
+				}
+				 select[name="states"] {
+				 display: block;
+				 margin: 0 auto;
+				 font-size: 1rem;
+				 padding-left: 12px;
+				}
+																							 
+																						
+																		
 																	
-																	
-																	    	#con-info {
-																				margin-bottom: 25px;
-																				margin-top: 35px;
-																				margin-left: 12px;
-																			}
-																		
-															
-																		
-																			.lab {
-																				display: block;
-																				margin-top: 10px;
-																				margin-bottom: 10px;
-																				margin-left: 18px;
-																				padding: 2px;
-																			}
-																			
-																			input[type="text"] {
-																			 margin: 0 auto;	
-																			 padding-right: 22px;
-																			}
-																		
-																             label[for="state"] {
-																				margin-top: 10px; 
-																				 
-																			 }
-																	
-																	         select[name="states"] {
-																			  display: block;
-																				  margin: 0 auto;
-																				  	font-size: 1rem;  
-																					padding-left: 12px;
-																			  }
-																		     
-																		
-														
-													
-
-																											
-						
-						
-							/*      sub_2 Newsletter    */
-							
-							
-							
-							#sub-2 {
-								font-size: 1em;
-								letter-spacing: .06em;
-								margin-top: 25px;
-								margin-left: 18px;
-							}
-							
-									
-							.field1 {
-								display: block;
-								margin-top: 8px;
-								height: 210px ;
-								margin-bottom: 60px;
-								margin: 0 auto;
-								
-							}
-							
-							.field1 p {
-							font-size: 0.875rem;
-							margin-top: 10px;
-							 color: #484354;
-							
-							}
-							
-						
-						
-							
-						
-							
-							
-							
-							
-							
-							
-						/* *************** cHeCkBoX 320 ***************** */
-	
-	                                 
-							
-								
-									  .ch,
-									 	input[type="checkbox"] {
-										display: inline-block;
-								        float: left;
-										margin-bottom: 20px;
-									}
-									
-									.ch {
-										float: right;
-										line-height: 1.3em;
-									   margin-right: 8px;
+				
+																															
 										
-								}
-									
-									label[for="html"],
-								    label[for="css"] ,
-									label[for="js"] {
-										display: inline-block;
-									  
-									    float: right;
-									}
-									
-								
-								
-									
-									label[for="html"] {
-										margin-right: 150px;
-							
-								    }
-									.ch,
-									label[for="css"] {
-										margin-right: 160px;
-								
-									}
-									ch,
-									label[for="js"] {
-									   margin-right: 120px;	
-									 
-									}
-									
-							
-							
-							
-				/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-				
-				
-					/*===========fieldset 2===============  */
-							
-							     .field2 {
-								   display: block;
-							
-								margin: 0 auto;
-								margin-bottom: 35px;
-								height: 110px;
-								
-								margin-top: 30px;
-							 }
-							
-							
-							/*===================================*/
-							
-							
-						
-							
-					
-					
-					/* ***************** rAdIo BuTtOnS ****************************** */		
 										
-				
-						      input[type="radio"] {
-								  display: inline-block;
-								  margin-bottom: 5px;
-								  margin-top: 8px;
-								 float: left;
-								
-							 }
-							 
-						 label[for="htmlrad"],
-							 label[for="plainrad"],
-						      input[type="radio"] {
-								  
-								  margin-bottom: 2px;
-								  
-							  }
-							
-					 label[for="htmlrad"],
-							 label[for="plainrad"] {
-								 
-							
-								
-								  float: right;
-								  line-height: 2.2em;
-								  float: right;
-								  
-							 }
-							
-							
-							 label[for="htmlrad"] {
-								margin-right: 192px; 
-							 }
-						
-	
-	
-
-   
-
-      						label[for="plainrad"] {
-								margin-right:  166px;
-							}
-	
-   
-
-   
-																							   /* Code Snippet is hidden */
-																							   
-																							   
-																								#codeSnip {
-																									visibility: hidden;
-																									display: none;
-																								}
-																								
-																								/* &&&&&&&&&&&&&&&& */
-																								
-	
-
-												/* main footer styles */
-												.main-footer {
-													text-align: center;
-												}
+											/*      sub_2 Newsletter    */
 											
-												.main-footer p {
-													margin-bottom: 28px;
-													font-size:  1rem;
-													letter-spacing: .04em;
-												}
-			  
-				  #user-con {
-					  border-radius: 5px;
-					  margin-bottom: 35px;
-					  margin-top: 10px;
-					  width: 90%;
-					  height: 120px;
-					  font-size: .875rem;
-					  line-height: 1.5em;
-				  }
-			  
-			  
-				  input[value^="Sig"] {
-					  margin: 0 auto;
-					  margin-top: 9px;
-					  color: rgb(253,243,231);
-					  width: 90%;
-				  }
-				  
-				  
-}
-
-
-
-@media( min-width: 1024px ) {
-	
-	
-							  #wrap {
-								  border: 1px solid #4682b4;
-								  width: 90%;
-								  max-width: 1024px;
-							  }
-
-																  .main-header {
-																	  margin: 0 auto;
-																	  width: 90%;
-																	  margin-bottom: 3px;
-																  }
-															  
-																  .title {
-																	  font-size: 1.5rem;
-																  }
-															  
-																  .main-head-info {
-																	  width: 100%;
-																	  margin: 0 auto;
-																	  text-align: center;
-																	  border-bottom: 4px solid #251652;
-																  }
-															  
-																  .main-header p {
-																	  font-size: 1.2rem;
-																	  margin: 0 auto;
-																	  padding-bottom: 4px;
-																	  margin-bottom: 14px;
-																	  margin-top: 17px;
-																  }
-															  
-																  .main-head-info .sub-title {
-																	  font-size: 1.6rem;
-																	  padding: 2px;
-																	  margin-top: 50px;
-																  }
-
-																								/* container 1 styles */
-																								.contains-1 {
-																									width: 90%;
-																									text-align: left;
-																									padding-bottom: 30px;
-																									border-top: 2px solid #251652;
-																									margin-top: 4px;
-																								}
-																							
-																								/* cOnTaCt InFo */
-																								#con-info {
-																									display: inline-block;
-																									margin-top: 50px;
-																									margin-right: 700px;
-																									padding: 6px 8px;
-																								}
-																							
-																								/* &&&&&&&&&&&&&&&&&&&&&&&& */
-																								/* input text styles */
-																								.lab {
-																									float: left;
-																									padding: 6px 8px;
-																									margin: 5px 0;
-																									display: inline-block;
-																									line-height: 1em;
-																									font-size: 1.11rem;
-																								}
-																							
-																								label[for="fullname"],label[for="email"],label[for="phone"] {
-																									display: inline-block;
-																									float: left;
-																									margin-right: 20px;
-																								}
-																							
-																								input[id="fullname"],input[id="email"],input[id="phone"] {
-																									float: right;
-																									display: inline-block;
-																									text-align: right;
-																									width: 45%;
-																									height: 30px;
-																									padding-right: 20px;
-																									margin-right: 315px;
-																									margin-bottom: 10px;
-																								}
-																							
-																								#mailfield {
-																									display: inline-block;
-																									padding: 6px;
-																									width: 78%;
-																									height: 190px;
-																									margin-top: 20px;
-																									text-align: left;
-																									margin-right: 80px;
-																								}
-																							
-																								#mailfield legend {
-																									font-size: 1.2em;
-																								}
-																							
-																								#mailfield label {
-																									display: inline-block;
-																									padding: 6px 8px;
-																									margin: 6px 0 10px;
-																									float: left;
-																								}
-																							
-																								#mailfield label[for="address"] {
-																									display: inline-block;
-																									margin-right: 20px;
-																								}
-																							
-																								#mailfield label[for="city"] {
-																									display: inline-block;
-																									float: left;
-																									margin-right: 20px;
-																								}
-																							
-																								input[id="address"],input[id="city"] {
-																									display: inline-block;
-																									float: right;
-																									width: 58%;
-																									height: 30px;
-																									margin-right: 110px;
-																									padding-right: 20px;
-																									margin-left: 10px;
-																									text-align: right;
-																								}
-																							
-																								input[id="city"] {
-																									margin-top: 6px;
-																								}
-																							
-																								input[id="address"] {
-																									margin-top: 5px;
-																								}
-																							
-																								#mailfield label[for="zip"],input[id="zip"] {
-																									display: inline-block;
-																								}
-																							
-																								#mailfield label[for="zip"] {
-																									margin-left: 35px;
-																								}
-																							
-																								input[id="zip"] {
-																									margin-top: 5px;
-																									width: 30%;
-																									height: 30px;
-																									text-align: right;
-																									padding-right: 20px;
-																									margin-right: 190px;
-																								}
-																							
-																								select[name="states"] {
-																									float: left;
-																									display: inline-block;
-																									padding: 4px 8px;
-																									margin-top: 10px;
-																									margin-left: 9px;
-																									margin-right: 30px;
-																									color: #fdf3e7;
-																									width: 15%;
-																									font-size: .875em;
-																								}
-
-      /* ****************************** cOnTaInEr TwO %%%%%%%%%%%%%%%%%%%%%%% */
-
-																  .contains-2 {
-																	  margin-top: 10px;
-																	  margin-bottom: 10px;
-																	  width: 90%;
-																	  margin: 0 auto;
-																  }
-															  
-																  #sub-2 {
-																	  margin-right: 800px;
-																	  margin-bottom: -70px;
-																	  margin-top: -3px;
-																	  padding: 8px;
-																  }
-															  
-																  #field-2 legend {
-																	  font-size: 1rem;
-																  }
-															  
-																  #field-2 {
-																	  display: block;
-																	  text-align: left;
-																	  margin-left: 50px;
-																	  width: 70%;
-																	  height: 230px;
-																	  margin-top: 80px;
-																	  margin-bottom: 10px;
-																	  padding-top: 14px;
-																  }
-	
-	/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
-	
-	
-	
-	
-	/* &&&&&&&&&&&&&&&&&&&& cHeCkBoX sTyLeS 1028 $$$$$$$$$$$$$$$$$$$$ */
-
-									#field-2 input[name="html"] {
-										margin-top: 6px;
-										margin-bottom: 6px;
-									}
-								
-									#field-2 input[name="css"] {
-										margin-top: 6px;
-										margin-bottom: 6px;
-									}
-								
-									#field-2 input[name="js"] {
-										margin-top: 6px;
-										margin-bottom: 6px;
-									}
-								
-									.ch ~ input[type="checkbox"] {
-										margin-left: 5px;
-										margin-bottom: 2px;
-										margin-top: 2px;
-										width: 18px;
-										height: 18px;
-									}
-									
-									
-	
-	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-
-
-
-
-																			
-																				.check-ops {
-																					font-size: 1rem;
-																					width: 18%;
-																					padding: 8px 0;
-																					margin-left: 40px;
-																					margin-bottom: 15px;
-																				}
-																			
-																				#buttons {
-																					width: 50%;
-																					text-align: left;
-																				}
-																			
-																				#buttons label {
-																					display: inline-block;
-																					margin: 4px 8px;
-																					margin-left: 60px;
-																				}
-																			
-																				#buttons input[type="radio"] {
-																					display: block;
-																					margin-bottom: 16px;
-																					margin-left: 60px;
-																				}
-																			
-																				#buttons input[id="plainrad"] {
-																					margin-bottom: 16px;
-																				}
-
-    /* $$$$$$$$$$$$$$$$$ cOdE sNiPpEtT $$$$$$$$$$$$$$$$$$$$$$$$ */
-	
-	
-
+											
+											
+					#sub-2 {
+				 font-size: 1em;
+				 letter-spacing: .06em;
+				 margin-top: 25px;
+				 margin-left: 18px;
+				}
+				 .field1 {
+				 display: block;
+				 margin-top: 8px;
+				 height: 210px;
+				 margin-bottom: 60px;
+				 margin: 0 auto;
+				}
+				 .field1 p {
+				 font-size: 0.875rem;
+				 margin-top: 10px;
+				 color: #484354;
+				}
+											
+										
+										
+											
+										
+											
+											
+											
+											
+											
+											
+										/* *************** cHeCkBoX 320 ***************** */
+					
+													 
+											
+												
+				 .ch,  input[type="checkbox"] {
+				 display: inline-block;
+				 float: left;
+				 margin-bottom: 20px;
+				}
+				 .ch {
+				 float: right;
+				 line-height: 1.3em;
+				 margin-right: 8px;
+				}
+				 label[for="html"],  label[for="css"],  label[for="js"] {
+				 display: inline-block;
+				 float: right;
+				}
+				 label[for="html"] {
+				 margin-right: 150px;
+				}
+				 .ch,  label[for="css"] {
+				 margin-right: 160px;
+				}
+				 ch,  label[for="js"] {
+				 margin-right: 120px;
+				}
 													
+											
+											
+											
+		/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+								
+								
+		/*===========fieldset 2===============  */
+											
+												 .field2 {
+				 display: block;
+				 margin: 0 auto;
+				 margin-bottom: 35px;
+				 height: 110px;
+				 margin-top: 30px;
+				}
+											
+									
+		/*===================================*/
+											
+											
+										
+											
+									
+									
+		/* ***************** rAdIo BuTtOnS ****************************** */		
 														
-														#codeSnip {
-															visibility: visible;
-															text-align: left;
-															margin-left: 50px;
-															width: 70%;
-														}
-													
-														label[for="code"],#codep {
-															visibility: visible;
-															display: inline-block;
-														}
-													
-														label[for="code"] {
-															float: left;
-															margin-left: 10px;
-															margin-top: 20px;
-															color: #484354;
-                                                             letter-spacing: .04em;
-                                                             font-weight: bold;
-														}
-													
-														#codep {
-															float: right;
-															font-size: 1rem;
-															padding: 6px;
-															color: #484354;
-															margin-right: 324px;
-															padding-left: 10px;
-														}
-													
-														#code {
-															visibility: visible;
-															display: block;
-															width: 65%;
-															letter-spacing: .04em;
-															font-size: .9rem;
-															padding: 5px;
-															height: 200px;
-															  border: 1px solid #578e8c;
-                                                           background-color: #fff7ff;
-                                                             border-radius: 5px;
-														}
-													
-														#code:hover {
-															background-color: #ffe9eb;
-															border: 1px solid #251652;
-														}
-													
-														#cancel,#enter {
-															visibility: visible;
-															display: inline-block;
-															margin-top: 20px;
-															margin-bottom: 20px;
-															padding: 5px;
-															background-color: #729b82;
-															border: none;
-															border: 1px solid #729b82;
-															border-radius: 5px;
-															padding: 2px 15px;
-															color: #fff;
-															letter-spacing: .01em;
-															font-size: .875rem;
-															color: #fdf3e7;
-														}
-													
-														#cancel:hover {
-															background-color: #578e8c;
-														}
-													
-														#enter:hover {
-															background-color: #578e8c;
-														}
-													
-														#cancel:active {
-															background-color: #251652;
-															color: #ffd9b3;
-														}
-													
-														#enter:active {
-															background-color: #251652;
-															color: #ffd9b3;
-														}
-													
-														#cancel {
-															margin-left: 135px;
-														}
-													
-														#enter {
-															margin-left: 40px;
-															width: 70px;
-														}
+								
+											  input[type="radio"] {
+				 display: inline-block;
+				 margin-bottom: 5px;
+				 margin-top: 8px;
+				 float: left;
+				}
+				 label[for="htmlrad"],  label[for="plainrad"],  input[type="radio"] {
+				 margin-bottom: 2px;
+				}
+				 label[for="htmlrad"],  label[for="plainrad"] {
+				 float: right;
+				 line-height: 2.2em;
+				 float: right;
+				}
+				 label[for="htmlrad"] {
+				 margin-right: 192px;
+				}
+				 label[for="plainrad"] {
+				 margin-right:  166px;
+				}
+					
+				   
+				
+				   
+		   /* Code Snippet is hidden */
+																											   
+																											   
+			#codeSnip {
+				 visibility: hidden;
+				 display:hidden;
+				}
+																												
+			/* &&&&&&&&&&&&&&&& */
+																												
+					
+			
+			
+			/* main footer styles */
+			
+			
+				.main-footer {
+				 text-align: center;
+				}
+				 .main-footer p {
+				 margin-bottom: 28px;
+				 font-size:  1rem;
+				 letter-spacing: .04em;
+				}
+				 #user-con {
+				 border-radius: 5px;
+				 margin-bottom: 35px;
+				 margin-top: 10px;
+				 width: 90%;
+				 height: 120px;
+				 font-size: .875rem;
+				 line-height: 1.5em;
+				}
+				 input[value^="Sig"] {
+				 margin: 0 auto;
+				 margin-top: 9px;
+				 color: rgb(253,243,231);
+				 width: 90%;
+				}
+				
+				
+				
+				
+				}
+				
+				
+				
+				 @media( min-width: 760px ) {
+					 
+					 
+					 
+					 
+				 #wrap {
+				 border: 1px solid #4682b4;
+				 width: 90%;
+				 max-width: 760px;
+				}
+				 .main-header {
+				 margin: 0 auto;
+				 width: 100%;
+				 margin-bottom: 3px;
+				}
+				 .title {
+				 font-size: 1.5rem;
+				}
+				 .main-head-info {
+				 width: 100%;
+				 margin: 0 auto;
+				 text-align: center;
+				}
+				 .main-header p {
+				 font-size: 1.2rem;
+				 margin: 0 auto;
+				 padding-bottom: 4px;
+				 margin-bottom: 14px;
+				 margin-top: 17px;
+				}
+				 .main-head-info .sub-title {
+				 font-size: 1.6rem;
+				 padding: 2px;
+				}
+				
+																												
+				/* container 1 styles */
+				
+				
+				.contains-1 {
+				 width: 100%;
+				 margin-top: 4px;
+				
+				}
+																											
+				/* cOnTaCt InFo */
+				
+				
+				#con-info {
+				 display: block;
+				}
+																											
+			/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+			
+			
+			
+			
+			/* input text styles */
+				
+																												
+			
+				
+				
+				 input[type="text"] {
+					 
+				 width: 75%;
+				 float: right;
+				 
+				}
+				
+				label[for="state"],
+				input[type="states"],
+				#selButton {
+				 display: inline-block;
+				 
+				}
+				
+				label[for="state"] {
+					float: left;
+					margin-left: 10px;
+				
+				}
+		       
+			    input[type="states"],
+				#selButton {
+					width: 55%;
+					float: right;
+					
+				}
+				
+				.lab {
+					display: inline-block;
+				margin-left: 10px;
+				float: left;	
+		        
+			
+				}
+				
+		     label[for="zip"] {
+				margin-left: 10px; 
+			 }
+			
+				
+				
+		
 
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-	
-	
-	
-	/* &&&&&&&&&&&&&&&&&&&&&&& mAiN fOtTeR sTyLeS %%%%%%%%%%%%%%%%%%%%  */
-	
-														  
-														  
-																																	  
-																																	  .main-footer {
-																																		  margin: 0 auto;
-																																		  width: 90%;
-																																		  margin-top: 8px;
-																																		  text-align: left;
-																																	  }
-																										
-																									  
-																										.main-footer p {
-																											display: block;
-																											padding: 6px 8px;
-																											margin-top: 10px;
-																											margin-left: 4px;
-																											font-size: 1rem;
-																											float: left;
-																										}
-													  
-														  #user-con {
-															  margin-right: 205px;
-															  width: 78%;
-															  font-size: 1rem;
-															  line-height: 2em;
-														  }
-													  
-													  
-						input[type="submit"] {
-							margin-left:  -1px;
-							width: 78%;
-							color: #fdf3e7;
-						}
-
-
-    .copyright {
-        text-align: center;
-    }
-	
-	 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
-	
-}
-
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+				
+			
+		          
+		
+			
+					
+																								
+																									
+																												
+																														
+																															
+																														
+																													
+																											
+																							
+				
+					  /* ****************************** cOnTaInEr TwO %%%%%%%%%%%%%%%%%%%%%%% */
+				
+				 .contains-2 {
+				 width: 100%;
+				 
+				}
+				 #sub-2 {
+				 padding: 8px;
+				}
+				 #field-2 legend {
+				 font-size: 1rem;
+				}
+				 #field-2 {
+				 display: block;
+				 text-align: left;
+				 width: 70%;
+				 height: 230px;
+				 margin-top: 80px;
+				 margin-bottom: 10px;
+				 padding-top: 14px;
+				}
+					
+					/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+					
+					
+					
+					
+					/* &&&&&&&&&&&&&&&&&&&& cHeCkBoX sTyLeS 1028 $$$$$$$$$$$$$$$$$$$$ */
+				
+				#field-2 input[name="html"] {
+				 margin-top: 6px;
+				 margin-bottom: 6px;
+				}
+				 #field-2 input[name="css"] {
+				 margin-top: 6px;
+				 margin-bottom: 6px;
+				}
+				 #field-2 input[name="js"] {
+				 margin-top: 6px;
+				 margin-bottom: 6px;
+				}
+				 .ch ~ input[type="checkbox"] {
+				 margin-left: 5px;
+				 margin-bottom: 2px;
+				 margin-top: 2px;
+				 width: 18px;
+				 height: 18px;
+				}
+				 label[for="html"] {
+				 margin-right: 480px;
+				 font-size: 0.875rem;
+				}
+				 label[for="css"] {
+				 margin-right: 490px;
+				 font-size: 0.875rem;
+				}
+				 label[for="js"] {
+				 margin-right: 455px;
+				 font-size: 0.875rem;
+				}
+													
+													
+													
+					
+					/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+				
+				
+				
+									 
+																							
+			             #sub-2 {
+				 font-size: 1rem;
+				 width: 18%;
+				 padding: 8px 0;
+				 margin-left: 40px;
+				 margin-bottom: 15px;
+				}
+				 label[for="htmlrad"] {
+				 font-size: 0.875rem;
+				 margin-right: 522px;
+				 margin-bottom: 8px;
+				}
+				 label[for="plainrad"] {
+				 font-size: 0.875rem;
+				 margin-right: 500px;
+				}
+				 input[type="radio"] {
+				 display: inline-block;
+				 margin-right: 5px;
+				}
+				 .rad1,  .rad2 {
+				 margin-left: 5px;
+				}
+																								
+																								
+																							
+																								
+				
+					/* $$$$$$$$$$$$$$$$$ cOdE sNiPpEtT $$$$$$$$$$$$$$$$$$$$$$$$ */
+					
+					
+				
+																	
+																		
+																		#codeSnip {
+				 visibility: visibile;
+				 display: visible;
+				 text-align: left;
+				 width: 100%;
+				 margin-left: 40px;
+				}
+				 label[for="code"], #codep {
+				 visibility: visible;
+				 display: inline-block;
+				}
+				 label[for="code"] {
+				 float: left;
+				 margin-left: 10px;
+				 margin-top: 20px;
+				 color: #484354;
+				 letter-spacing: .04em;
+				 font-weight: bold;
+				}
+				 #codep {
+				 float: left;
+				 font-size: 0.875rem;
+				 padding: 4px;
+				 color: #484354;
+				 margin-right: 324px;
+				 padding-left: 10px;
+				}
+				 #code {
+				 visibility: visible;
+				 display: block;
+				 width: 65%;
+				 letter-spacing: .04em;
+				 font-size: .9rem;
+				 padding: 5px;
+				 height: 200px;
+				 border: 1px solid #578e8c;
+				 background-color: #fff7ff;
+				 border-radius: 5px;
+				}
+				 #code:hover {
+				 background-color: #ffe9eb;
+				 border: 1px solid #251652;
+				}
+				 #cancel, #enter {
+				 visibility: visible;
+				 display: inline-block;
+				 margin-top: 20px;
+				 margin-bottom: 20px;
+				 padding: 5px;
+				 background-color: #729b82;
+				 border: none;
+				 border: 1px solid #729b82;
+				 border-radius: 5px;
+				 padding: 2px 15px;
+				 color: #fff;
+				 letter-spacing: .01em;
+				 font-size: .875rem;
+				 color: #fdf3e7;
+				}
+				 #cancel:hover {
+				 background-color: #578e8c;
+				}
+				 #enter:hover {
+				 background-color: #578e8c;
+				}
+				 #cancel:active {
+				 background-color: #251652;
+				 color: #ffd9b3;
+				}
+				 #enter:active {
+				 background-color: #251652;
+				 color: #ffd9b3;
+				}
+				 #cancel {
+				 margin-left: 135px;
+				}
+				 #enter {
+				 margin-left: 40px;
+				 width: 70px;
+				}
+				
+					/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+					
+					
+					
+					/* &&&&&&&&&&&&&&&&&&&&&&& mAiN fOtTeR sTyLeS %%%%%%%%%%%%%%%%%%%%  */
+					
+																		  
+																		  
+																																					  
+				  .main-footer {
+				 margin: 0 auto;
+				 width: 90%;
+				 margin-top: 8px;
+				 text-align: left;
+				}
+				 .main-footer p {
+				 display: block;
+				 padding: 6px 8px;
+				 margin-top: 10px;
+				 margin-left: 4px;
+				 font-size: 0.875rem;
+				 float: left;
+				}
+				 #user-con {
+				 margin-right: 205px;
+				 width: 78%;
+				 font-size: 1rem;
+				 line-height: 2em;
+				}
+				 input[type="submit"] {
+				 margin-left:  -1px;
+				 width: 78%;
+				 color: #fdf3e7;
+				}
+				 .copyright {
+				 text-align: center;
+				}
+				/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+					
+				}
+				 .clearfix::after {
+				 content: "";
+				 display: table;
+				 clear: both;
+				}
