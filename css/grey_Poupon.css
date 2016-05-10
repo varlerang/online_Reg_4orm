@@ -15,7 +15,6 @@
 					text-align: center;
 				}
 				.contains-1 {
-					border-top: 3px solid #251652;
 					margin-top: 3px;
 				}
 				.title {
@@ -43,11 +42,8 @@
 					padding: 8px;
 					width: 90%;
 				}
-				#mailfield {
-					margin-top: 25px;
-					border: 1px solid #578e8c;
-					padding: 4px;
-				}
+				
+				
 				/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 				
 				
@@ -253,6 +249,11 @@
 					margin-right: 2px;
 					vertical-align: middle;
 				}
+				
+				
+				
+				
+				
 				 @media (min-width: 320px ) {
 				 #wrap {
 				 border: 1px solid #4682b4;
@@ -281,7 +282,6 @@
 																													
 																	   .contains-1 {
 				 border-top: 2px solid #251652;
-				 border-bottom:  2px solid #251652;
 				 padding-bottom: 30px;
 				}
 																		
@@ -506,7 +506,7 @@
 				 text-align: center;
 				}
 				 .main-header p {
-				 font-size: 1.2rem;
+				 font-size: 1.1rem;
 				 margin: 0 auto;
 				 padding-bottom: 4px;
 				 margin-bottom: 14px;
@@ -524,6 +524,7 @@
 				.contains-1 {
 				 width: 100%;
 				 margin-top: 4px;
+			     padding-bottom: 20px;
 				
 				}
 																											
@@ -532,6 +533,9 @@
 				
 				#con-info {
 				 display: block;
+				 margin-left: 40px;
+				 font-size: 1rem;
+				 
 				}
 																											
 			/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
@@ -541,66 +545,37 @@
 			
 			/* input text styles */
 				
-																												
-			
+		   #box1 {
+		  display: flex;
+		  flex-wrap: wrap;
+		  padding: 4px 20px 4px  20px;
+		  width: 100%;
+		  margin: 0 auto;
+		  
+		   }
+	                  
+					  .lab,		
+				   input[type="text"] {
+					   display: inline-block;
+					   margin-bottom: 20px;
+				   }
 				
-				
-				 input[type="text"] {
-					 
-				 width: 75%;
-				 float: right;
-				 
-				}
-				
-				label[for="state"],
-				input[type="states"],
-				#selButton {
-				 display: inline-block;
-				 
-				}
-				
-				label[for="state"] {
-					float: left;
-					margin-left: 10px;
-				
-				}
-		       
-			    input[type="states"],
-				#selButton {
-					width: 55%;
-					float: right;
-					
-				}
-				
-				.lab {
-					display: inline-block;
-				margin-left: 10px;
-				float: left;	
-		        
-			
-				}
-				
-		     label[for="zip"] {
-				margin-left: 10px; 
-			 }
-			
-				
-				
-		
-
-				
-			
-		          
-		
-			
-					
-																								
-																									
-																												
-																														
-																															
-																														
-																													
+				 .lab {
+					flex: 1  50px; 
+					margin-right: 110px;
+				 }
+										
+						input[type="text"] {
+							flex: 1 300px;
+							float: right;
+							margin-right: 18px;
+						}
+						
+						select[name="states"],
+						#selButton {
+							margin-right: 104px;
+							
+						}
 																											
 																							
 				
@@ -608,15 +583,36 @@
 				
 				 .contains-2 {
 				 width: 100%;
+				border-top: 2px solid #251652
+			
+				}
+				.contains-2  #sub-2 {
+					
+			     display: block;
+				 padding: 4px;
+				 font-size: 1rem;
+				 padding: 8px 0;
+				 margin-left: 42px;
+				 margin-top: 42px;
+				 margin-bottom: 8px;
 				 
 				}
-				 #sub-2 {
-				 padding: 8px;
-				}
+			
+				
+				
+				 .field1 {
+					 
+					height: 170px; 
+				 }
+				
 				 #field-2 legend {
+					 
 				 font-size: 1rem;
+				 
 				}
+				
 				 #field-2 {
+					 
 				 display: block;
 				 text-align: left;
 				 width: 70%;
@@ -624,6 +620,7 @@
 				 margin-top: 80px;
 				 margin-bottom: 10px;
 				 padding-top: 14px;
+				 
 				}
 					
 					/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
@@ -674,13 +671,7 @@
 				
 									 
 																							
-			             #sub-2 {
-				 font-size: 1rem;
-				 width: 18%;
-				 padding: 8px 0;
-				 margin-left: 40px;
-				 margin-bottom: 15px;
-				}
+			
 				 label[for="htmlrad"] {
 				 font-size: 0.875rem;
 				 margin-right: 522px;
@@ -708,37 +699,48 @@
 				
 																	
 																		
-																		#codeSnip {
+				#codeSnip {
+				
 				 visibility: visibile;
 				 display: visible;
 				 text-align: left;
 				 width: 100%;
-				 margin-left: 40px;
+				 margin-left: 35px;
+				 margin-top: 20px;
+				 
 				}
+				
 				 label[for="code"], #codep {
+					 
 				 visibility: visible;
 				 display: inline-block;
+				 
 				}
+				
 				 label[for="code"] {
+					 
 				 float: left;
-				 margin-left: 10px;
-				 margin-top: 20px;
+				 margin-top: 4px;
 				 color: #484354;
 				 letter-spacing: .04em;
 				 font-weight: bold;
 				}
+				
 				 #codep {
+					 
 				 float: left;
 				 font-size: 0.875rem;
 				 padding: 4px;
 				 color: #484354;
 				 margin-right: 324px;
 				 padding-left: 10px;
+				 margin-bottom: 20px;
+				 
 				}
-				 #code {
+				 textarea[name="snippet"] {
 				 visibility: visible;
 				 display: block;
-				 width: 65%;
+				 width: 70%;
 				 letter-spacing: .04em;
 				 font-size: .9rem;
 				 padding: 5px;
@@ -746,7 +748,10 @@
 				 border: 1px solid #578e8c;
 				 background-color: #fff7ff;
 				 border-radius: 5px;
+				 margin-right: 20px;
+				 
 				}
+				
 				 #code:hover {
 				 background-color: #ffe9eb;
 				 border: 1px solid #251652;
@@ -754,8 +759,8 @@
 				 #cancel, #enter {
 				 visibility: visible;
 				 display: inline-block;
-				 margin-top: 20px;
-				 margin-bottom: 20px;
+				 margin-top: 36px;
+				 margin-bottom: 12px;
 				 padding: 5px;
 				 background-color: #729b82;
 				 border: none;
@@ -807,8 +812,9 @@
 				 .main-footer p {
 				 display: block;
 				 padding: 6px 8px;
-				 margin-top: 10px;
+				 margin-top: 8px;
 				 margin-left: 4px;
+				 margin-bottom: 10px;
 				 font-size: 0.875rem;
 				 float: left;
 				}
