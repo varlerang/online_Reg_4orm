@@ -573,11 +573,16 @@
 						
 						select[name="states"],
 						#selButton {
-							margin-right: 104px;
-							
+							margin-right:20px;
+							flex: 1 310px;
 						}
 																											
-																							
+						input[id="zip"] {
+						
+						flex: 1 80px;
+						margin-right: 232px;	
+							
+						}
 				
 					  /* ****************************** cOnTaInEr TwO %%%%%%%%%%%%%%%%%%%%%%% */
 				
