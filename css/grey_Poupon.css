@@ -9,7 +9,7 @@
 					background-color: #f7f2ff;
 				}
 				body {
-					font-family: Helvetica, Arial, Geneva, Serif;
+					font-family:  "Noto Serif" , serif , Helvetica, Arial, Geneva, ;
 				}
 				.main-header {
 					text-align: center;
@@ -277,16 +277,16 @@
 				
 					 
 																									
-																	/* inside contains-1 */
+	/* ^^^^^^^^^^^^^^^^^^^^inside contains-1^^^^^^^^^^^^^ */
 																														
 																													
-																	   .contains-1 {
+			    .contains-1 {
 				 border-top: 2px solid #251652;
 				 padding-bottom: 30px;
 				}
 																		
 																				
-																			/* ^^^^^^^^^^^^^^^^^ */
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 																					
 																					
 				#con-info {
@@ -319,10 +319,7 @@
 																		
 																	
 				
-																															
-										
-										
-											/*      sub_2 Newsletter    */
+																							     /*  ^^^^^^^^^^^^^^^^^^^^^    sub_2 Newsletter ^^^^^^^^^^^^^^^   */
 											
 											
 											
@@ -349,13 +346,13 @@
 										
 											
 										
+  		/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */											
 											
 											
 											
 											
 											
-											
-										/* *************** cHeCkBoX 320 ***************** */
+	/* *************** cHeCkBoX 320 ***************** */
 					
 													 
 											
@@ -387,15 +384,14 @@
 											
 											
 											
-		/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 								
 								
-		/*===========fieldset 2===============  */
+   /*  ^^^^^^^^^^^^^^===========fieldset 2===============  */
 											
-												 .field2 {
+			    .field2 {
 				 display: block;
 				 margin: 0 auto;
-				 margin-bottom: 35px;
 				 height: 110px;
 				 margin-top: 30px;
 				}
@@ -411,16 +407,23 @@
 		/* ***************** rAdIo BuTtOnS ****************************** */		
 														
 								
-											  input[type="radio"] {
+				 input[type="radio"] {
+					 
 				 display: inline-block;
 				 margin-bottom: 5px;
 				 margin-top: 8px;
 				 float: left;
+				 
 				}
-				 label[for="htmlrad"],  label[for="plainrad"],  input[type="radio"] {
+				 label[for="htmlrad"], 
+				  label[for="plainrad"], 
+				   input[type="radio"] {
+					   
 				 margin-bottom: 2px;
+				 
 				}
-				 label[for="htmlrad"],  label[for="plainrad"] {
+				 label[for="htmlrad"], 
+				 label[for="plainrad"] {
 				 float: right;
 				 line-height: 2.2em;
 				 float: right;
@@ -435,7 +438,7 @@
 				   
 				
 				   
-		   /* Code Snippet is hidden */
+   /* ^^^^^^^^^^^^^^Code Snippet is hidden^^^^^^^^ */
 																											   
 																											   
 			#codeSnip {
@@ -443,20 +446,21 @@
 				 display:hidden;
 				}
 																												
-			/* &&&&&&&&&&&&&&&& */
+  /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 																												
 					
 			
 			
-			/* main footer styles */
+ /* &&&&&&&&&&&&&&& main footer styles &&&&&&&&&&&&&&&& */
 			
 			
 				.main-footer {
 				 text-align: center;
 				}
 				 .main-footer p {
-				 margin-bottom: 28px;
-				 font-size:  1rem;
+				 margin-top: -224px;	 
+				 margin-bottom: 14px;
+				 font-size:  0.875rem;
 				 letter-spacing: .04em;
 				}
 				 #user-con {
@@ -475,8 +479,8 @@
 				 width: 90%;
 				}
 				
-				
-				
+ /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */			
+  			
 				
 				}
 				
@@ -485,40 +489,56 @@
 				 @media( min-width: 760px ) {
 					 
 					 
-					 
+		/* &&&&&&&&&&&&&&&&&&&& hEaDeR sTyLeS &&&&&&&&&&&&&&&&&&& */			 
 					 
 				 #wrap {
 				 border: 1px solid #4682b4;
 				 width: 90%;
-				 max-width: 760px;
 				}
 				 .main-header {
 				 margin: 0 auto;
 				 width: 100%;
+				 
 				 margin-bottom: 3px;
 				}
 				 .title {
-				 font-size: 1.5rem;
+					 border: 1px solid green;
+					 margin: 0 auto;
+					 height: 70px;
+				 font-size: 1.2rem;
+				 padding-bottom: 40px;
+				 padding-top: 24px;
 				}
+				
+				.sub-title {
+				margin-top: 60px;
+				margin-bottom: 6px;
+					
+				}
+				
 				 .main-head-info {
 				 width: 100%;
 				 margin: 0 auto;
 				 text-align: center;
 				}
-				 .main-header p {
-				 font-size: 1.1rem;
+				 .main-head-info p {
+				 font-size: 1rem;
 				 margin: 0 auto;
 				 padding-bottom: 4px;
-				 margin-bottom: 14px;
-				 margin-top: 17px;
+				 margin-bottom: 24px;
+				 margin-top: 4px;
 				}
 				 .main-head-info .sub-title {
 				 font-size: 1.6rem;
 				 padding: 2px;
 				}
 				
+				
+	/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+				
+										
 																												
-				/* container 1 styles */
+	/* &&&&&&&&&&&&&&&& container 1 styles &&&&&&&&&&&&&&&&&& */
 				
 				
 				.contains-1 {
@@ -527,8 +547,12 @@
 			     padding-bottom: 20px;
 				
 				}
+				
+				
+	/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+					
 																											
-				/* cOnTaCt InFo */
+	/* &&&&&&&&&&&&&&&&&&&& cOnTaCt InFo &&&&&&&&&&&&&&&&&&& */
 				
 				
 				#con-info {
@@ -538,53 +562,60 @@
 				 
 				}
 																											
-			/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 			
 			
 			
 			
-			/* input text styles */
+	/* &&&&&&&&&&&&&&&&&&& input text styles &&&&&&&&&&&&&&& */
 				
 		   #box1 {
 		  display: flex;
 		  flex-wrap: wrap;
+		  border: 1px solid tomato;
 		  padding: 4px 20px 4px  20px;
-		  width: 100%;
+		  min-width: 684px;
 		  margin: 0 auto;
 		  
 		   }
+		   
 	                  
-					  .lab,		
-				   input[type="text"] {
-					   display: inline-block;
-					   margin-bottom: 20px;
-				   }
+		  .lab,		
+	   input[type="text"] {
+		   display: inline-block;
+		   margin-bottom: 20px;
+	   }
 				
-				 .lab {
-					flex: 1  50px; 
-					margin-right: 110px;
-				 }
-										
-						input[type="text"] {
-							flex: 1 300px;
-							float: right;
-							margin-right: 18px;
-						}
+	   .lab {
+		  flex: 1  50px; 
+		  margin-right: 110px;
+	   }
+							  
+		input[type="text"] {
+			flex: 1 300px;
+			float: right;
+			margin-right: 18px;
+		}
+		
+		select[name="states"],
+		#selButton {
+			margin-right:20px;
+			flex: 1 310px;
+		}
+																							
+		input[id="zip"] {
+		
+		flex: 1 80px;
+		margin-right: 232px;	
+			
+		}
 						
-						select[name="states"],
-						#selButton {
-							margin-right:20px;
-							flex: 1 310px;
-						}
-																											
-						input[id="zip"] {
 						
-						flex: 1 80px;
-						margin-right: 232px;	
-							
-						}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 				
-					  /* ****************************** cOnTaInEr TwO %%%%%%%%%%%%%%%%%%%%%%% */
+				
+				
+ /* *************** cOnTaInEr TwO ********************* */
 				
 				 .contains-2 {
 				 width: 100%;
@@ -628,12 +659,11 @@
 				 
 				}
 					
-					/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 					
 					
 					
-					
-					/* &&&&&&&&&&&&&&&&&&&& cHeCkBoX sTyLeS 1028 $$$$$$$$$$$$$$$$$$$$ */
+    /* &&&&&&&&&&&&&&&&&&&& cHeCkBoX sTyLeS 760 &&&&&&&&&&&&&&&&& */
 				
 				#field-2 input[name="html"] {
 				 margin-top: 6px;
@@ -668,13 +698,11 @@
 				}
 													
 													
-													
-					
-					/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 				
 				
 				
-									 
+	/* ^^^^^^^^^^^^^ rAdIo BuTtOnS sTyLeS ^^^^^^^^^^^^^^^^^^ */								 
 																							
 			
 				 label[for="htmlrad"] {
@@ -695,10 +723,11 @@
 				}
 																								
 																								
-																							
+	/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */																						
 																								
 				
-					/* $$$$$$$$$$$$$$$$$ cOdE sNiPpEtT $$$$$$$$$$$$$$$$$$$$$$$$ */
+				
+	/* ^^^^^^^^^^^^^^^^^ cOdE sNiPpEtT ^^^^^^^^^^^^^ */
 					
 					
 				
@@ -743,6 +772,7 @@
 				 
 				}
 				 textarea[name="snippet"] {
+					 
 				 visibility: visible;
 				 display: block;
 				 width: 70%;
@@ -761,6 +791,7 @@
 				 background-color: #ffe9eb;
 				 border: 1px solid #251652;
 				}
+				
 				 #cancel, #enter {
 				 visibility: visible;
 				 display: inline-block;
@@ -777,69 +808,80 @@
 				 font-size: .875rem;
 				 color: #fdf3e7;
 				}
+				
 				 #cancel:hover {
 				 background-color: #578e8c;
 				}
+				
 				 #enter:hover {
 				 background-color: #578e8c;
 				}
+				
 				 #cancel:active {
 				 background-color: #251652;
 				 color: #ffd9b3;
 				}
+				
 				 #enter:active {
 				 background-color: #251652;
 				 color: #ffd9b3;
 				}
+				
 				 #cancel {
 				 margin-left: 135px;
 				}
+				
 				 #enter {
 				 margin-left: 40px;
 				 width: 70px;
 				}
 				
-					/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 					
 					
 					
-					/* &&&&&&&&&&&&&&&&&&&&&&& mAiN fOtTeR sTyLeS %%%%%%%%%%%%%%%%%%%%  */
+	/* ****************** mAiN fOtTeR sTyLeS ************** */
 					
 																		  
 																		  
-																																					  
-				  .main-footer {
-				 margin: 0 auto;
-				 width: 90%;
-				 margin-top: 8px;
-				 text-align: left;
-				}
-				 .main-footer p {
-				 display: block;
-				 padding: 6px 8px;
-				 margin-top: 8px;
-				 margin-left: 4px;
-				 margin-bottom: 10px;
-				 font-size: 0.875rem;
-				 float: left;
-				}
-				 #user-con {
-				 margin-right: 205px;
-				 width: 78%;
-				 font-size: 1rem;
-				 line-height: 2em;
-				}
-				 input[type="submit"] {
-				 margin-left:  -1px;
-				 width: 78%;
-				 color: #fdf3e7;
-				}
-				 .copyright {
-				 text-align: center;
-				}
-				/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
-					
-				}
+																																	          .main-footer {
+		   margin: 0 auto;
+		   width: 90%;
+		   margin-top: 8px;
+		   text-align: left;
+		  }
+		  
+		   .main-footer p {
+		   display: block;
+		   padding: 6px 8px;
+		   margin-top: 8px;
+		   margin-left: 4px;
+		   margin-bottom: 10px;
+		   font-size: 0.875rem;
+		   float: left;
+		  }
+		  
+		   #user-con {
+		   margin-right: 205px;
+		   width: 78%;
+		   font-size: 1rem;
+		   line-height: 2em;
+		  }
+		  
+		   input[type="submit"] {
+		   margin-left:  -1px;
+		   width: 78%;
+		   color: #fdf3e7;
+		  }
+		  
+		   .copyright {
+		   text-align: center;
+		  }
+		  
+	 }
+	 
+	 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+			
 				 .clearfix::after {
 				 content: "";
 				 display: table;
