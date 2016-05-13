@@ -685,16 +685,21 @@
 				 height: 18px;
 				}
 				 label[for="html"] {
+			     line-height: 1.6em;
 				 margin-right: 480px;
 				 font-size: 0.875rem;
 				}
 				 label[for="css"] {
-				 margin-right: 490px;
+				 margin-right: 495px;
 				 font-size: 0.875rem;
+				 line-height: 1.6em;
+
 				}
 				 label[for="js"] {
-				 margin-right: 455px;
+				 margin-right: 460px;
 				 font-size: 0.875rem;
+				 line-height: 1.6em;
+
 				}
 													
 													
@@ -706,20 +711,28 @@
 																							
 			
 				 label[for="htmlrad"] {
+					
 				 font-size: 0.875rem;
-				 margin-right: 522px;
-				 margin-bottom: 8px;
+				 margin-right: 510px;
+				 margin-bottom: 6px;
+				 line-height: 2.4em;
 				}
 				 label[for="plainrad"] {
 				 font-size: 0.875rem;
-				 margin-right: 500px;
+				 margin-right: 490px;
+				 line-height: 2.4em;
+
 				}
 				 input[type="radio"] {
 				 display: inline-block;
 				 margin-right: 5px;
+			
 				}
-				 .rad1,  .rad2 {
+				 
+				 .rad1,
+				 .rad2 {
 				 margin-left: 5px;
+				 padding: 4px 2px 4px 2px;
 				}
 																								
 																								
