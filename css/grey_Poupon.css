@@ -261,6 +261,11 @@
 				
 				
 				 @media (min-width: 320px ) {
+				
+				 body {
+					 width: 100%;
+				 }
+					 
 				 #wrap {
 				 border: 1px solid #4682b4;
 				 width: 90%;
@@ -270,6 +275,15 @@
 				 border-bottom: 1px solid #251652;
 				 padding-bottom: 20px;
 				}
+				
+				.title {
+				
+				font-size: 1.2rem;	
+				font-weight: normal;
+				letter-spacing: 0.10em;
+					
+				}
+				
 				 .main-head_info .sub-title {
 				 margin-top: 40px;
 				}
@@ -367,24 +381,38 @@
 				 display: inline-block;
 				 float: left;
 				 margin-bottom: 20px;
+				 margin-right: 15px;
 				}
 				 .ch {
 				 float: right;
 				 line-height: 1.3em;
 				 margin-right: 8px;
 				}
-				 label[for="html"],  label[for="css"],  label[for="js"] {
+				 label[for="html"], 
+				 label[for="css"], 
+				 label[for="js"] {
+					 
 				 display: inline-block;
 				 float: right;
+				 
 				}
 				 label[for="html"] {
-				 margin-right: 150px;
+					 
+				 margin-right: 154px;
+				 font-size: 0.875em;
+
 				}
 				 .ch,  label[for="css"] {
-				 margin-right: 160px;
+					 
+				 font-size: 0.875em;
+                 margin-right: 170px;
+				 
 				}
 				 ch,  label[for="js"] {
-				 margin-right: 120px;
+					 
+			     font-size: 0.875em;
+                 margin-right: 136px;
+				 
 				}
 													
 											
@@ -422,12 +450,12 @@
 				 
 				}
 				 label[for="htmlrad"], 
-				  label[for="plainrad"], 
-				   input[type="radio"] {
-					   
-				 margin-bottom: 2px;
+				 label[for="plainrad"], 
+				 input[type="radio"] {
+                  margin-bottom: 2px;
 				 
 				}
+				
 				 label[for="htmlrad"], 
 				 label[for="plainrad"] {
 				 float: right;
@@ -435,10 +463,16 @@
 				 float: right;
 				}
 				 label[for="htmlrad"] {
-				 margin-right: 192px;
+					 
+			     font-size: 0.875em;
+				 margin-right: 190px;
+				 
 				}
 				 label[for="plainrad"] {
-				 margin-right:  166px;
+					 
+				 font-size: 0.875em;
+				 margin-right:  172px;
+				 
 				}
 					
 				   
@@ -500,6 +534,7 @@
 				 #wrap {
 				 border: 1px solid #4682b4;
 				 width: 90%;
+				 min-width: 760px;
 				}
 				 .main-header {
 				 margin: 0 auto;
@@ -595,25 +630,25 @@
 				
 	   .lab {
 		  flex: 1  50px; 
-		  margin-right: 110px;
+		  margin-right: 140px;
 	   }
 							  
 		input[type="text"] {
 			flex: 1 360px;
 			float: right;
 			margin-right: 8px;
-			margin-left: -60px;
+			margin-left: -45px;
 		}
 		
 		select[name="states"],
 		#selButton {
-			margin-right:20px;
-			flex: 1 310px;
+			margin-right:8px;
+			flex: 1 420px;
 		}
 																							
 		input[id="zip"] {
 		
-		flex: 1 80px;
+		flex: 1 134px;
 		margin-right: 232px;	
 			
 		}
@@ -694,17 +729,17 @@
 				}
 				 label[for="html"] {
 			     line-height: 1.6em;
-				 margin-right: 480px;
+				 margin-right: 540px;
 				 font-size: 0.875rem;
 				}
 				 label[for="css"] {
-				 margin-right: 495px;
+				 margin-right: 554px;
 				 font-size: 0.875rem;
 				 line-height: 1.6em;
 
 				}
 				 label[for="js"] {
-				 margin-right: 460px;
+				 margin-right: 520px;
 				 font-size: 0.875rem;
 				 line-height: 1.6em;
 
@@ -721,13 +756,13 @@
 				 label[for="htmlrad"] {
 					
 				 font-size: 0.875rem;
-				 margin-right: 510px;
+				 margin-right: 570px;
 				 margin-bottom: 6px;
 				 line-height: 2.4em;
 				}
 				 label[for="plainrad"] {
 				 font-size: 0.875rem;
-				 margin-right: 490px;
+				 margin-right:552px;
 				 line-height: 2.4em;
 
 				}
@@ -773,8 +808,8 @@
 				}
 				
 				 label[for="code"] {
-					 
 				 float: left;
+				 padding: 6px 10px;
 				 margin-top: 4px;
 				 color: #484354;
 				 letter-spacing: .04em;
@@ -787,9 +822,10 @@
 				 font-size: 0.875rem;
 				 padding: 4px;
 				 color: #484354;
-				 margin-right: 324px;
+				 margin-right: 335px;
 				 padding-left: 10px;
 				 margin-bottom: 12px;
+				 margin-top: 14px;
 				 
 				}
 				 textarea[name="snippet"] {
