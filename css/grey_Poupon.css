@@ -70,20 +70,17 @@
 					border: 1px solid #729b82;
 					color: #484354;
 					letter-spacing: .01em;
-				 font-size: .875rem;
+				    font-size: .875rem;
 					height: 40px;
 					width: 100%;
+					
 					background-color: #fff7ff;
 					background-image:  url( "../img/dwn-arrow.svg");
 					background-repeat: no-repeat;
 					background-position: center, right;
 				}
-				#selButton {
-					display: inline-block;
-					overflow: hidden;
-					width:286px;
-					margin-left: 16px;
-				}
+				
+				
 				/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 				
 				
@@ -181,8 +178,11 @@
 					height: 17px;
 					content: ". ";
 				}
-				select, input[type="radio"], input[type="checkbox"] {
+				select, input[type="radio"], 
+				input[type="checkbox"] {
+					
 					cursor: pointer;
+					
 				}
 				#field-2 {
 					height: 165px;
@@ -263,11 +263,11 @@
 				 @media (min-width: 320px ) {
 				
 				 body {
-					 width: 100%;
+					 margin: 0 auto;
 				 }
 					 
 				 #wrap {
-				 width: 90%;
+				 min-width: 90%;
 				 min-width: 320px;
 				}
 				 .main-header {
@@ -327,14 +327,15 @@
 				 label[for="state"] {
 				 margin-top: 10px;
 				}
-				 select[name="states"] {
+				 select[name="states"],
+				 #selButton {
 				 display: block;
 				 margin: 0 auto;
 				 font-size: 1rem;
 				 padding-left: 12px;
-				}
-																							 
-																						
+                 width: 97%;				
+				 margin-right: 8px;																							 
+				 }
 																		
 																	
 				
@@ -397,20 +398,26 @@
 				}
 				 label[for="html"] {
 					 
-				 margin-right: 154px;
+				 margin-right: 155px;
 				 font-size: 0.875em;
+				 line-height: 1.3em;
+
 
 				}
 				 .ch,  label[for="css"] {
 					 
 				 font-size: 0.875em;
                  margin-right: 170px;
+				 line-height: 1.8em;
+
 				 
 				}
 				 ch,  label[for="js"] {
 					 
 			     font-size: 0.875em;
-                 margin-right: 136px;
+                 margin-right: 140px;
+				 line-height: 1.4em;
+
 				 
 				}
 													
@@ -459,18 +466,20 @@
 				 label[for="plainrad"] {
 				 float: right;
 				 line-height: 2.2em;
-				 float: right;
 				}
 				 label[for="htmlrad"] {
 					 
 			     font-size: 0.875em;
 				 margin-right: 190px;
+				 line-height: 2.4em;
 				 
 				}
 				 label[for="plainrad"] {
 					 
 				 font-size: 0.875em;
-				 margin-right:  172px;
+				 margin-right:  174px;
+				  line-height: 2.4em;
+
 				 
 				}
 					
@@ -518,6 +527,14 @@
 				 width: 90%;
 				}
 				
+				
+				.copyright {
+				padding: 2px 4px;
+			    padding-bottom: 30px;
+				margin-top: 45px;
+					
+				}
+				
  /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */			
   			
 				
@@ -537,6 +554,7 @@
 				  }
 					 
 				 #wrap {
+					 
 				 min-width: 90%;
 				
 				}
@@ -604,8 +622,9 @@
 				#con-info {
 				 display: block;
 				 margin-top: 45px;
-				 margin-left: 30px;
+				 margin-left: 48px;
 				 font-size: 1rem;
+				 letter-spacing: 0.1em;
 				 
 				}
 																											
@@ -620,7 +639,7 @@
 		  display: flex;
 		  flex-wrap: wrap;
 		  padding: 4px 10px 4px  10px;
-		  min-width: 684px;
+		  width: 90%;
 		  max-width: 760px;
 		  margin: 0 auto;
 		  
@@ -629,28 +648,42 @@
 	                  
 		  .lab,		
 	   input[type="text"] {
+	  
 		   display: inline-block;
 		   margin-bottom: 20px;
 	   }
 				
 	   .lab {
 		  flex: 1  50px; 
-		  margin-right: 140px;
+		  margin-right: 80px;
+		  margin-left: 8px;
 	   }
 							  
 		input[type="text"] {
-			flex: 1 360px;
-			float: right;
-			margin-right: 8px;
-			margin-left: -45px;
+			flex: 1 362px;
+			margin-right: 10px;
+			margin-left: -49px;
 		}
 		
-		select[name="states"],
-		#selButton {
-			margin-right:8px;
-			flex: 1 420px;
+		label[for="state"] {
+			display: inline-block;
 		}
+		
+		 select[name="states"] {
+		    display: inline-block;
+	     flex: 1 410px;
+		  
+		}
+		
+		#selButton {
 			
+		display: inline-block;
+         border: 1px solid teal;
+		 width: 340px;
+				
+		}
+		
+	
 		label[for="zip"] {
 			
 			line-height: 2.2em;
@@ -675,6 +708,7 @@
 				
 				 .contains-2 {
 				 width: 100%;
+			
 				border-top: 2px solid #251652
 			
 				}
@@ -687,31 +721,33 @@
 				 margin-left: 42px;
 				 margin-top: 42px;
 				 margin-bottom: 8px;
-				 
+				 letter-spacing: 0.1em;
+
 				}
 			
 				
 				
 				 .field1 {
 					 
-					height: 170px; 
+					height: 184px; 
+					padding-top: 8px;
 				 }
 				
-				 #field-2 legend {
+				 .field2 legend {
 					 
 				 font-size: 1rem;
 				 
 				}
 				
-				 #field-2 {
+				 .field2 {
 					 
 				 display: block;
 				 text-align: left;
-				 width: 70%;
-				 height: 230px;
+				 width: 90%;
+				 height: 124px;
 				 margin-top: 80px;
 				 margin-bottom: 10px;
-				 padding-top: 14px;
+				 padding-top: 10px;
 				 
 				}
 					
@@ -721,7 +757,7 @@
 					
     /* &&&&&&&&&&&&&&&&&&&& cHeCkBoX sTyLeS 760 &&&&&&&&&&&&&&&&& */
 				
-				#field-2 input[name="html"] {
+				.field2 input[name="html"] {
 				 margin-top: 6px;
 				 margin-bottom: 6px;
 				}
@@ -767,16 +803,18 @@
 																							
 			
 				 label[for="htmlrad"] {
-					
+					display: inline-block;
 				 font-size: 0.875rem;
 				 margin-right: 510px;
 				 margin-bottom: 6px;
 				 line-height: 2.4em;
 				}
 				 label[for="plainrad"] {
+					 display: inline-block;
 				 font-size: 0.875rem;
 				 margin-right:494px;
 				 line-height: 2.4em;
+				 
 
 				}
 				 input[type="radio"] {
@@ -790,6 +828,8 @@
 				 margin-left: 5px;
 				 padding: 4px 2px 4px 2px;
 				}
+				
+				
 																								
 																								
 	/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */																						
@@ -817,7 +857,7 @@
 					 
 				 visibility: visible;
 				 display: inline-block;
-				 
+
 				}
 				
 				 label[for="code"] {
@@ -827,6 +867,8 @@
 				 color: #484354;
 				 letter-spacing: .04em;
 				 font-weight: bold;
+				 letter-spacing: 0.1em;
+
 				}
 				
 				 #codep {
@@ -841,6 +883,7 @@
 				 margin-top: 14px;
 				 
 				}
+				
 				 textarea[name="snippet"] {
 					 
 				 visibility: visible;
@@ -932,7 +975,7 @@
 		  }
 		  
 		   #user-con {
-		   margin-right: 205px;
+		   margin-right: 136px;
 		   width: 78%;
 		   font-size: 1rem;
 		   line-height: 2em;
