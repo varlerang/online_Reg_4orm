@@ -9,6 +9,7 @@
 					background-color: #f7f2ff;
 				}
 				body {
+					margin: 0 auto;
 					font-family:  "Noto Serif" , serif , Helvetica, Arial, Geneva, ;
 				}
 				.main-header {
@@ -178,6 +179,12 @@
 					height: 17px;
 					content: ". ";
 				}
+				
+				label[for="htmlrad"],
+				label[for="plainrad"] {
+					color: #484354;
+				}
+				
 				select, input[type="radio"], 
 				input[type="checkbox"] {
 					
@@ -271,15 +278,20 @@
 				 min-width: 320px;
 				}
 				 .main-header {
+					 
 				 border-bottom: 1px solid #251652;
 				 padding-bottom: 20px;
+				 width: 96%;
+				 margin: 0 auto;
+				 margin-bottom: 2px;
 				}
 				
-				.title {
-				
+			 .title {
+				 text-align: center;
 				font-size: 1.2rem;	
 				font-weight: normal;
-				letter-spacing: 0.10em;
+				letter-spacing: 0.08em;
+				word-spacing: 0.2em;
 					
 				}
 				
@@ -302,6 +314,8 @@
 			    .contains-1 {
 				 border-top: 2px solid #251652;
 				 padding-bottom: 30px;
+				 width: 96%;
+				 margin: 0 auto;
 				}
 																		
 																				
@@ -333,14 +347,24 @@
 				 margin: 0 auto;
 				 font-size: 1rem;
 				 padding-left: 12px;
-                 width: 97%;				
-				 margin-right: 8px;																							 
+                 width: 90%;				
+				 margin-right: 16px;																							 
 				 }
 																		
-																	
+                 input[id="zip"] {
+					
+					width: 44%;
+					float: left;
+					margin-left: 18px;
+					 
+				 }
 				
 																							     /*  ^^^^^^^^^^^^^^^^^^^^^    sub_2 Newsletter ^^^^^^^^^^^^^^^   */
-											
+				.contains-2 {
+				border-top: 1px solid #251652;
+				margin: 0 auto;
+				width: 96%;	
+				}
 											
 											
 					#sub-2 {
@@ -352,7 +376,7 @@
 				 .field1 {
 				 display: block;
 				 margin-top: 8px;
-				 height: 210px;
+				 height: 192px;
 				 margin-bottom: 60px;
 				 margin: 0 auto;
 				}
@@ -395,28 +419,32 @@
 				 display: inline-block;
 				 float: right;
 				 
+				 
 				}
 				 label[for="html"] {
-					 
-				 margin-right: 155px;
+				 margin-right: 146px;
 				 font-size: 0.875em;
 				 line-height: 1.3em;
-
+                 letter-spacing: 0.04em;
 
 				}
 				 .ch,  label[for="css"] {
 					 
 				 font-size: 0.875em;
-                 margin-right: 170px;
+                 margin-right: 160px;
 				 line-height: 1.8em;
+				 letter-spacing: 0.04em;
+
 
 				 
 				}
 				 ch,  label[for="js"] {
 					 
 			     font-size: 0.875em;
-                 margin-right: 140px;
+                 margin-right: 124px;
 				 line-height: 1.4em;
+				 letter-spacing: 0.04em;
+
 
 				 
 				}
@@ -444,7 +472,7 @@
 											
 									
 									
-		/* ***************** rAdIo BuTtOnS ****************************** */		
+		/* ***************** rAdIo BuTtOnS 320 mEdIa ****************************** */		
 														
 								
 				 input[type="radio"] {
@@ -466,18 +494,22 @@
 				 label[for="plainrad"] {
 				 float: right;
 				 line-height: 2.2em;
+				 letter-spacing: 0.04em;
+
 				}
 				 label[for="htmlrad"] {
 					 
 			     font-size: 0.875em;
-				 margin-right: 190px;
+				 margin-right: 184px;
 				 line-height: 2.4em;
+				 letter-spacing: 0.04em;
+
 				 
 				}
 				 label[for="plainrad"] {
 					 
 				 font-size: 0.875em;
-				 margin-right:  174px;
+				 margin-right:  163px;
 				  line-height: 2.4em;
 
 				 
@@ -604,7 +636,7 @@
 				
 				
 				.contains-1 {
-				 width: 100%;
+				 width: 96%;
 				 margin-top: 4px;
 			     padding-bottom: 20px;
 				  margin: 0 auto;
@@ -693,7 +725,7 @@
 		input[id="zip"] {
 		
 		flex: 1 134px;
-		margin-right: 232px;	
+		margin-right: 242px;	
 		margin-top: 8px;	
 
 			
@@ -707,9 +739,9 @@
  /* *************** cOnTaInEr TwO ********************* */
 				
 				 .contains-2 {
-				 width: 100%;
+				 width: 96%;
 			
-				border-top: 2px solid #251652
+				border-top: 1px solid #251652
 			
 				}
 				.contains-2  #sub-2 {
@@ -778,17 +810,17 @@
 				}
 				 label[for="html"] {
 			     line-height: 1.6em;
-				 margin-right: 474px;
+				 margin-right: 454px;
 				 font-size: 0.875rem;
 				}
 				 label[for="css"] {
-				 margin-right: 490px;
+				 margin-right: 469px;
 				 font-size: 0.875rem;
 				 line-height: 1.6em;
 
 				}
 				 label[for="js"] {
-				 margin-right: 460px;
+				 margin-right: 432px;
 				 font-size: 0.875rem;
 				 line-height: 1.6em;
 
@@ -805,14 +837,14 @@
 				 label[for="htmlrad"] {
 					display: inline-block;
 				 font-size: 0.875rem;
-				 margin-right: 510px;
+				 margin-right: 488px;
 				 margin-bottom: 6px;
 				 line-height: 2.4em;
 				}
 				 label[for="plainrad"] {
 					 display: inline-block;
 				 font-size: 0.875rem;
-				 margin-right:494px;
+				 margin-right:467px;
 				 line-height: 2.4em;
 				 
 
