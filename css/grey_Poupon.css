@@ -694,6 +694,7 @@
 			flex: 1 362px;
 			margin-right: 10px;
 			margin-left: -49px;
+			padding-right: 32px;
 		}
 		
 		label[for="state"] {
