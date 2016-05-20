@@ -269,13 +269,13 @@
 				
 				 @media (min-width: 320px ) {
 				
-				 body {
-					 margin: 0 auto;
+			     body {
+					 width: 100%;
 				 }
 					 
 				 #wrap {
-				 min-width: 90%;
-				 min-width: 320px;
+					
+				 width: 100%;
 				}
 				 .main-header {
 					 
@@ -313,49 +313,53 @@
 																													
 			    .contains-1 {
 				 border-top: 2px solid #251652;
-				 padding-bottom: 30px;
 				 width: 96%;
 				 margin: 0 auto;
 				}
 																		
-																				
+				.box1 {
+				 padding-bottom: 56px;
+				 margin: 16px;
+				}
 	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 																					
 																					
 				#con-info {
+					font-size: 1em;
 				 margin-bottom: 25px;
 				 margin-top: 35px;
 				 margin-left: 16px;
+				 letter-spacing: 0.1em;
 				}
 				 .lab {
 				 display: block;
 				 margin-top: 10px;
 				 margin-bottom: 10px;
-				 margin-left: 18px;
+				 margin-left: 10px;
 				 padding: 2px;
 				}
 				 input[type="text"] {
 				 margin: 0 auto;
 				 padding-right: 22px;
+				 width: 96%;
 				}
 				 label[for="state"] {
 				 margin-top: 10px;
 				}
-				 select[name="states"],
-				 #selButton {
+				 select[name="states"] {
+				  
 				 display: block;
 				 margin: 0 auto;
 				 font-size: 1rem;
 				 padding-left: 12px;
-                 width: 90%;				
-				 margin-right: 16px;																							 
+                 width: 95%;				
 				 }
 																		
                  input[id="zip"] {
 					
 					width: 44%;
 					float: left;
-					margin-left: 18px;
+					margin-left: 10px;
 					 
 				 }
 		
@@ -369,10 +373,11 @@
 											
 											
 					#sub-2 {
-				 font-size: 1em;
-				 letter-spacing: .06em;
-				 margin-top: 25px;
+				 font-size: 1.25em;
+				 letter-spacing: 0.1em;
+				 margin-top: 34px;
 				 margin-left: 18px;
+				 
 				}
 				 .field1 {
 				 display: block;
@@ -423,7 +428,7 @@
 				 
 				}
 				 label[for="html"] {
-				 margin-right: 146px;
+				 margin-right: 205px;
 				 font-size: 0.875em;
 				 line-height: 1.3em;
                  letter-spacing: 0.04em;
@@ -432,7 +437,7 @@
 				 .ch,  label[for="css"] {
 					 
 				 font-size: 0.875em;
-                 margin-right: 160px;
+                 margin-right: 222px;
 				 line-height: 1.8em;
 				 letter-spacing: 0.04em;
 
@@ -442,7 +447,7 @@
 				 ch,  label[for="js"] {
 					 
 			     font-size: 0.875em;
-                 margin-right: 124px;
+                 margin-right: 187px;
 				 line-height: 1.4em;
 				 letter-spacing: 0.04em;
 
@@ -501,7 +506,7 @@
 				 label[for="htmlrad"] {
 					 
 			     font-size: 0.875em;
-				 margin-right: 184px;
+				 margin-right: 248px;
 				 line-height: 2.4em;
 				 letter-spacing: 0.04em;
 
@@ -510,7 +515,7 @@
 				 label[for="plainrad"] {
 					 
 				 font-size: 0.875em;
-				 margin-right:  163px;
+				 margin-right:  227px;
 				  line-height: 2.4em;
 
 				 
@@ -583,12 +588,13 @@
 					
 				  body {
 					  max-width: 760px;
-					  margin: 0 auto;
+					  width: 100%;
+					  
 				  }
 					 
 				 #wrap {
 					 
-				 min-width: 90%;
+				 width: 96%;
 				
 				}
 				 .main-header {
@@ -635,10 +641,10 @@
 	/* &&&&&&&&&&&&&&&& container 1 styles &&&&&&&&&&&&&&&&&& */
 				
 				
-				.contains-1 {
+				.contains-1 	{
 				 width: 96%;
 				 margin-top: 4px;
-			     padding-bottom: 20px;
+			     padding-bottom: 4px 4px 20px 4px;
 				  margin: 0 auto;
 
 				
@@ -654,7 +660,7 @@
 				#con-info {
 				 display: block;
 				 margin-top: 45px;
-				 margin-left: 48px;
+				 margin-left: 38px;
 				 font-size: 1rem;
 				 letter-spacing: 0.1em;
 				 
@@ -667,11 +673,11 @@
 			
 	/* &&&&&&&&&&&&&&&&&&& input text styles &&&&&&&&&&&&&&& */
 				
-		   #box1 {
+		   .box1 {
 		  display: flex;
 		  flex-wrap: wrap;
 		  padding: 4px 10px 4px  10px;
-		  width: 90%;
+		  width: 98%;
 		  max-width: 760px;
 		  margin: 0 auto;
 		  
@@ -687,34 +693,31 @@
 				
 	   .lab {
 		  flex: 1  50px; 
-		  margin-right: 80px;
-		  margin-left: 8px;
+		  margin-right: 110px;
+		  margin-left: 20px;
 	   }
 							  
 		input[type="text"] {
 			flex: 1 362px;
-			margin-right: 10px;
+			margin-right: 20px;
 			margin-left: -49px;
 			padding-right: 32px;
 		}
 		
 		label[for="state"] {
 			display: inline-block;
+			margin-right: 90px;
 		}
 		
 		 select[name="states"] {
 		    display: inline-block;
-	     flex: 1 410px;
-		  
+	        flex: 1 390px;
+			margin-right: 20px;
+			
+		 
 		}
 		
-		#selButton {
-			
-		display: inline-block;
-         border: 1px solid teal;
-		 width: 340px;
-				
-		}
+		
 		
 	
 		label[for="zip"] {
@@ -726,7 +729,7 @@
 		input[id="zip"] {
 		
 		flex: 1 134px;
-		margin-right: 242px;	
+		margin-right: 246px;	
 		margin-top: 8px;	
 
 			
@@ -811,17 +814,17 @@
 				}
 				 label[for="html"] {
 			     line-height: 1.6em;
-				 margin-right: 454px;
+				 margin-right: 486px;
 				 font-size: 0.875rem;
 				}
 				 label[for="css"] {
-				 margin-right: 469px;
+				 margin-right: 500px;
 				 font-size: 0.875rem;
 				 line-height: 1.6em;
 
 				}
 				 label[for="js"] {
-				 margin-right: 432px;
+				 margin-right: 462px;
 				 font-size: 0.875rem;
 				 line-height: 1.6em;
 
@@ -838,14 +841,14 @@
 				 label[for="htmlrad"] {
 					display: inline-block;
 				 font-size: 0.875rem;
-				 margin-right: 488px;
+				 margin-right: 520px;
 				 margin-bottom: 6px;
 				 line-height: 2.4em;
 				}
 				 label[for="plainrad"] {
 					 display: inline-block;
 				 font-size: 0.875rem;
-				 margin-right:467px;
+				 margin-right:498px;
 				 line-height: 2.4em;
 				 
 
@@ -1008,14 +1011,14 @@
 		  }
 		  
 		   #user-con {
-		   margin-right: 126px;
+		   margin-right: 135px;
 		   width: 78%;
 		   font-size: 1rem;
 		   line-height: 2em;
 		  }
 		  
 		   input[type="submit"] {
-		   margin-right: 126px;
+		   margin-right: 136px;
 		   width: 78%;
 		   color: #fdf3e7;
 		  }
