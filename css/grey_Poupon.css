@@ -101,6 +101,9 @@
 				}
 				/* checkbox general styles */
 				
+				
+				
+				
 				.ch {
 					display: block;
 					color: #484354;
@@ -325,10 +328,10 @@
 				 .main-header p {
 					 
 				 display: block;
-				 font-size: 1rem;
+				 font-size: 0.875rem;
 				 width: 80%;
 				 margin: 0 auto;
-				 
+				 letter-spacing: 0.11em;
 				}
 				
 				
@@ -371,16 +374,21 @@
 				 margin-bottom: 10px;
 				 margin-left: 10px;
 				 padding: 2px;
+				 letter-spacing: 0.10em;
 				}
 				
 				 input[type="text"] {
+					 
 				 margin: 0 auto;
 				 padding-right: 22px;
 				 width: 96%;
+				 
 				}
 				
 				 label[for="state"] {
+					 
 				 margin-top: 10px;
+				 
 				}
 				
 				 select[name="states"] {
@@ -410,7 +418,7 @@
 		  
 		  
 		  
-				.contains-2 {
+				 .contains-2 {
 					
 				border-top: 1px solid #251652;
 				margin: 0 auto;
@@ -421,10 +429,11 @@
 											
 					#sub-2 {
 						
-				 font-size: 1.25em;
+				 font-size: 1em;
 				 letter-spacing: 0.1em;
 				 margin-top: 34px;
 				 margin-left: 18px;
+				 margin-bottom: 30px;
 				 
 				}
 				
@@ -433,7 +442,7 @@
 					 
 				 display: block;
 				 margin-top: 8px;
-				 height: 192px;
+				 height: 162px;
 				 margin-bottom: 60px;
 				 margin: 0 auto;
 				 font-size: 1em;
@@ -441,14 +450,18 @@
 				 
 				}
 				
-				 .field1 legend {
+				#fieldtitle1 {
 					 
-				 font-size: 0.875rem;
+				 	 
+				 font-size: 0.75rem;
 				 color: #484354;
 				 margin-bottom: 12px;
 				 
 				 
+				 
+				 
 				}
+				
 											
 										
 										
@@ -490,9 +503,9 @@
 				 
 			}
 			
-				 label[for="html"]    {
+				.ch, label[for="html"]    {
 					 
-				 margin-right: 162px;
+				 margin-right: 212px;
 				 font-size: 0.875em;
 				 line-height: 1.3em;
                  letter-spacing: 0.04em;
@@ -502,17 +515,17 @@
 				 .ch,  label[for="css"] {
 					 
 				 font-size: 0.875em;
-                 margin-right: 178px;
+                 margin-right: 228px;
 				 line-height: 1.8em;
 				 letter-spacing: 0.04em;
 
 
 				 
 				}
-				 ch,  label[for="js"] {
+				 .ch,  label[for="js"] {
 					 
 			     font-size: 0.875em;
-                 margin-right: 142px;
+                 margin-right: 168px;
 				 line-height: 1.4em;
 				 letter-spacing: 0.04em;
 
@@ -536,9 +549,10 @@
 				 width: 96%;
 				}
 				
-					.field2 legend {
-					  font-size: 0.875rem;
+					#fieldtitle2 {
+					  font-size: 0.75rem;
 				      color: #484354;
+					  
 					}
 									
 		/*===================================*/
@@ -576,7 +590,7 @@
 				 label[for="htmlrad"] {
 					 
 			     font-size: 0.875em;
-				 margin-right: 202px;
+				 margin-right: 250px;
 				 line-height: 2.4em;
 				 letter-spacing: 0.04em;
 
@@ -585,7 +599,7 @@
 				 label[for="plainrad"] {
 					 
 				 font-size: 0.875em;
-				 margin-right:  180px;
+				 margin-right:  230px;
 				  line-height: 2.4em;
 
 				 
@@ -614,7 +628,7 @@
 				 text-align: center;
 				}
 				 .main-footer p {
-				 margin-top: -224px;	 
+				 margin-top: -220px;	 
 				 margin-bottom: 14px;
 				 font-size:  0.875rem;
 				 letter-spacing: .04em;
@@ -697,6 +711,7 @@
 				 padding-bottom: 4px;
 				 margin-bottom: 20px;
 				 margin-top: 4px;
+				 letter-spacing: 0.10em;
 				}
 				 .main-head-info .sub-title {
 				 font-size: 1.6rem;
@@ -765,6 +780,7 @@
 		  flex: 1  50px; 
 		  margin-right: 110px;
 		  margin-left: 20px;
+		  letter-spacing: 0.10em;
 	   }
 							  
 		input[type="text"] {
@@ -835,11 +851,16 @@
 				
 				 .field1 {
 					 
-					height: 184px; 
+					height: 168px; 
 					padding-top: 8px;
 				 }
+				 
+				 #fieldtitle1 {
+					font-size: 0.875rem; 
+					 
+				 }
 				
-				 .field2 legend {
+				 #fieldset2 {
 					 
 				 font-size: 1rem;
 				 
@@ -849,7 +870,7 @@
 					 
 				 display: block;
 				 text-align: left;
-				 width: 90%;
+				 width: 96%;
 				 height: 124px;
 				 margin-top: 80px;
 				 margin-bottom: 10px;
@@ -884,17 +905,17 @@
 				}
 				 label[for="html"] {
 			     line-height: 1.6em;
-				 margin-right: 486px;
+				 margin-right: 526px;
 				 font-size: 0.875rem;
 				}
 				 label[for="css"] {
-				 margin-right: 500px;
+				 margin-right: 540px;
 				 font-size: 0.875rem;
 				 line-height: 1.6em;
 
 				}
 				 label[for="js"] {
-				 margin-right: 462px;
+				 margin-right: 480px;
 				 font-size: 0.875rem;
 				 line-height: 1.6em;
 
@@ -911,14 +932,14 @@
 				 label[for="htmlrad"] {
 					display: inline-block;
 				 font-size: 0.875rem;
-				 margin-right: 520px;
+				 margin-right: 560px;
 				 margin-bottom: 6px;
 				 line-height: 2.4em;
 				}
 				 label[for="plainrad"] {
 					 display: inline-block;
 				 font-size: 0.875rem;
-				 margin-right:498px;
+				 margin-right:539px;
 				 line-height: 2.4em;
 				 
 
@@ -954,7 +975,7 @@
 				 display: visible;
 				 text-align: left;
 				 width: 100%;
-				 margin-left: 32px;
+				 margin-left: 16px;
 				 margin-top: 20px;
 				 
 				}
@@ -969,6 +990,7 @@
 				 label[for="code"] {
 				 float: left;
 				 padding: 6px 10px;
+				 margin-left: 12px;
 				 margin-top: 4px;
 				 color: #484354;
 				 letter-spacing: .04em;
@@ -986,7 +1008,9 @@
 				 margin-right: 335px;
 				 padding-left: 10px;
 				 margin-bottom: 12px;
-				 margin-top: 14px;
+				 margin-top: 10px;
+				 letter-spacing: 0.10em;
+				 width: 90%;
 				 
 				}
 				
@@ -1070,26 +1094,32 @@
 		   text-align: left;
 		  }
 		  
+		  
+		   #userbox {
+			  
+			   margin-left: -8px;
+		   }
+		    
 		   .main-footer p {
-		   display: block;
+		   display: inline-block;
 		   padding: 6px 8px;
-		   margin-top: 8px;
-		   margin-left: 16px;
-		   margin-bottom: 9px;
+		   margin-top: 9px;
+		   margin-bottom: 2px;
 		   font-size: 0.875rem;
+		   letter-spacing: 0.10em;
 		   float: left;
 		  }
 		  
 		   #user-con {
-		   margin-right: 135px;
+			display: inline-block;
 		   width: 78%;
 		   font-size: 1rem;
 		   line-height: 2em;
 		  }
 		  
 		   input[type="submit"] {
-		   margin-right: 136px;
-		   width: 78%;
+		   margin-left: -8px;	   
+		   width: 79%;
 		   color: #fdf3e7;
 		  }
 		  
