@@ -1,73 +1,25 @@
 				/* CSS Document */
 				/* general styles */
+				
+				
 				* {
+					
 					box-sizing: border-box;
-				}
-				#wrap {
-					margin: 0 auto;
-					width: 90%;
-					background-color: #f7f2ff;
-				}
-				body {
-					margin: 0 auto;
-					font-family:  "Noto Serif" , serif , Helvetica, Arial, Geneva, ;
-				}
-				.main-header {
-					text-align: center;
-				}
-				.contains-1 {
-					margin-top: 3px;
-				}
-				.title {
-					margin: 0;
-					background-color: #251652;
-					color: #ffd9b3;
-					padding: 30px 0;
-				}
-				.main-header p {
-					color: #484354;
-				}
-				.sub-title {
-					color: #484354;
-					letter-spacing: .02em;
+					
 				}
 				
+					body {
 				
-				.lab {
-					color: #484354;
+				   font-family:  Noto Serif , serif , Helvetica, Arial, Geneva;
+				
+				   
 				}
 				
-				
-				/* fieldset ********************************** */
-				
-				fieldset {
-					border: 1px solid #578e8c;
-					border-radius: 5px;
-					margin: 30px 0;
-					padding: 8px;
-					width: 90%;
-				}
-				
-				
-				/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
-				
-				
-				
-				
-				
-				
-				input[type="text"] {
-					display: block;
-				 font-size: .875rem;
-					letter-spacing: .1em;
-					color: #484354;
-					border-radius: 6px;
-					border: 1px solid #578e8c;
-					height: 40px;
-					width: 90%;
-				}
-				/* ^^^^^^^^^^^^^^^^^ sElEcT bUtToN &&&&&&&&&&&&&&&&&& */
+								/* ^^^^^^^^^^^^^^^^^ sElEcT bUtToN &&&&&&&&&&&&&&&&&& */
+								
+								
 				select[name="states"] {
+					
 					-webkit-appearance: none;
 					-moz-appearance: none;
 					appearance: none;
@@ -83,35 +35,18 @@
 					background-image:  url( "../img/dwn-arrow.svg");
 					background-repeat: no-repeat;
 					background-position: center, right;
+					
 				}
 				
 				
-				/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-				
-				
-				.contains-1 input {
-					text-align: right;
-					background-color: #fff7ff;
-				}
-				.contains-1 input:hover {
-					background-color: #8dd6cd;
-				}
-				.contains-1 input:focus {
-					background-color: #8dd6cd;
-				}
-				/* checkbox general styles */
-				
-				
-				
-				
-				.ch {
-					display: block;
-					color: #484354;
-				}
 				 input[type^="checkbox"] {
 				 -webkit-appearance: none;
 				 -moz-appearance: none;
 				}
+				
+				/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+				
+				
 				 input[type^="checkbox"]:before {
 				 display: inline-block;
 				 -webkit-appearance: none;
@@ -147,22 +82,18 @@
 				 height: 18px;
 				}
 				
-				
-				
-				/*                   */
-				
-				
-				
-				label[for="html"],
-				label[for="css"]   {
-					
-				color: #484354;
-
+					.contains-1 input {
+					text-align: right;
+					background-color: #fff7ff;
 				}
-					
+				.contains-1 input:hover {
+					background-color: #8dd6cd;
+				}
+				.contains-1 input:focus {
+					background-color: #8dd6cd;
+				}
 				
-				
-				input[type="radio"]     {
+					input[type="radio"]     {
 					-webkit-appearance: none;
 					-moz-appearance: none;
 				}
@@ -198,45 +129,9 @@
 					
 				}
 				
-				label[for="htmlrad"],
-				label[for="plainrad"]  {
-					color: #484354;
-					
-				}
 				
-				select, input[type="radio"], 
-				input[type="checkbox"]       {
+						#user-con {
 					
-					cursor: pointer;
-					
-				}
-				
-				#field-2 {
-					height: 165px;
-				}
-				
-						 legend {
-							 
-				background-color: inherit;
-				color: #484354;
-				border-radius: 5px;
-				padding: 2px 6px;
-				letter-spacing: .1em;
-				font-size: 0.875rem;
-			   }
-			   
-				.check-ops {
-					color: #484354;
-					letter-spacing: .04em;
-				}
-				.main-footer p {
-					color: #484354;
-				}
-				#user-con {
-					display: none;
-					width: 60%;
-				}
-				#user-con {
 					display: block;
 					margin: 0 auto;
 					border: none;
@@ -244,18 +139,25 @@
 					background-color: #fff7ff;
 					color: #484354;
 					letter-spacing: .04em;
-				 font-size: .8rem;
+				    font-size: .8rem;
 					padding: 6px;
+					
 				}
+				
 				#user-con:hover {
+					
 					background-color: #ffe9eb;
 					border: 1px solid #251652;
+					
 				}
 				#user-con:focus {
+					
 					background-color: #ffe9eb;
 					border: 1px solid #251652;
 				}
+				
 				 input[value^="Sig"] {
+					 
 				 display: block;
 				 background-color: #729b82;
 				 border: 1px solid #729b82;
@@ -265,41 +167,39 @@
 				 font-size: 1.375rem;
 				 color: #fff;
 				 letter-spacing: .04em;
+				 
 				}
+				
 				 input[value^="Sign"]:hover {
+					 
 				 display: block;
 				 background-color: #578e8c;
 				 border: 1px solid #578e8c;
+				 
 				}
+				
 				 input[value^="Sign"]:active {
 				 background-color: #251652;
 				 color: #ffd9b3;
 				}
-				.copyright {
-					color: #484354;
-					padding: 2px;
-					margin-top: 50px;
-				}
-				.copyright:first-letter {
-					font-size: 16px;
-					margin-right: 2px;
-					vertical-align: middle;
-				}
 				
 				
 				
-				
-				
-				 @media (min-width: 320px ) {
-				
-			     body {
-					 width: 100%;
-				 }
-					 
-				 #wrap {
+			 @media (min-width: 320px )   {
+			
 					
-				 width: 100%;
-				 
+				body {
+					margin: 0 auto;
+				max-width: 800px;
+					width: 100%;
+				}
+				
+			   
+					 
+			    	#wrap {
+						border: 1px solid grey;
+					
+					background-color: #f7f2ff;
 				}
 				 .main-header {
 					 
@@ -320,11 +220,22 @@
 					
 				}
 				
-				 .main-head_info .sub-title {
+				.main-head-info p {
+					font-size: 0.625rem;
+				}
+				
+				 .main-head-info .sub-title {
 					 
 				 margin-top: 40px;
 				 
 				}
+				
+				
+					.main-header {
+					text-align: center;
+				}
+				
+				
 				 .main-header p {
 					 
 				 display: block;
@@ -333,6 +244,65 @@
 				 margin: 0 auto;
 				 letter-spacing: 0.11em;
 				}
+				
+			       
+				   
+				   
+				   
+				   
+				
+				.contains-1 {
+					margin-top: 3px;
+				}
+				
+				.title {
+					margin: 0 auto;
+					background-color: #251652;
+					color: #ffd9b3;
+					padding: 30px 0;
+				}
+				
+				.main-header p {
+					color: #484354;
+				}
+				.sub-title {
+					color: #484354;
+					letter-spacing: .02em;
+				}
+				
+				
+				
+				
+				/* fieldset ********************************** */
+				
+				fieldset {
+					border: 1px solid #578e8c;
+					border-radius: 5px;
+					margin: 30px 0;
+					padding: 8px;
+					width: 90%;
+				}
+				
+				
+				/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+				
+				
+				
+				
+				
+				
+				input[type="text"] {
+					display: block;
+				 font-size: .875rem;
+					letter-spacing: .1em;
+					color: #484354;
+					border-radius: 6px;
+					border: 1px solid #578e8c;
+					height: 40px;
+					width: 90%;
+				}
+				
+			
 				
 				
 					 
@@ -364,12 +334,14 @@
 					font-size: 1em;
 				 margin-bottom: 25px;
 				 margin-top: 35px;
-				 margin-left: 16px;
+				 margin-left: 26px;
 				 letter-spacing: 0.1em;
 				}
 				
 				 .lab {
 				 display: block;
+				 font-size: 0.875rem;
+				 color: #484354;
 				 margin-top: 10px;
 				 margin-bottom: 10px;
 				 margin-left: 10px;
@@ -419,11 +391,10 @@
 		  
 		  
 				 .contains-2 {
-					
 				border-top: 1px solid #251652;
 				margin: 0 auto;
 				width: 96%;	
-				
+				height: 430px;
 				}
 											
 											
@@ -432,7 +403,7 @@
 				 font-size: 1em;
 				 letter-spacing: 0.1em;
 				 margin-top: 34px;
-				 margin-left: 18px;
+				 margin-left: 32px;
 				 margin-bottom: 30px;
 				 
 				}
@@ -442,11 +413,11 @@
 					 
 				 display: block;
 				 margin-top: 8px;
-				 height: 162px;
+				 height: 176px;
 				 margin-bottom: 60px;
 				 margin: 0 auto;
 				 font-size: 1em;
-				 width: 96%;
+				 width: 90%;
 				 
 				}
 				
@@ -455,7 +426,7 @@
 				 	 
 				 font-size: 0.75rem;
 				 color: #484354;
-				 margin-bottom: 12px;
+				 margin-bottom:4px;
 				 
 				 
 				 
@@ -474,79 +445,111 @@
 											
 											
 	/* *************** cHeCkBoX 320 ***************** */
-					
-													 
-											
-												
-				 .ch,  input[type="checkbox"] {
-				 display: inline-block;
+							
+			
+				
+				   .ch ,
+			   input[type="checkbox"] {
+				  display: inline-block; 
+				 margin-bottom: 8px;
+				 margin-top: 2px;
+				 				
+
+			   }
+				
+						          
+			     input[type="checkbox"] {
 				 float: left;
-				 margin-bottom: 20px;
-				 margin-right: 15px;
+				
+				padding-top:5px;
+				padding-bottom: 2px;
+                 line-height: 1.4em;
+				 margin-right:6px;
+				 margin-left: 6px;
 				}
 				
-				 .ch {
-					 
-				 float: right;
-				 line-height: 1.3em;
-				 margin-right: 8px;
-				 
+				
+				
+				
+				
+				label[for="html"],
+				label[for="css"],
+				label[for="js"]    {
+						 float: right;
+				 letter-spacing: 0.04em;
+				 color: #484354;
+			 padding-top: 2px;
+			 padding-bottom: 2px;
+			 line-height: 2.0em;
+			 font-size: 0.75rem;
+			 
 				}
 				
-				 label[for="html"], 
-				 label[for="css"], 
-				 label[for="js"]   {
-					 
-				 display: inline-block;
-				 float: right;
-				 
-				 
+			
+			   
+			   label[for="html"] {
+				   margin-right: 134px;
+			   }
+					
+				label[for="css"] {
+					margin-right: 150px;
+				}
+				
+			label[for="js"] {
+				margin-right: 96px;
+
 			}
 			
-				.ch, label[for="html"]    {
-					 
-				 margin-right: 212px;
-				 font-size: 0.875em;
-				 line-height: 1.3em;
-                 letter-spacing: 0.04em;
-				 
-
+			
+			
+			
+			/* ^^^^^^^^^^^^^^^^^^^^^  rAdIo BuTtOnS &&&&&&&&&&&&&&&&&&&&& */
+			
+			
+			
+			    label[for="htmlrad"],
+				label[for="plainrad"]  {
+					color: #484354;
+					
 				}
-				 .ch,  label[for="css"] {
-					 
-				 font-size: 0.875em;
-                 margin-right: 228px;
-				 line-height: 1.8em;
-				 letter-spacing: 0.04em;
-
-
-				 
+				
+				select, 
+				input[type="radio"], 
+			    input[type="checkbox"]  {
+					
+					cursor: pointer;
+					
 				}
-				 .ch,  label[for="js"] {
-					 
-			     font-size: 0.875em;
-                 margin-right: 168px;
-				 line-height: 1.4em;
-				 letter-spacing: 0.04em;
-
-
-				 
-				}
-													
+				
+				
+				
+			    legend {
+							 
+				background-color: inherit;
+				color: #484354;
+				border-radius: 5px;
+				padding: 2px 6px;
+				letter-spacing: .1em;
+				font-size: 0.875rem;
+				
+			   }	
+													 
 											
-											
-											
-	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+		 	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+			
+			
 								
 								
-   /*  ^^^^^^^^^^^^^^===========fieldset 2===============  */
+         /*  ^^^^^^^^^^^^^^===========fieldset 2===============  */
+		 
+		 
 											
 			    .field2 {
 				 display: block;
 				 margin: 0 auto;
-				 height: 110px;
+				 height: 105px;
 				 margin-top: 30px;
-				 width: 96%;
+				 width: 90%;
 				}
 				
 					#fieldtitle2 {
@@ -557,22 +560,25 @@
 									
 		/*===================================*/
 											
-											
-										
-											
-									
-									
+															
 		/* ***************** rAdIo BuTtOnS 320 mEdIa ****************************** */		
 														
 								
 				 input[type="radio"] {
-					 
+					
 				 display: inline-block;
 				 margin-bottom: 5px;
 				 margin-top: 8px;
+				 margin-left: 6px;
+				 
 				 float: left;
 				 
 				}
+				
+				.rad1,
+				.rad2 {
+				}
+				
 				 label[for="htmlrad"], 
 				 label[for="plainrad"], 
 				 input[type="radio"] {
@@ -585,12 +591,15 @@
 				 float: right;
 				 line-height: 2.2em;
 				 letter-spacing: 0.04em;
+				 padding-top: 2px;
+				 padding-left: 4px;
+				 padding-right: 4px;
 
 				}
 				 label[for="htmlrad"] {
 					 
-			     font-size: 0.875em;
-				 margin-right: 250px;
+			     font-size: 0.75em;
+				 margin-right: 170px;
 				 line-height: 2.4em;
 				 letter-spacing: 0.04em;
 
@@ -598,13 +607,17 @@
 				}
 				 label[for="plainrad"] {
 					 
-				 font-size: 0.875em;
-				 margin-right:  230px;
+				 font-size: 0.75em;
+				 margin-right:  146px;
 				  line-height: 2.4em;
+				  
 
 				 
 				}
 					
+	/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+	
+	
 				   
 				
 				   
@@ -619,25 +632,46 @@
   /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 																												
 					
+				
+				
+				
+	
+		/* &&&&&&&&&&&&&&&&&&&& fOoTeR $$$$$$$$$$$$$$$$$$$$$$$$$ */	   
 			
 			
- /* &&&&&&&&&&&&&&& main footer styles &&&&&&&&&&&&&&&& */
+			
+			
+			 /* &&&&&&&&&&&&&&& main footer styles &&&&&&&&&&&&&&&& */
 			
 			
 				.main-footer {
 				 text-align: center;
 				}
-				 .main-footer p {
-				 margin-top: -220px;	 
-				 margin-bottom: 14px;
-				 font-size:  0.875rem;
-				 letter-spacing: .04em;
+				
+				.userbox {
+				margin: 0 auto;	
+				width: 96%;
 				}
+				
+				 .main-footer p {
+				 margin-bottom: 14px;
+				 font-size:  0.75rem;
+				 letter-spacing: .04em;
+				 	color: #484354;
+				}
+			
+			
+				
+				
+				
+					
+				
+				
 				 #user-con {
 				 border-radius: 5px;
 				 margin-bottom: 35px;
 				 margin-top: 10px;
-				 width: 92%;
+				 width: 86%;
 				 height: 120px;
 				 font-size: .875rem;
 				 line-height: 1.5em;
@@ -646,7 +680,44 @@
 				 margin: 0 auto;
 				 margin-top: 9px;
 				 color: rgb(253,243,231);
-				 width: 92%;
+				 width: 86%;
+				}
+				
+				
+				
+		
+				.copyright {
+					color: #484354;
+					padding: 2px;
+					margin-top: 50px;
+				}
+				.copyright:first-letter {
+					font-size: 16px;
+					margin-right: 2px;
+					vertical-align: middle;
+				}
+				
+				
+				
+				
+	
+			
+			
+ 
+				 #user-con {
+				 border-radius: 5px;
+				 margin-bottom: 35px;
+				 margin-top: 10px;
+				 width: 86%;
+				 height: 120px;
+				 font-size: .875rem;
+				 line-height: 1.5em;
+				}
+				 input[value^="Sig"] {
+				 margin: 0 auto;
+				 margin-top: 9px;
+				 color: rgb(253,243,231);
+				 width: 86%;
 				}
 				
 				
@@ -657,10 +728,23 @@
 					
 				}
 				
+				
+				
+				
+	 }
+	 
+	 
  /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */			
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   			
 				
-	}
+			
 				
 				
 				
@@ -670,19 +754,20 @@
 		/* &&&&&&&&&&&&&&&&&&&& hEaDeR sTyLeS &&&&&&&&&&&&&&&&&&& */			 
 					
 					
-				  body {
+				 body {
+					
 					  max-width: 760px;
-					  width: 100%;
 					  
 				  }
 					 
 				 #wrap {
 					 
 				 width: 96%;
+				 margin: 0 auto;
 				
 				}
 				 .main-header {
-				 margin: 0 auto;
+			
 				 width: 96%;
 				 
 				 margin-bottom: 3px;
@@ -702,8 +787,8 @@
 				
 				 .main-head-info {
 				 width: 100%;
-				 margin: 0 auto;
-				 text-align: center;
+				
+				
 				}
 				 .main-head-info p {
 				 font-size: 1rem;
@@ -713,6 +798,8 @@
 				 margin-top: 4px;
 				 letter-spacing: 0.10em;
 				}
+				
+				
 				 .main-head-info .sub-title {
 				 font-size: 1.6rem;
 				 padding: 2px;
@@ -741,11 +828,11 @@
 																											
 	/* &&&&&&&&&&&&&&&&&&&& cOnTaCt InFo &&&&&&&&&&&&&&&&&&& */
 				
-				
 				#con-info {
-				 display: block;
-				 margin-top: 45px;
+					
+				 display: inline-block;
 				 margin-left: 38px;
+				 margin-top: 45px;
 				 font-size: 1rem;
 				 letter-spacing: 0.1em;
 				 
@@ -830,10 +917,11 @@
 				
 				 .contains-2 {
 				 width: 96%;
-			
-				border-top: 1px solid #251652
+				 height: 870px;
+			     border-top: 1px solid #251652;
 			
 				}
+				
 				.contains-2  #sub-2 {
 					
 			     display: block;
@@ -850,7 +938,7 @@
 				
 				
 				 .field1 {
-					 
+					 width: 96%;
 					height: 168px; 
 					padding-top: 8px;
 				 }
@@ -860,9 +948,9 @@
 					 
 				 }
 				
-				 #fieldset2 {
+				 #fieldtitle2 {
 					 
-				 font-size: 1rem;
+				 font-size: 0.875rem;
 				 
 				}
 				
@@ -871,9 +959,9 @@
 				 display: block;
 				 text-align: left;
 				 width: 96%;
-				 height: 124px;
-				 margin-top: 80px;
-				 margin-bottom: 10px;
+				 height: 140px;
+				 margin-top: 68px;
+				 margin-bottom: 48px;
 				 padding-top: 10px;
 				 
 				}
@@ -883,25 +971,30 @@
 					
 					
     /* &&&&&&&&&&&&&&&&&&&& cHeCkBoX sTyLeS 760 &&&&&&&&&&&&&&&&& */
+	
+	
+	
 				
 				.field2 input[name="html"] {
 				 margin-top: 6px;
 				 margin-bottom: 6px;
 				}
-				 #field-2 input[name="css"] {
+				 .field2 input[name="css"] {
 				 margin-top: 6px;
 				 margin-bottom: 6px;
 				}
-				 #field-2 input[name="js"] {
+				 .field2 input[name="js"] {
 				 margin-top: 6px;
 				 margin-bottom: 6px;
 				}
-				 .ch ~ input[type="checkbox"] {
-				 margin-left: 5px;
-				 margin-bottom: 2px;
-				 margin-top: 2px;
-				 width: 18px;
-				 height: 18px;
+				
+				
+				  .ch,
+				  input[type="checkbox"] {
+				  display: inline-block;
+				  line-height: 0.9em;
+				  margin-top: 8px;
+				  margin-bottom: 8px;
 				}
 				 label[for="html"] {
 			     line-height: 1.6em;
@@ -932,14 +1025,14 @@
 				 label[for="htmlrad"] {
 					display: inline-block;
 				 font-size: 0.875rem;
-				 margin-right: 560px;
+				 margin-right: 556px;
 				 margin-bottom: 6px;
 				 line-height: 2.4em;
 				}
 				 label[for="plainrad"] {
 					 display: inline-block;
 				 font-size: 0.875rem;
-				 margin-right:539px;
+				 margin-right:529px;
 				 line-height: 2.4em;
 				 
 
@@ -947,13 +1040,16 @@
 				 input[type="radio"] {
 				 display: inline-block;
 				 margin-right: 5px;
-			
+			     margin-top: 10px;
 				}
+				 
+				 .rad1 {
+					 margin-bottom: 2px;
+				 }
 				 
 				 .rad1,
 				 .rad2 {
-				 margin-left: 5px;
-				 padding: 4px 2px 4px 2px;
+				 padding: 2px;
 				}
 				
 				
@@ -990,7 +1086,7 @@
 				 label[for="code"] {
 				 float: left;
 				 padding: 6px 10px;
-				 margin-left: 12px;
+				 margin-left: 16px;
 				 margin-top: 4px;
 				 color: #484354;
 				 letter-spacing: .04em;
@@ -1089,15 +1185,15 @@
 																		  
 																																	          .main-footer {
 		   margin: 0 auto;
-		   width: 90%;
+		   width: 96%;
 		   margin-top: 8px;
 		   text-align: left;
 		  }
 		  
 		  
-		   #userbox {
-			  
-			   margin-left: -8px;
+		   .userbox {
+			   padding: 4px;
+		   
 		   }
 		    
 		   .main-footer p {
@@ -1105,6 +1201,7 @@
 		   padding: 6px 8px;
 		   margin-top: 9px;
 		   margin-bottom: 2px;
+		   margin-left: 6px;
 		   font-size: 0.875rem;
 		   letter-spacing: 0.10em;
 		   float: left;
@@ -1112,15 +1209,15 @@
 		  
 		   #user-con {
 			display: inline-block;
-		   width: 78%;
+		   width: 77%;
 		   font-size: 1rem;
 		   line-height: 2em;
 		  }
 		  
 		   input[type="submit"] {
-		   margin-left: -8px;	   
-		   width: 79%;
+		   width: 74%;
 		   color: #fdf3e7;
+		   margin-left: 14px;
 		  }
 		  
 		   .copyright {
