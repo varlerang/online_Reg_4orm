@@ -18,6 +18,10 @@
 								/* ^^^^^^^^^^^^^^^^^ sElEcT bUtToN &&&&&&&&&&&&&&&&&& */
 								
 								
+					/* Have to get the right color for the select placeholder */
+								
+								
+								
 				select[name="states"] {
 					
 					-webkit-appearance: none;
@@ -27,7 +31,6 @@
 					border: 1px solid #729b82;
 					color: #484354;
 					letter-spacing: .01em;
-				    font-size: .875rem;
 					height: 40px;
 					width: 100%;
 					
@@ -39,12 +42,24 @@
 				}
 				
 				
-				 input[type^="checkbox"] {
+			
+				 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+				 
+				 
+				 
+				 
+				 
+				 
+				/* $$$$$$$$$$$$$$$$$$$$$ gEnErAl ChEcKBoX sTyLeS $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/ 
+				 
+				 
+				 
+				 
+				input[type^="checkbox"] {
 				 -webkit-appearance: none;
 				 -moz-appearance: none;
 				}
 				
-				/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 				
 				
 				 input[type^="checkbox"]:before {
@@ -150,6 +165,7 @@
 					border: 1px solid #251652;
 					
 				}
+				
 				#user-con:focus {
 					
 					background-color: #ffe9eb;
@@ -367,11 +383,14 @@
 				  
 				 display: block;
 				 margin: 0 auto;
-				 font-size: 1rem;
+				 font-size: 0.75rem;
 				 padding-left: 12px;
-                 width: 95%;				
+                 width: 95%;	
 				 
 				 }
+				 
+				 
+				
 																		
                  input[id="zip"] {
 					
