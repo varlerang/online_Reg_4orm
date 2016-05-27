@@ -220,6 +220,8 @@
 				 .main-header {
 					 
 				 border-bottom: 1px solid #251652;
+				 					text-align: center;
+
 				 padding-bottom: 20px;
 				 width: 96%;
 				 margin: 0 auto;
@@ -235,41 +237,25 @@
 				word-spacing: 0.2em;
 				}
 				
+			   .main-head-info .sub-title {
+				margin-top: 30px;
+				word-spacing: 0.2em;				 
+			   }
+				
 				.main-head-info p {
-					
 					font-size: 0.625rem;
+						 display: block;
+				 width: 96%;
+				 margin: 0 auto;
+				 margin-bottom: 10px;
+				 letter-spacing: 0.11em;
 					
 				}
 				
-				 .main-head-info .sub-title {
-					 
-				 margin-top: 40px;
-				 
-				}
+			
 				
 				
-				.main-header {
-						
-					text-align: center;
-				}
-				
-				
-				 .main-header p {
-					 
-				 display: block;
-				 font-size: 0.875rem;
-				 width: 80%;
-				 margin: 0 auto;
-				 letter-spacing: 0.11em;
-				 
-				}
-				
-			       
-				   
-				   
-				   
-				   
-				
+			
 				.contains-1 {
 					margin-top: 3px;
 				}
@@ -317,7 +303,7 @@
 				
 				input[type="text"] {
 					display: block;
-				 font-size: .875rem;
+				 font-size: 0.75rem;
 					letter-spacing: .1em;
 					color: #484354;
 					border-radius: 6px;
@@ -391,7 +377,7 @@
 				  
 				 display: block;
 				 margin: 0 auto;
-				 font-size: 0.875rem;
+				 font-size: 0.75rem;
 				 letter-spacing: 0.1em;
 				 padding-left: 12px;
                  width: 95%;	
@@ -516,15 +502,15 @@
 			
 			   
 			   label[for="html"] {
-				   margin-right: 134px;
+				   margin-right: 136px;
 			   }
 					
 				label[for="css"] {
-					margin-right: 150px;
+					margin-right: 152px;
 				}
 				
 			label[for="js"] {
-				margin-right: 96px;
+				margin-right: 98px;
 
 			}
 			
@@ -676,10 +662,7 @@
 				 text-align: center;
 				}
 				
-				.userbox {
-				margin: 0 auto;	
-				width: 96%;
-				}
+		
 				
 				 .main-footer p {
 				 margin-bottom: 14px;
@@ -690,73 +673,48 @@
 			
 			
 				
-				
+				.userbox {
+				margin: 0 auto;	
+				width: 96%;
+				}
 				
 					
-				
-				
 				 #user-con {
 				 border-radius: 5px;
 				 margin-bottom: 35px;
 				 margin-top: 10px;
-				 width: 86%;
+				 width: 90%;
 				 height: 120px;
 				 font-size: .875rem;
 				 line-height: 1.5em;
 				}
+				
 				 input[value^="Sig"] {
 				 margin: 0 auto;
 				 margin-top: 9px;
 				 color: rgb(253,243,231);
-				 width: 86%;
+				 width: 87%;
 				}
 				
 				
 				
 		
 				.copyright {
-					color: #484354;
-					padding: 2px;
-					margin-top: 50px;
-				}
-				.copyright:first-letter {
-					font-size: 16px;
-					margin-right: 2px;
-					vertical-align: middle;
-				}
-				
-				
-				
-				
-	
-			
-			
- 
-				 #user-con {
-				 border-radius: 5px;
-				 margin-bottom: 35px;
-				 margin-top: 10px;
-				 width: 86%;
-				 height: 120px;
-				 font-size: .875rem;
-				 line-height: 1.5em;
-				}
-				 input[value^="Sig"] {
-				 margin: 0 auto;
-				 margin-top: 9px;
-				 color: rgb(253,243,231);
-				 width: 86%;
-				}
-				
-				
-				.copyright {
+					
+				font-size: 0.825rem;
+				color: #484354;
 				padding: 2px 4px;
 			    padding-bottom: 30px;
 				margin-top: 45px;
-					
+				margin-top: 30px;
+				
 				}
 				
-				
+				.copyright:first-letter {
+					font-size: 1.125rem;
+					margin-right: 2px;
+					vertical-align: middle;
+				}
 				
 				
 	 }
@@ -822,17 +780,18 @@
 				
 			    .main-head-info .sub-title {
 				 font-size: 1.6rem;
+				 margin-top: 46px;
 				 padding: 2px;
 				 letter-spacing: 0.1em;
 				}
 				
 				
 				 .main-head-info p {
-				 font-size: 1rem;
+				 font-size: 0.875rem;
 				 margin: 0 auto;
 				 padding-bottom: 4px;
-				 margin-bottom: 20px;
-				 margin-top: 4px;
+				 margin-bottom: 18px;
+				 margin-top: -4px;
 				 letter-spacing: 0.1em;
 				}
 				
@@ -1012,15 +971,15 @@
 	
 				
 				.field2 input[name="html"] {
-				 margin-top: 6px;
-				 margin-bottom: 6px;
+				 margin-top: 8px;
+				 margin-bottom: 12px;
 				}
 				 .field2 input[name="css"] {
-				 margin-top: 6px;
-				 margin-bottom: 6px;
+				 margin-top: 8px;
+				 margin-bottom: 12px;
 				}
 				 .field2 input[name="js"] {
-				 margin-top: 6px;
+				 margin-top: 8px;
 				 margin-bottom: 6px;
 				}
 				
@@ -1061,18 +1020,27 @@
 	/* ^^^^^^^^^^^^^ rAdIo BuTtOnS sTyLeS ^^^^^^^^^^^^^^^^^^ */								 
 																							
 			
+			     input[type="radio"] {
+					 
+					 display: inline-block;
+					 
+				 }
+			
 				 label[for="htmlrad"] {
 					display: inline-block;
 				 font-size: 0.875rem;
 				 margin-right: 556px;
-				 margin-bottom: 6px;
+				
 				 line-height: 2.4em;
 				 letter-spacing: 0.1em;
 				}
+				
+			
+				
 				 label[for="plainrad"] {
 					 display: inline-block;
 				 font-size: 0.875rem;
-				 margin-right:524px;
+				 margin-right:520px;
 				 line-height: 2.4em;
 				 letter-spacing: 0.1em;
 				 
@@ -1229,6 +1197,8 @@
 		   width: 96%;
 		   margin-top: 8px;
 		   text-align: left;
+		   margin-bottom: 38px;
+		   
 		  }
 		  
 		  
@@ -1262,7 +1232,21 @@
 		  }
 		  
 		   .copyright {
-		   text-align: center;
+			   display: inline-block;
+			   padding: 12px;
+			   font-size: 0.875rem;
+		   letter-spacing: 0.1em;
+		   margin-left: 180px;
+		  }
+		  
+		  .copyright:first-letter {
+			  
+			  font-size: 1.125rem;
+			  padding-bottom: 16px;
+			  vertical-align: middle;
+			  
+			  
+			  
 		  }
 		  
 	 }
