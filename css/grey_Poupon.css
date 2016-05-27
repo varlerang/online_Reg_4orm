@@ -29,7 +29,8 @@
 					appearance: none;
 					display: inline-block;
 					border: 1px solid #729b82;
-					color: #484354;
+					 color:  rgb(153, 153, 174);
+
 					letter-spacing: .01em;
 					height: 40px;
 					width: 100%;
@@ -209,14 +210,13 @@
 				max-width: 800px;
 					width: 100%;
 				}
-				
-			   
 					 
-			    	#wrap {
-						border: 1px solid grey;
+			    #wrap {
 					
 					background-color: #f7f2ff;
+					
 				}
+				
 				 .main-header {
 					 
 				 border-bottom: 1px solid #251652;
@@ -227,17 +227,18 @@
 				 
 				}
 				
-			 .title {
+			   .title {
 				 text-align: center;
 				font-size: 1.2rem;	
 				font-weight: normal;
 				letter-spacing: 0.08em;
 				word-spacing: 0.2em;
-					
 				}
 				
 				.main-head-info p {
+					
 					font-size: 0.625rem;
+					
 				}
 				
 				 .main-head-info .sub-title {
@@ -247,7 +248,8 @@
 				}
 				
 				
-					.main-header {
+				.main-header {
+						
 					text-align: center;
 				}
 				
@@ -259,6 +261,7 @@
 				 width: 80%;
 				 margin: 0 auto;
 				 letter-spacing: 0.11em;
+				 
 				}
 				
 			       
@@ -280,10 +283,15 @@
 				
 				.main-header p {
 					color: #484354;
+					font-size: 0.875em;
 				}
+				
 				.sub-title {
 					color: #484354;
-					letter-spacing: .02em;
+					letter-spacing: 0.2em;
+					
+					font-size: 1em;
+					word-spacing: 0.1em;
 				}
 				
 				
@@ -362,7 +370,7 @@
 				 margin-bottom: 10px;
 				 margin-left: 10px;
 				 padding: 2px;
-				 letter-spacing: 0.10em;
+				 letter-spacing: 0.1em;
 				}
 				
 				 input[type="text"] {
@@ -383,7 +391,8 @@
 				  
 				 display: block;
 				 margin: 0 auto;
-				 font-size: 0.75rem;
+				 font-size: 0.875rem;
+				 letter-spacing: 0.1em;
 				 padding-left: 12px;
                  width: 95%;	
 				 
@@ -809,21 +818,26 @@
 				
 				
 				}
+				
+				
+			    .main-head-info .sub-title {
+				 font-size: 1.6rem;
+				 padding: 2px;
+				 letter-spacing: 0.1em;
+				}
+				
+				
 				 .main-head-info p {
 				 font-size: 1rem;
 				 margin: 0 auto;
 				 padding-bottom: 4px;
 				 margin-bottom: 20px;
 				 margin-top: 4px;
-				 letter-spacing: 0.10em;
+				 letter-spacing: 0.1em;
 				}
 				
 				
-				 .main-head-info .sub-title {
-				 font-size: 1.6rem;
-				 padding: 2px;
-				}
-				
+			
 				
 	/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 				
@@ -887,6 +901,7 @@
 		  margin-right: 110px;
 		  margin-left: 20px;
 		  letter-spacing: 0.10em;
+		  font-size: 0.875rem;
 	   }
 							  
 		input[type="text"] {
@@ -894,6 +909,8 @@
 			margin-right: 20px;
 			margin-left: -49px;
 			padding-right: 32px;
+			font-size: 0.75rem;
+			letter-spacing: 0.2em;
 		}
 		
 		label[for="state"] {
@@ -905,7 +922,7 @@
 		    display: inline-block;
 	        flex: 1 390px;
 			margin-right: 20px;
-			
+			font-size: 0.75rem;
 		 
 		}
 		
@@ -958,7 +975,7 @@
 				
 				 .field1 {
 					 width: 96%;
-					height: 168px; 
+					height: 174px; 
 					padding-top: 8px;
 				 }
 				 
@@ -1017,19 +1034,22 @@
 				}
 				 label[for="html"] {
 			     line-height: 1.6em;
-				 margin-right: 526px;
+				 margin-right: 516px;
 				 font-size: 0.875rem;
+				 letter-spacing: 0.1em;
 				}
 				 label[for="css"] {
-				 margin-right: 540px;
+				 margin-right: 536px;
 				 font-size: 0.875rem;
 				 line-height: 1.6em;
+				 letter-spacing: 0.1em;
 
 				}
 				 label[for="js"] {
-				 margin-right: 480px;
+				 margin-right: 468px;
 				 font-size: 0.875rem;
 				 line-height: 1.6em;
+				 letter-spacing: 0.1em;
 
 				}
 													
@@ -1047,12 +1067,14 @@
 				 margin-right: 556px;
 				 margin-bottom: 6px;
 				 line-height: 2.4em;
+				 letter-spacing: 0.1em;
 				}
 				 label[for="plainrad"] {
 					 display: inline-block;
 				 font-size: 0.875rem;
-				 margin-right:529px;
+				 margin-right:524px;
 				 line-height: 2.4em;
+				 letter-spacing: 0.1em;
 				 
 
 				}
