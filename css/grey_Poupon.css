@@ -1223,9 +1223,9 @@
 		  }
 		  
 		   input[type="submit"] {
-		   width: 74%;
+		   width: 73%;
 		   color: #fdf3e7;
-		   margin-left: 14px;
+		   margin-left: 18px;
 		  }
 		  
 		   .copyright {
@@ -1233,7 +1233,7 @@
 			   padding: 12px;
 			   font-size: 0.875rem;
 		   letter-spacing: 0.1em;
-		   margin-left: 180px;
+		   margin-left: 232px;
 		  }
 		  
 		  .copyright:first-letter {
@@ -1241,6 +1241,8 @@
 			  font-size: 1.125rem;
 			  padding-bottom: 16px;
 			  vertical-align: middle;
+			  margin-right: -4px;
+			  margin-left: 18px;
 			  
 			  
 			  
