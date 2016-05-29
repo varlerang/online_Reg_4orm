@@ -662,7 +662,7 @@
 				
 		
 				
-				 .main-footer p {
+				 .main-footer label[for="user-con"] {
 				 margin-bottom: 14px;
 				 font-size:  0.75rem;
 				 letter-spacing: .04em;
@@ -877,7 +877,7 @@
 		
 		 select[name="states"] {
 		    display: inline-block;
-	        flex: 1 410px;
+	        flex: 1 390px;
 			margin-right: 20px;
 			font-size: 0.75rem;
 		 
@@ -1073,12 +1073,14 @@
 																	
 																		
 				#codeSnip {
-				
+					
 				 display: inline-block;
-				 text-align: left;
+				 border: 1px solid green;
+                 text-align: left;
 				 width: 100%;
 				 margin-left: 16px;
 				 margin-top: 20px;
+				
 				 
 				}
 				
@@ -1090,6 +1092,7 @@
 				}
 				
 				 label[for="code"] {
+					 
 				 float: left;
 				 padding: 6px 10px;
 				 margin-left: 16px;
@@ -1116,9 +1119,10 @@
 				 
 				}
 				
-				 textarea[name="snippet"] {
+				 textarea[name="code"] {
 					 
 				 visibility: visible;
+
 				 display: block;
 				 width: 73%;
 				 letter-spacing: .04em;
@@ -1204,7 +1208,7 @@
 		   
 		   }
 		    
-		   .main-footer p {
+		   .main-footer label[for="user-con"] {
 		   display: inline-block;
 		   padding: 6px 8px;
 		   margin-top: 40px;
