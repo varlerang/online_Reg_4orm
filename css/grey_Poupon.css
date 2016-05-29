@@ -1084,7 +1084,7 @@
 				 
 				}
 				
-				 label[for="code"], #codep {
+				 label[for="code"], p {
 					 
 				 visibility: visible;
 				 display: inline-block;
@@ -1104,7 +1104,7 @@
 
 				}
 				
-				 #codep {
+				 label[for="code"] ~ p {
 					 
 				 float: left;
 				 font-size: 0.875rem;
