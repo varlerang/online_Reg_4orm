@@ -15,11 +15,7 @@
 				   
 				}
 				
-								/* ^^^^^^^^^^^^^^^^^ sElEcT bUtToN &&&&&&&&&&&&&&&&&& */
-								
-								
-					/* Have to get the right color for the select placeholder */
-								
+					
 								
 								
 				select[name="states"] {
@@ -43,14 +39,10 @@
 				
 				
 			
-				 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 				 
 				 
 				 
-				 
-				 
-				 
-				/* $$$$$$$$$$$$$$$$$$$$$ gEnErAl ChEcKBoX sTyLeS $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/ 
+			/* $$$$$$$$$$$$$$$$$$$$$ gEnErAl ChEcKBoX sTyLeS $$$$$$$$$$$   */ 
 				 
 				 
 				 
@@ -199,7 +191,8 @@
 				 color: #ffd9b3;
 				}
 				
-				
+	/* $$$$$$$$$$$$$$$$$$$$$ gEnErAl  sTyLeS eNd $$$$$$$$$$$$$$$$$$$$$$$$   */ 
+		
 				
 			 @media (min-width: 320px )   {
 			
@@ -988,6 +981,8 @@
 				  line-height: 0.9em;
 				  margin-top: 8px;
 				  margin-bottom: 8px;
+				  padding-top: 4px;
+				 
 				}
 				 label[for="html"] {
 			     line-height: 1.6em;
@@ -1019,7 +1014,6 @@
 																							
 			
 			     input[type="radio"] {
-					 
 					 display: inline-block;
 					 
 				 }
@@ -1028,7 +1022,6 @@
 					display: inline-block;
 				 font-size: 0.875rem;
 				 margin-right: 556px;
-				
 				 line-height: 2.4em;
 				 letter-spacing: 0.1em;
 				}
@@ -1038,7 +1031,8 @@
 				 label[for="plainrad"] {
 					 display: inline-block;
 				 font-size: 0.875rem;
-				 margin-right:520px;
+				 margin-right:522px;
+
 				 line-height: 2.4em;
 				 letter-spacing: 0.1em;
 				 
