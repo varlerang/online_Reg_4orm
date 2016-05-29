@@ -43,51 +43,7 @@
 				 
 				 
 			/* $$$$$$$$$$$$$$$$$$$$$ gEnErAl ChEcKBoX sTyLeS $$$$$$$$$$$   */ 
-				 
-				 
-				 
-				 
-				input[type^="checkbox"] {
-				 -webkit-appearance: none;
-				 -moz-appearance: none;
-				}
-				
-				
-				
-				 input[type^="checkbox"]:before {
-				 display: inline-block;
-				 -webkit-appearance: none;
-				 -moz-appearance: none;
-				 border: 1px solid #8dd6cd;
-				 border-radius: 5px;
-				 background-color: #ffd9b3;
-				 content: "";
-				 font-size: 12px;
-				 text-align: center;
-				 border-radius: 5px;
-				 width: 15px;
-				 height: 15px;
-				}
-				 input[type^="checkbox"]:hover:before {
-				 -webkit-appearance: none;
-				 -moz-appearance: none;
-				 border: 1px solid #8dd6cd;
-				 background-color: #8dd6cd;
-				 border-radius: 5px;
-				 width: 15px;
-				 height: 15px;
-				}
-				 input[type^="checkbox"]:checked:before {
-				 display: block;
-				 background-color: #251652;
-				 border: 1px solid #251652;
-				 content: "\2713";
-				 text-align: center;
-				 color: #ffd9b3;
-				 border-radius: 5px;
-				 width: 18px;
-				 height: 18px;
-				}
+		
 				
 					.contains-1 input {
 					text-align: right;
@@ -452,6 +408,49 @@
 	/* *************** cHeCkBoX 320 ***************** */
 							
 			
+					input[type^="checkbox"] {
+				 -webkit-appearance: none;
+				 -moz-appearance: none;
+				}
+				
+				
+				
+				 input[type^="checkbox"]:before {
+				 display: inline-block;
+				 -webkit-appearance: none;
+				 -moz-appearance: none;
+				 border: 1px solid #8dd6cd;
+				 border-radius: 5px;
+				 background-color: #ffd9b3;
+				 content: "";
+				 font-size: 12px;
+				 text-align: center;
+				 border-radius: 5px;
+				 width: 15px;
+				 height: 15px;
+				}
+				 input[type^="checkbox"]:hover:before {
+				 -webkit-appearance: none;
+				 -moz-appearance: none;
+				 border: 1px solid #8dd6cd;
+				 background-color: #8dd6cd;
+				 border-radius: 5px;
+				 width: 15px;
+				 height: 15px;
+				}
+				 input[type^="checkbox"]:checked:before {
+				 display: block;
+				 background-color: #251652;
+				 border: 1px solid #251652;
+				 content: "\2713";
+				 text-align: center;
+				 color: #ffd9b3;
+				 border-radius: 5px;
+				 padding: 0 1px 4px 1px;
+				 width: 15px;
+				 height: 15px;
+				}
+				
 				
 				   .ch ,
 			   input[type="checkbox"] {
@@ -958,7 +957,47 @@
     /* &&&&&&&&&&&&&&&&&&&& cHeCkBoX sTyLeS 760 &&&&&&&&&&&&&&&&& */
 	
 	
-	
+	            
+				 input[type^="checkbox"]:before {
+				 display: inline-block;
+				 -webkit-appearance: none;
+				 -moz-appearance: none;
+				 border: 1px solid #8dd6cd;
+				 border-radius: 5px;
+				 background-color: #ffd9b3;
+				 content: "";
+				 font-size: 14px;
+				 text-align: center;
+				 border-radius: 5px;
+				 width: 15px;
+				 height: 15px;
+				}
+				 input[type^="checkbox"]:hover:before {
+				 -webkit-appearance: none;
+				 -moz-appearance: none;
+				 border: 1px solid #8dd6cd;
+				 background-color: #8dd6cd;
+				 border-radius: 5px;
+				 width: 15px;
+				 height: 15px;
+				}
+				 input[type^="checkbox"]:checked:before {
+				 display: block;
+				 background-color: #251652;
+				 border: 1px solid #251652;
+				 content: "\2713";
+				 text-align: center;
+				 color: #ffd9b3;
+				 border-radius: 5px;
+				 padding: 3px 1px 0 1px;
+				 width: 15px;
+				 height: 15px;
+				}
+				
+				
+				
+				
+				
 				
 				.field2 input[name="html"] {
 				 margin-top: 8px;
