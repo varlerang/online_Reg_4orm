@@ -366,7 +366,7 @@
 				 
 				}
 				
-				 label[for="state"] {
+				 label[for="states"] {
 					 
 				 margin-top: 10px;
 				 
@@ -870,14 +870,14 @@
 			letter-spacing: 0.2em;
 		}
 		
-		label[for="state"] {
+		label[for="states"] {
 			display: inline-block;
 			margin-right: 90px;
 		}
 		
 		 select[name="states"] {
 		    display: inline-block;
-	        flex: 1 390px;
+	        flex: 1 410px;
 			margin-right: 20px;
 			font-size: 0.75rem;
 		 
