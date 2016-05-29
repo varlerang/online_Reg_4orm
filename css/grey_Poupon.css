@@ -199,7 +199,6 @@
 					
 				body {
 					margin: 0 auto;
-				max-width: 800px;
 					width: 100%;
 				}
 					 
@@ -732,7 +731,7 @@
 					
 					
 				 body {
-					
+					  width: 100%;
 					  max-width: 760px;
 					  
 				  }
